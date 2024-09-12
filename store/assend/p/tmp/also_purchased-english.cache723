@@ -1,0 +1,9 @@
+s:1340:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3428"><img src="images/Jimmy_lewis_maestro(sm).jpg" class=""   alt="Jimmy Lewis Maestro" title="Jimmy Lewis Maestro" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3428">Jimmy Lewis Maestro</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3870"><img src="images/trident-adjustable(sm).jpg" class=""   alt="Trident Adjustable" title="Trident Adjustable" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3870">Trident Adjustable</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3706"><img src="images/13_wahine(Sm).jpg" class=""   alt="Dakine Wahine 2013" title="Dakine Wahine 2013" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3706">Dakine Wahine 2013</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

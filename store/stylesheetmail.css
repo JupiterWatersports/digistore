@@ -1,0 +1,99 @@
+/*
+  $Id: stylesheet.css,v 1.1.1.1 2002/11/28 23:21:29 wilt Exp $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2001 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+.main {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+
+.tableur {
+  font-family: Verdana, Arial, sans-serif;
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #000000;
+}
+
+TD.tableur {
+  font-family: Verdana, Arial, sans-serif;
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #000000;
+}
+
+TR.tableur {
+  font-family: Verdana, Arial, sans-serif;
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #000000;
+}
+
+TD.boxmail {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background: #879385;
+  color: #ffffff;
+  background-image: url(images/fondmail.gif);
+}
+
+.boxmail {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background: #879385;
+  color: #ffffff;
+  background-image: url(images/fondmail.gif);
+}
+
+.boxmailgris {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background: #F0F0F0;
+}
+
+TD.boxmailgris {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background: #F0F0F0;
+}
+
+.boxmailgris0 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background: #CC9933;
+}
+
+TD.boxmailgris0 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background: #CC9933;
+}
+
+.boxmailgris1 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background: #ffffcc;
+}
+
+TD.boxmailgris1 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background: #ffffcc;
+}  
+

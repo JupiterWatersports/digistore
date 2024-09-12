@@ -1,0 +1,37 @@
+
+
+/* Google Chrome Query */
+
+#menu li.navheading{margin: 6px 5px 0 5px !important;} 
+.required-back{margin-top:-35px;}
+
+@media only screen and (min-width : 320px) and (max-width : 359px) {#log #cart{width:58px;} 
+#Returningcustomer, #newcustomer {width: 297px;} 
+.new-customers-buttons .button-blue{padding:9px 11px;} 
+.city, .state, .country{width:295px;}
+.checkout-shipping-info, .checkout-payment-info, .checkout-info-summary, .shipping-method{width:295px;}
+.checkout-new-shippadd{width:295px;}
+.checkout-heading #signature {width: 295px;margin-left: -15px;}
+}
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {#product-category-image {padding: 0px 46.5px;}}
+@media only screen and (max-width : 767px) { .inputrequirement.state{margin-top:3px; display:inherit;}}
+@media only screen and (min-width : 768px) and (max-width : 799px) { }
+@media only screen and (min-width : 768px) and (max-width : 959px) {#menu li a {font-size: 13px !important;} #menu li .drop {padding-right: 13px !important;}}
+@media only screen and (min-width : 768px) and (max-width : 975px) {#top, .wrapper, .container_12, .container_12 .grid_7, #container, 
+.container{width:768px;}
+ #contact-map{width:97%;}
+ .container .eight.columns {width: 350px;}
+ #container .four.columns {width: 172px;}
+ .container .widget {width:100%;}
+ #container .twelve.columns {width: 490px;}
+ #account-content .country{width:100%;}
+ .checkout-new-shippadd {width: 380px;}
+ .global-affiliate-links-container{ width:625px; margin-left:auto; margin-right:auto;}
+ }
+ 
+ @media only screen and (min-width : 768px) and (max-width : 799px) {}
+ 
+ 
+  @media only screen and (min-width : 800px) and (max-width : 799px) {}
+/* End Google Chrome Query */

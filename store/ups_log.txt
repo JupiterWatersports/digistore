@@ -1,0 +1,715 @@
+------------------------------------------
+DATE AND TIME: 2012-01-13 14:18:54
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-13 14:19:51
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-13 14:20:58
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-13 14:23:55
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-13 14:28:44
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-13 14:37:40
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-13 20:58:59
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Carlton</City>
+               <StateProvinceCode>VIC</StateProvinceCode>
+               <CountryCode>AU</CountryCode>
+               <PostalCode>3053</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>17</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>756.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-14 03:16:54
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-14 04:26:29
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-14 04:27:17
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 
+------------------------------------------
+DATE AND TIME: 2012-01-14 04:27:49
+UPS URL: https://www.ups.com:443/ups.app/xml/Rate
+UPS REQUEST: <?xml version="1.0"?>
+<AccessRequest xml:lang="en-US">
+   <AccessLicenseNumber>0C866FD46485B000</AccessLicenseNumber>
+   <UserId>jupiterk</UserId>
+   <Password>Fusion101</Password>
+</AccessRequest>
+<?xml version="1.0"?>
+<RatingServiceSelectionRequest xml:lang="en-US">
+   <Request>
+       <TransactionReference>
+           <CustomerContext>Rating and Service</CustomerContext>
+           <XpciVersion>1.0001</XpciVersion>
+       </TransactionReference>
+       <RequestAction>Rate</RequestAction>
+       <RequestOption>shop</RequestOption>
+   </Request>
+   <PickupType>
+       <Code>01</Code>
+   </PickupType>
+   <Shipment>
+       <Shipper>
+           <Address>
+               <City>Jupiter</City>
+               <StateProvinceCode>FL</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>33469</PostalCode>
+           </Address>
+       </Shipper>
+       <ShipTo>
+           <Address>
+               <City>Lawton</City>
+               <StateProvinceCode>OK</StateProvinceCode>
+               <CountryCode>US</CountryCode>
+               <PostalCode>73505</PostalCode>
+<ResidentialAddressIndicator/>
+           </Address>
+       </ShipTo>
+       <Package>
+           <PackagingType>
+               <Code>02</Code>
+           </PackagingType>
+           <PackageWeight>
+               <UnitOfMeasurement>
+                   <Code>LBS</Code>
+               </UnitOfMeasurement>
+               <Weight>4</Weight>
+           </PackageWeight>
+           <PackageServiceOptions>
+               <InsuredValue>
+                   <CurrencyCode>USD</CurrencyCode>
+                   <MonetaryValue>25.00</MonetaryValue>
+               </InsuredValue>
+           </PackageServiceOptions>
+       </Package>
+   </Shipment>
+   <CustomerClassification>
+       <Code>01</Code>
+   </CustomerClassification>
+</RatingServiceSelectionRequest>
+
+Error from cURL: Error [7]: couldn't connect to host
+UPS RESPONSE: 

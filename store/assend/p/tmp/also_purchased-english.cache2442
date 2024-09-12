@@ -1,0 +1,9 @@
+s:1381:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/premium-paddleboarding-rentals-p-3467.html"><img src="images/premium_rental(sm).jpg" class=""   alt="Premium Paddleboarding Rentals" title="Premium Paddleboarding Rentals" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/premium-paddleboarding-rentals-p-3467.html">Premium Paddleboarding Rentals</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/paddleboarding-rentals-p-1143.html"><img src="images/paddleboardrentals.jpg" class=""   alt="Paddleboarding Rentals" title="Paddleboarding Rentals" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/paddleboarding-rentals-p-1143.html">Paddleboarding Rentals</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2013-ozone-edge-p-3576.html"><img src="images/2013_ozone_edge(sm).jpg" class=""   alt="2013 Ozone Edge" title="2013 Ozone Edge" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2013-ozone-edge-p-3576.html">2013 Ozone Edge</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

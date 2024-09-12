@@ -1,0 +1,377 @@
+/* iOSC 3.0 by LTGraf.com 2010-11-19 */
+/* iOSC 5.0 by raiwa 2012-09-01 */
+/* iOSC 6.0 by raiwa 2013-03-30 */
+/* iOSC 7.0.0. by okom3pom and raiwa 2013-08-11 */
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing:antialiased;/*css3*/
+    -moz-font-smoothing:antialiased;/*gecko (ex:Firefox)*/
+}
+
+form {
+  display:inline;
+}
+
+A {
+  text-decoration: none;
+}
+
+#iphone_content {
+	width:100%;
+	position:absolute;
+}
+
+#headerLogo {
+	text-transform:uppercase;
+	text-align:center;
+	line-height:11px;
+}
+
+/* main area in login, create account, payment info */
+#returning_cust, #new_cust, #inscription, #abd, #text {
+	width:auto;
+	padding:5px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+#returning_cust h1, #new_cust h1, #inscription h1 {
+	margin:0;
+	margin-bottom:5px;
+}
+
+/* Required information text in create account */
+#inscription .obligatoire {
+	color:#FF0000;
+}
+
+/* used in checkout new address */
+#inscription .form_line{
+	clear:left;
+	margin-bottom:5px;
+}
+
+/* also purchased box in mobile_product_info */
+#also_purchased {
+	padding:0px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+#also_purchased h2 {
+	padding-left:10px;
+}
+
+.prodCell_also .prodImg, .prodCell .prodImg {
+	text-align:center;
+	margin-bottom:2px;
+	padding:2px;
+}
+
+.prodCell_also .prodName, #prodCell .prodName {
+	padding:2px;
+	text-align:center;
+}
+
+/* product box in product list */
+.prodFrame {
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+.prodCell {
+	padding:0px 4px 0px 4px;
+	margin:0px 0px 4px 4px;
+}
+
+.prodCell .prodImage {
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.prodCell .prodName {
+	text-align:center;
+	color:#532a68;
+}
+
+.prodCell .prodPrice {
+	text-align:center;
+	padding:5px;
+	font-weight:bold;
+}
+
+/* product images */
+#ficheProdImage {
+	padding:2px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+#ficheProdImage ul {
+	list-style-type:none;
+	margin:0px;
+	padding:5px;
+}
+
+#ficheProdImage li {
+	display:inline;
+	padding:2px;
+}
+
+/* product name, price and options area in product info page */
+#ficheProdTop {
+	padding:10px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+/* product image in product info page */
+#ficheProdTop .visuel {
+	text-align:center;
+	padding:10px;
+}
+
+/* products name in product info page */
+#ficheProdTop h1 {
+	text-align:center;
+}
+
+/* products main image in product info page */
+#prodImage {
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:15px;
+}
+
+/* products price in product info page */
+#ficheProdTop .prodPrice {
+	text-align:center;
+	padding:10px;
+	font-weight:bold;
+	margin:0px 10px 10px 10px;
+}
+
+/* products options in product info page */
+#ficheProdTop .options {
+	padding:10px 10px 1px 10px;
+	margin:20px 10px 0px 10px;
+}
+
+/* products options name in product info page */
+#ficheProdTop .optName {
+	padding-top:17px;
+}
+
+/* add to cart and comments button in product info page */
+#ficheProdTop .bouton, #ficheProdMid .bouton, #description .bouton {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	padding:5px;
+}
+
+/* product description and comments area in product info page */
+#ficheProdMid {
+	padding:10px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+/* product description text in product info page */
+#ficheProdMid .description {
+	padding:5px;
+}
+
+/* contact form in contact us page */
+#contactForm {
+	width:95%;
+	padding:5px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+/* displaying.. in products, account_history, reviews */
+#results {
+	padding:10px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+/* main text areas in most page */
+#cms, .cms {
+	width:auto;
+	padding:10px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+	text-align:justify;
+}
+
+#historic {
+	margin-top:5px;
+}
+
+.clear {
+	clear:both;
+}
+
+#billing {
+	margin-top:5px;
+}
+
+#payment {
+	margin-top:5px;
+}
+
+#maxentries {
+	margin:10px;
+}
+
+/* main area in checkout, newsletter, notifications etc. pages */
+#newsletter, #notifications, #checkout_conf, #checkout_shipping, #checkout_payment, #checkout_pmt_add, #checkout_ship_add, #checkout_success {
+	padding:5px;
+	margin-top:5px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+
+#newsletter #text, #notifications #text, #text, #checkout_conf #text {
+	padding:5px;
+	margin:10px;
+}
+
+/* titles */
+#notifications h1, #abd h1, #checkout_conf h1, #checkout_shipping h1, #checkout_payment h1, #checkout_pmt_add h1, #checkout_ship_add h1, #checkout_success h1, #cms h1, #also_purchased h1 {
+	font-size:18px;
+	margin:2px;
+}
+
+/* main buttons centered with backgound */
+#bouton, .bouton, #checkout_conf #bouton, #checkout_shipping #bouton, #checkout_payment #bouton, #checkout_pmt_add #bouton, #checkout_ship_add #bouton, #checkout_success #bouton,  #cms #bouton,  .cms .bouton, #returning_cust .bouton, #new_cust .bouton, #inscription #bouton, #contactForm  #bouton {
+	margin:10px 15px 10px 15px;
+	padding:10px;
+	text-align:center;
+}
+
+/* mainareas in checkout pages */
+#checkout_shipping .ship_add, #checkout_payment .bill_add, #checkout_pmt_add .bill_add, #checkout_ship_add .ship_add {
+	width:auto;
+	padding:5px;
+	margin-top:5px;
+}
+
+/* required text in checkout new address, address_book, account_edit */
+#abd .required {
+	color:#FF0000;
+	font-size:11px;
+	font-weight:bold;
+	float:right;
+}
+
+#abd .inputRequirement, #inscription .inputRequirement {
+	color:#FF0000;
+}
+
+hr, hr.separator {
+	border: 0px; 
+	height: 1px;
+}
+
+span.smallText, div.smallText, p.smallText {
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+span.main, div.main, p.main {
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+	
+div.review, span.review {
+  padding-top:10px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+
+SPAN.productSpecialPrice {
+  color: #ff0000;
+}
+
+#footer {
+	padding:10px;
+	margin:5px 15px 5px 15px;
+	text-align:center;
+}
+
+#errorMsg {
+  font-size: 12px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight : bold;
+  text-align : center;
+}
+
+#messageStack {
+	width:90%;
+	padding:5px;
+	margin:auto;
+	margin-top:5px;
+}
+
+.messageStackError, .messageStackWarning {
+	font-size: 10px; 
+	background-color:#ffb3b5; 
+}
+
+.messageStackSuccess {
+	font-size: 10px; 
+}
+
+a img { border:none !important; text-decoration:none !important;}
+
+	label.error {
+		color: red;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1.4;
+		margin-top: 0.5em;
+		width: 100%;
+		float: none;
+		}
+
+	@media screen and (orientation: portrait){
+	label.error { margin-left: 0; display: block; }
+	}
+
+	@media screen and (orientation: landscape){
+	label.error { display: inline-block; margin-left: 22%; }
+	}
+
+	em { color: red; font-weight: bold; padding-right: .25em; }
+

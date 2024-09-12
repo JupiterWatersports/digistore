@@ -1,0 +1,9 @@
+s:1512:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/werner-nitro-carbon-piece-adjustable-paddle-p-3167.html"><img src="images/werner-nitro(Sm).jpg" class=""   alt="Werner Nitro Carbon 2 Piece Adjustable Paddle" title="Werner Nitro Carbon 2 Piece Adjustable Paddle" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/werner-nitro-carbon-piece-adjustable-paddle-p-3167.html">Werner Nitro Carbon 2 Piece Adjustable Paddle</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-cruise-control-p-2031.html"><img src="images/jimmy_lewis_cruise_control_RED-SM2.jpg" class=""   alt="Jimmy Lewis Cruise Control" title="Jimmy Lewis Cruise Control" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-cruise-control-p-2031.html">Jimmy Lewis Cruise Control</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/super-suction-cargo-p-3541.html"><img src="images/cargo_net(sm).jpg" class=""   alt="Super Suction Cargo Net" title="Super Suction Cargo Net" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/super-suction-cargo-p-3541.html">Super Suction Cargo Net</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

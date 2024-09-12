@@ -1,0 +1,26 @@
+body {
+	background: url(bkgd.png) 3px 0 repeat-x;
+	background-color: #091626;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+	position:fixed;
+	right: 0;
+	top: 221px;
+	width: 150px;
+	padding: 0 30px 50px 15px;
+	font-size: small;
+	color: #FFFFFF;
+}
+
+.sidebox {
+	background-image: url(../images/SocialSidebarFiles/socialsidebarbackground.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 0px;
+	width: 0px;
+}

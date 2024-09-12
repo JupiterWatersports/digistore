@@ -1,0 +1,14 @@
+s:2370:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/np-gbs-3finger-mitt-p-7239.html"><img src="images/np-3-mitt_1000.png" class=""   alt="NP GBS 3-Finger Mitt" title="NP GBS 3-Finger Mitt" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/np-gbs-3finger-mitt-p-7239.html">NP GBS 3-Finger Mitt</a><span class="alsop-product-price">$59.99</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/ion-neo-gloves-21-p-5842.html"><img src="images/IONneoglove200.jpg" class=""   alt="ION Neo Gloves 2/1" title="ION Neo Gloves 2/1" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/ion-neo-gloves-21-p-5842.html">ION Neo Gloves 2/1</a><span class="alsop-product-price">$44.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/np-half-finger-amara-glove-p-5497.html"><img src="images/half-finger-amara-glove_200.jpg" class=""   alt="NP Half Finger Amara Glove" title="NP Half Finger Amara Glove" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/np-half-finger-amara-glove-p-5497.html">NP Half Finger Amara Glove</a><span class="alsop-product-price">$29.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/np-full-finger-amara-glove-p-5498.html"><img src="images/full-finger-amara-glove_200.jpg" class=""   alt="NP Full Finger Amara Glove" title="NP Full Finger Amara Glove" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/np-full-finger-amara-glove-p-5498.html">NP Full Finger Amara Glove</a><span class="alsop-product-price">$29.95</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

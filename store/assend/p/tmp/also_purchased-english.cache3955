@@ -1,0 +1,9 @@
+s:1360:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3953"><img src="images/sandisk-64gb(Sm).jpg" class=""   alt="SanDisk 64gb microSD Card" title="SanDisk 64gb microSD Card" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3953">SanDisk 64gb microSD Card</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2671"><img src="images/gopro-anti-fog(sm).jpg" class=""   alt="GoPro Anti Fog Inserts" title="GoPro Anti Fog Inserts" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2671">GoPro Anti Fog Inserts</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3927"><img src="images/2014-ion-vertex-sky(sm).jpg" class=""   alt="Ion Vertex 2014" title="Ion Vertex 2014" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3927">Ion Vertex 2014</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

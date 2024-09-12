@@ -1,0 +1,12 @@
+s:1468:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fanatic-ray-air-inflatable-sup-p-8470.html"><img src="images/2021-fanatic-ray-air_1000.jpeg" class=""   alt="Fanatic Ray Air Inflatable SUP" title="Fanatic Ray Air Inflatable SUP" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fanatic-ray-air-inflatable-sup-p-8470.html">Fanatic Ray Air Inflatable SUP</a><span class="alsop-product-price">$669.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fanatic-fly-air-inflatable-sup-p-8337.html"><img src="images/2021-fanatic-sup-inflatable-board__200.jpg" class=""   alt="Fanatic Fly Air Inflatable SUP" title="Fanatic Fly Air Inflatable SUP" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fanatic-fly-air-inflatable-sup-p-8337.html">Fanatic Fly Air Inflatable SUP</a><span class="alsop-product-price">$949.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

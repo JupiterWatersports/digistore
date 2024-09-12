@@ -1,0 +1,15 @@
+s:2834:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/nsp-cocoflax-paddle-boards-p-8428.html"><img src="images/cocoflax-Cruise_1000.jpeg" class=""   alt="NSP Cocoflax Paddle Boards" title="NSP Cocoflax Paddle Boards" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/nsp-cocoflax-paddle-boards-p-8428.html">NSP Cocoflax Paddle Boards</a><span class="alsop-product-price">$1,535.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/surftech-the-lido-p-9318.html"><img src="images/SURFtech_Lido_1000.jpeg" class=""   alt="Surftech The Lido" title="Surftech The Lido" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/surftech-the-lido-p-9318.html">Surftech The Lido</a><span class="alsop-product-price">$998.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/jimmy-lewis-striker-p-4920.html"><img src="images/2015-jimmylewis-striker(sm).jpg" class=""   alt="Jimmy Lewis Striker" title="Jimmy Lewis Striker" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/jimmy-lewis-striker-p-4920.html">Jimmy Lewis Striker</a><span class="alsop-product-price">$1,929.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fanatic-fly-soft-top-p-9288.html"><img src="images/fanatic-fly-soft-top-paddleboard_1000.jpeg" class=""   alt="Fanatic Fly Soft Top" title="Fanatic Fly Soft Top" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fanatic-fly-soft-top-p-9288.html">Fanatic Fly Soft Top</a><span class="alsop-product-price">$1,349.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/nsp-cruiser-hit-p-8227.html"><img src="images/NSP_Hit_Top_200.jpg" class=""   alt="NSP Cruiser - Hit" title="NSP Cruiser - Hit" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/nsp-cruiser-hit-p-8227.html">NSP Cruiser - Hit</a><span class="alsop-product-price">$899.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,9 @@
+s:1351:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopole-reach-p-4060.html"><img src="images/gopole-reach-small(sm).jpg" class=""   alt="GoPole Reach" title="GoPole Reach" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopole-reach-p-4060.html">GoPole Reach</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2013-ozone-edge-p-3576.html"><img src="images/2013_ozone_edge(sm).jpg" class=""   alt="2013 Ozone Edge" title="2013 Ozone Edge" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2013-ozone-edge-p-3576.html">2013 Ozone Edge</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/xplorer-wind-meter-skywatch-p-2646.html"><img src="images/skywatch_explorer2windmeter_01(sm).jpg" class=""   alt="Xplorer 2 Wind Meter by Skywatch" title="Xplorer 2 Wind Meter by Skywatch" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/xplorer-wind-meter-skywatch-p-2646.html">Xplorer 2 Wind Meter by Skywatch</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

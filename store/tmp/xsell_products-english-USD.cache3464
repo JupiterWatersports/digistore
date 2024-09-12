@@ -1,0 +1,12 @@
+s:1430:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/stand-up-paddle-surfing-lesson-p-3472.html"><img src="images/jd_surfing_lesson(sm).jpg" class=""   alt="Stand Up Paddle Surfing Lesson" title="Stand Up Paddle Surfing Lesson" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/stand-up-paddle-surfing-lesson-p-3472.html">Stand Up Paddle Surfing Lesson</a><span class="alsop-product-price">$150.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/private-paddleboard-lesson-p-3480.html"><img src="images/private_paddle_lessons_200.jpg" class=""   alt="Private Paddleboard Lesson" title="Private Paddleboard Lesson" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/private-paddleboard-lesson-p-3480.html">Private Paddleboard Lesson</a><span class="alsop-product-price">$80.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

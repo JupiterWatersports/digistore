@@ -1,0 +1,94 @@
+<?php
+/*
+  $Id: advanced_search.php 1739 2007-12-20 00:52:16Z hpdl $
+
+  Digistore v4.0,  Open Source E-Commerce Solutions
+  http://www.digistore.co.nz
+
+  Copyright (c) 2003 osCommerce, http://www.oscommerce.com
+
+  Released under the GNU General Public License
+*/
+
+define('NAVBAR_TITLE_1', 'Advanced Search');
+define('NAVBAR_TITLE_2', 'Search Results');
+
+define('HEADING_TITLE_1', 'Advanced Search');
+define('HEADING_TITLE_2', 'Products meeting the search criteria');
+
+define('HEADING_SEARCH_CRITERIA', 'Search Criteria');
+
+define('TEXT_SEARCH_IN_DESCRIPTION', 'Search In Product Descriptions');
+define('ENTRY_CATEGORIES', 'Categories:');
+define('ENTRY_INCLUDE_SUBCATEGORIES', 'Include Subcategories');
+define('ENTRY_MANUFACTURERS', 'Manufacturers:');
+define('ENTRY_PRICE_FROM', 'Price From:');
+define('ENTRY_PRICE_TO', 'Price To:');
+define('ENTRY_DATE_FROM', 'Date From:');
+define('ENTRY_DATE_TO', 'Date To:');
+
+define('TEXT_SEARCH_HELP_LINK', '<u>Search Help</u> [?]');
+
+define('TEXT_ALL_CATEGORIES', 'All Categories');
+define('TEXT_ALL_MANUFACTURERS', 'All Manufacturers');
+
+define('HEADING_SEARCH_HELP', 'Search Help');
+define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, <u>Microsoft AND mouse</u> would generate a result set that contain both words. However, for <u>mouse OR keyboard</u>, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, <u>"notebook computer"</u> would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, <u>Microsoft and (keyboard or mouse or "visual basic")</u>.');
+define('TEXT_CLOSE_WINDOW', '<u>Close Window</u> [x]');
+
+define('TABLE_HEADING_IMAGE', '');
+define('TABLE_HEADING_MODEL', 'Model');
+define('TABLE_HEADING_PRODUCTS', 'Product Name');
+define('TABLE_HEADING_MANUFACTURER', 'Manufacturer');
+define('TABLE_HEADING_QUANTITY', 'Quantity');
+define('TABLE_HEADING_PRICE', 'Price');
+define('TABLE_HEADING_WEIGHT', 'Weight');
+define('TABLE_HEADING_BUY_NOW', 'Buy Now');
+// BOF Product Sort
+define('TABLE_HEADING_PRODUCT_SORT', 'Sort');
+// EOF Product Sort
+
+define('TEXT_NO_PRODUCTS', '<br /><span style="font-size:11px;"><i>Your search did not match any products.</i></span><br /><br />Some Suggestions:<ol><li>Check that your spelling was accurate.</li><li>Try using different keywords</li><li>Try using fewer keywords</li><li>Try using more general keywords</li></ol>');
+
+define('ERROR_AT_LEAST_ONE_INPUT', 'At least one of the fields in the search form must be entered.');
+define('ERROR_INVALID_FROM_DATE', 'Invalid From Date.');
+define('ERROR_INVALID_TO_DATE', 'Invalid To Date.');
+define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'To Date must be greater than or equal to From Date.');
+define('ERROR_PRICE_FROM_MUST_BE_NUM', 'Price From must be a number.');
+define('ERROR_PRICE_TO_MUST_BE_NUM', 'Price To must be a number.');
+define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM', 'Price To must be greater than or equal to Price From.');
+define('ERROR_INVALID_KEYWORDS', 'Invalid keywords.');
+// Begin Buy Now button mod
+
+define('TEXT_BUY', 'Buy 1 \'');
+define('TEXT_NOW', '\' now');
+
+// End Buy Now button mod
+define('TEXT_OPTIONAL', 'Entries in the fields below are optional unless the Search Criteria is` left blank. In that case at least one field below must have an entry.');
+define('TEXT_FOR_FIELD', 'For this field match ');
+define('TEXT_MATCH_ANY', 'ANY selected value or ');
+define('TEXT_MATCH_ALL', 'ALL selected values');
+define('TEXT_PTYPE','Product fields');
+define('TEXT_ANY_TYPE','Select');
+define('TEXT_INCLUDES_SUBTYPES','Includes sub fileds');
+
+define('TEXT_REPLACEMENT_SUGGESTION', 'You could also try: ');
+define('TEXT_REPLACEMENT_SEARCH_RESULTS', 'Your search results for: ');
+
+//************** BEGIN SITESEARCH CHANGE ******************/
+define('TABLE_HEADING_SITESEARCH', 'Files found meeting the search criteria');
+define('TABLE_HEADING_SITESEARCH_ARTICLES', 'Articles found meeting the search criteria');
+define('TABLE_HEADING_SITESEARCH_ATTRIBUTES', 'Product Attributes found meeting the search criteria');
+define('TEXT_NO_PRODUCTS_KEYWORD', 'There were not any products found that matches the search criteria entered.
+If you would like to be notified of its status, please fill
+in the following and click submit. Someone will contact you with 24 hours. You will be redirected
+to our home page when the submit button is clicked.');
+define('TEXT_COMMENTS', 'Comments');
+define('TEXT_PRODUCT_NAME', 'Item you are interested in:');
+define('TEXT_CUSTOMER_EMAIL', 'Your Email Address:');
+define('EMAIL_SEPARATOR', '------------------------------------------------------');
+define('NO_PRODUCT_EMAIL_TEXT_BODY', 'A visitor who\'s email address is %s could not find the following products using the search function:' . "\n\n" . EMAIL_SEPARATOR . "\n" . '%s' . "\n" .EMAIL_SEPARATOR . "\n\n" . 'Additional Comments:' ."\n" . '%s');
+define('NO_PRODUCT_EMAIL_TEXT_SUBJECT', 'Request for product information');
+/************** END SITESEARCH CHANGE ****************/    
+
+?>

@@ -1,0 +1,53 @@
+# $Id: .htaccess 1739 2007-12-20 00:52:16Z hpdl $
+# # This is used with Apache WebServers
+# # For this to work, you must include the parameter 'Options' to # the AllowOverride configuration # # Example: # # # AllowOverride Options # # # 'All' with also work. (This configuration is in the # apache/conf/httpd.conf file) # The following makes adjustments to the SSL protocol for Internet # Explorer browsers # # # SetEnvIf User-Agent ".*MSIE.*" \ # nokeepalive ssl-unclean-shutdown \ # downgrade-1.0 force-response-1.0 # # # If Search Engine Friendly URLs do not work, try enabling the # following Apache configuration parameter # AcceptPathInfo On # Fix certain PHP values # (commented out by default to prevent errors occuring on certain # servers) 
+
+
+# php_value session.use_trans_sid 0 
+# php_value register_globals 1 
+RewriteEngine on 
+
+# BEGIN Caching
+<ifModule mod_headers.c>
+<filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|ttf|otf|woff|woff2|eot|svg)$">
+Header set Cache-Control "max-age=216000, private"
+</filesMatch>
+<filesMatch "\\.(css|js)$">
+Header set Cache-Control "max-age=604800, private"
+</filesMatch>
+
+<filesMatch "\\.(html|htm|php)$">
+Header set Cache-Control "max-age=1, private, must-revalidate"
+</filesMatch>
+</ifModule>
+# END Caching
+
+<IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+	  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>

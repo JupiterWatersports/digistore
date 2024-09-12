@@ -1,0 +1,47 @@
+<OpenShipments xmlns="x-schema: OpenShipments.xdr">
+<OpenShipment ProcessStatus="" ShipmentOption="SC">
+ <ShipTo>
+  <CustomerID></CustomerID>
+  <CompanyOrName></CompanyOrName>
+  <Attention></Attention>
+  <Address1></Address1>
+  <Address2></Address2>
+  <Address3></Address3>
+  <CountryTerritory></CountryTerritory>
+  <PostalCode></PostalCode>
+  <CityOrTown></CityOrTown>
+  <StateProvinceCounty></StateProvinceCounty>
+  <Telephone></Telephone>
+  <FaxNumber></FaxNumber>
+  <EmailAddress></EmailAddress>
+  <LocationID></LocationID>
+  <ResidentialIndicator>1</ResidentialIndicator>
+ </ShipTo>
+ <ShipmentInformation>
+  <ServiceType>GND</ServiceType>
+  <NumberOfPackages>1</NumberOfPackages>
+  <DescriptionOfGoods></DescriptionOfGoods>
+  <ShipperNumber>W3R713</ShipperNumber>
+  <BillingOption>PP</BillingOption>
+  <QVNOption>
+  	<QVNRecipientAndNotificationTypes>
+  	 <EMailAddress></EMailAddress>
+  	 <Ship>1</Ship>
+  	</QVNRecipientAndNotificationTypes>
+  	<SubjectLine>Tracking from Jupiter Kiteboarding</SubjectLine>
+  	<Memo>Your order has been shipped:</Memo>
+  </QVNOption>
+ </ShipmentInformation>
+  <Goods>
+   <DescriptionOfGood></DescriptionOfGood>
+   <Inv-NAFTA-CO-CountryTerritoryOfOrigin>US</Inv-NAFTA-CO-CountryTerritoryOfOrigin>
+  </Goods>
+ <Package>
+  <PackageType>CP</PackageType>
+  <Weight>1</Weight>
+  <TrackingNumber></TrackingNumber>
+  <LargePackageIndicator></LargePackageIndicator>
+  <Reference1>Order:</Reference1>
+  <Reference2>Customer: </Reference2>
+ </Package>
+</OpenShipment></OpenShipments>

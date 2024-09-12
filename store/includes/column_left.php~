@@ -1,0 +1,42 @@
+<?php
+/*
+  $Id: column_left.php,v 1.13 2002/06/16 22:08:05 lango Exp $
+
+  Digistore v4.0,  Open Source E-Commerce Solutions
+  http://www.digistore.co.nz
+
+  Copyright (c) 2002 osCommerce
+
+  Released under the GNU General Public License
+
+  Do not any add includes boxs here add in admin-infobox admin
+*/
+
+// Start recently viewed
+
+// START STS 4.1
+if ($sts->display_template_output) {
+include DIR_WS_MODULES.'sts_inc/sts_column_left.php';
+} else {
+//END STS 4.1
+  require(DIR_WS_BOXES . 'shopping_cart.php');
+  $column_query = tep_db_query('select configuration_column as cfgcol, configuration_title as cfgtitle, configuration_value as cfgvalue, configuration_key as cfgkey, box_heading from ' . TABLE_THEME_CONFIGURATION . ' order by location');
+  while ($column = tep_db_fetch_array($column_query)) {
+
+      $column['cfgtitle'] = str_replace(' ', '_', $column['cfgtitle']);
+      $column['cfgtitle'] = str_replace("'", '', $column['cfgtitle']);
+
+if ( ($column[cfgvalue] == 'yes') && ($column[cfgcol] == 'left')) {
+
+define($column['cfgkey'],$column['box_heading']);
+
+if ( file_exists(DIR_WS_BOXES . $column['cfgtitle'] . '.php') ) {
+require(DIR_WS_BOXES . $column['cfgtitle'] . '.php');
+} 
+}
+}
+// START STS 4.1
+}
+// END STS 4.1
+?>
+

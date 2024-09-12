@@ -1,0 +1,20 @@
+s:1239:"<!-- also_purchased_products //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td>
+    <td height="14" class="infoBoxHeading" width="100%">Customers who bought this product also purchased</td>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/mystic-warrior-len10-2011-p-2411.html?<osCsid>"><img src="images/mystic_warrior3allover_02_a(sm).jpg" border="0" alt="Mystic Warrior III Len10 2011" title=" Mystic Warrior III Len10 2011 " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/mystic-warrior-len10-2011-p-2411.html?<osCsid>">Mystic Warrior III Len10 2011</a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- also_purchased_products_eof //-->
+";

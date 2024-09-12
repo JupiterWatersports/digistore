@@ -1,0 +1,9 @@
+s:1392:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/surf-wax-p-4136.html"><img src="images/" class=""   alt="Surf Wax" title="Surf Wax" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/surf-wax-p-4136.html">Surf Wax</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/liquid-force-plush-2012-wakeboard-binding-p-3257.html"><img src="images/bindings_plush.jpg" class=""   alt="Liquid Force Plush 2012 Wakeboard Binding" title="Liquid Force Plush 2012 Wakeboard Binding" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/liquid-force-plush-2012-wakeboard-binding-p-3257.html">Liquid Force Plush 2012 Wakeboard Binding</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-flat-adhesive-mounts-p-2666.html"><img src="images/Gopro_flatmounts.jpg" class=""   alt="GoPro Flat Adhesive Mounts" title="GoPro Flat Adhesive Mounts" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-flat-adhesive-mounts-p-2666.html">GoPro Flat Adhesive Mounts</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

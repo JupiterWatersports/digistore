@@ -1,0 +1,9 @@
+s:1500:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/north-dual-action-kite-pump-p-2639.html"><img src="images/north-pump(sm).jpg" class=""   alt="North Dual Action Kite Pump" title="North Dual Action Kite Pump" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/north-dual-action-kite-pump-p-2639.html">North Dual Action Kite Pump</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-anti-inserts-p-2671.html"><img src="images/gopro_antifoginserts_02.jpg" class=""   alt="GoPro Anti Fog Inserts" title="GoPro Anti Fog Inserts" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-anti-inserts-p-2671.html">GoPro Anti Fog Inserts</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/mystic-handlepass-leash-with-foam-protector-p-2195.html"><img src="images/mysticfoamleash01-sm.jpg" class=""   alt="Mystic Handlepass Leash With Foam Protector" title="Mystic Handlepass Leash With Foam Protector" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/mystic-handlepass-leash-with-foam-protector-p-2195.html">Mystic Handlepass Leash With Foam Protector</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

@@ -1,0 +1,12 @@
+s:1384:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/gobag-dry-bag-minnow-p-4954.html"><img src="images/go-bag-minnow_200.jpg" class=""   alt="GoBag Dry Bag Minnow" title="GoBag Dry Bag Minnow" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/gobag-dry-bag-minnow-p-4954.html">GoBag Dry Bag Minnow</a><span class="alsop-product-price">$28.42</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/travelon-self-seal-dry-bag-p-5376.html"><img src="images/travelon-selfseal-bag-medium(sm).jpg" class=""   alt="Travelon Self Seal Dry Bag+" title="Travelon Self Seal Dry Bag+" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/travelon-self-seal-dry-bag-p-5376.html">Travelon Self Seal Dry Bag+</a><span class="alsop-product-price">$22.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,8 @@
+s:1118:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/pack-replacement-pigtails-p-3330.html"><img src="images/Pigtails.jpg" class=""   alt="PKS Pack Of 8 Replacement Pigtails" title="PKS Pack Of 8 Replacement Pigtails" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/pack-replacement-pigtails-p-3330.html">PKS Pack Of 8 Replacement Pigtails</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/amsteel-full-braided-spectra-replacement-line-p-787.html"><img src="images/amsteelline_01.jpg" class=""   alt="Amsteel Full Braided Spectra Replacement Line" title="Amsteel Full Braided Spectra Replacement Line" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/amsteel-full-braided-spectra-replacement-line-p-787.html">Amsteel Full Braided Spectra Replacement Line</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

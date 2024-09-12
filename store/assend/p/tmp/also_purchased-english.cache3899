@@ -1,0 +1,9 @@
+s:1270:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-north-xride-p-3983.html"><img src="images/2014-north-xride(Sm).jpg" class=""   alt="2014 North xride" title="2014 North xride" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-north-xride-p-3983.html">2014 North xride</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-vario-combo-p-3984.html"><img src="images/2014-vario(sm).jpg" class=""   alt="2014 Vario Combo" title="2014 Vario Combo" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-vario-combo-p-3984.html">2014 Vario Combo</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2015-apex-p-4286.html"><img src="images/2015-ion-apex-blackgreen(sm).jpg" class=""   alt="2015 Ion Apex" title="2015 Ion Apex" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2015-apex-p-4286.html">2015 Ion Apex</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

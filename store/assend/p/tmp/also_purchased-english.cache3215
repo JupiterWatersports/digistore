@@ -1,0 +1,22 @@
+s:1967:"<!-- also_purchased_products //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td>
+    <td height="14" class="infoBoxHeading" width="100%">Customers who bought this product also purchased</td>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/dakine-pyro-2012-p-3289.html?<osCsid>"><img src="images/Pyro_Rasta(sm).jpg" border="0" alt="Dakine Pyro 2012" title=" Dakine Pyro 2012 " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/dakine-pyro-2012-p-3289.html?<osCsid>">Dakine Pyro 2012</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/2012-north-jaime-p-3125.html?<osCsid>"><img src="images/north_2012_jaime_deck.jpg" border="0" alt="2012 North Jaime" title=" 2012 North Jaime " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/2012-north-jaime-p-3125.html?<osCsid>">2012 North Jaime</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/2012-north-vegas-p-3213.html?<osCsid>"><img src="images/north_vegas_2012_01(sm).jpg" border="0" alt="2012 North Vegas" title=" 2012 North Vegas " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/2012-north-vegas-p-3213.html?<osCsid>">2012 North Vegas</a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- also_purchased_products_eof //-->
+";

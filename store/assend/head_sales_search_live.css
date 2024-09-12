@@ -1,0 +1,117 @@
+
+
+#form
+{
+	position: relative;
+	vertical-align:middle;
+	text-align:right;
+	vertical-align:middle;
+	
+}
+
+#salessearch
+{
+	position: relative;
+	width: 250px;
+	border:1;
+	font-size: 11px;
+	padding: 0px;
+	padding-left:3px;
+    height:25px;
+	color:#333;
+	font-family:Verdana,Arial,sans-serif;
+	vertical-align:middle;
+line-height:25px;
+	border:1px solid #cecece;
+}
+
+
+
+#HeadsalesresultsContainer
+{
+	border-bottom:  1px solid #36F;
+	border-top:  1px solid #3d7bad;
+	border-left:  1px solid #a4c9e3;
+	border-right:  1px solid #a4c9e3;
+	border-top:0px;
+	display: none;
+	padding: 0px;
+	width: 500px;
+	position:absolute;
+	z-index:10000;
+    background-color:#FFF;
+    vertical-align:middle;
+    left: 30%;
+    margin-left: -100px;
+    margin-top:30px;
+	font-weight:normal;
+	height: 200px !important;
+	overflow: scroll !important;
+	
+}
+
+#HeadsalesresultsContainer a
+{
+
+font-weight:normal;
+padding-top:2px;
+padding-bottom:2px;
+text-align:left;
+color:#333333;
+font-size:10px;
+text-decoration:none;
+vertical-align:middle;
+text-align:left;
+
+
+}
+
+.url-holder
+{
+height:20px;
+vertical-align:middle;
+position: relative;
+padding-top:2px;
+padding-bottom:2px;
+text-align:left;
+color:#333333;
+font-size:10px;
+font-weight:normal;
+}
+
+.url-holder:hover {
+background-color: #bdd0f9;
+text-decoration:none;
+color:#333333;
+font-size:10px;
+font-weight:normal;
+}
+
+.url-holder_title
+{
+height:20px;
+vertical-align:middle;
+position: relative;
+padding-top:2px;
+padding-bottom:2px;
+text-align:left;
+color:#333333;
+font-size:10px;
+font-weight:bold;
+background-color: #bdd0f9;
+line-height:20px;
+}
+
+
+.url-title
+{
+	font-size: 11px;
+vertical-align:middle;
+}
+
+.url-desc
+{
+	font-size: 11px;
+	padding-right: 10px;
+vertical-align:middle;
+}

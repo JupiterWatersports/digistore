@@ -1,0 +1,12 @@
+s:1418:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/phase-five-beach-towel-p-8882.html"><img src="images/2021-Phase 5-Beach-Towel_1000.jpeg" class=""   alt="Phase Five Beach Towel" title="Phase Five Beach Towel" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/phase-five-beach-towel-p-8882.html">Phase Five Beach Towel</a><span class="alsop-product-price">$39.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/liquid-force-logo-beach-towel-p-8868.html"><img src="images/Liquid-force-towel-black2_1000.jpeg" class=""   alt="Liquid Force Logo Beach Towel" title="Liquid Force Logo Beach Towel" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/liquid-force-logo-beach-towel-p-8868.html">Liquid Force Logo Beach Towel</a><span class="alsop-product-price">$49.95</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

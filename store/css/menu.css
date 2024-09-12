@@ -1,0 +1,502 @@
+
+* {
+margin : 0;
+padding : 0;
+}
+
+#top {
+	width:960px;
+	height:135px;
+	/* this overrides the text-align: center on the body element. */
+	text-align: left;
+	margin:0px auto;
+	
+}
+
+#logo {
+	float:left;
+	width:250px;
+	height:130px;
+}
+
+
+#log {
+	margin-right:0px;
+	padding-right:0px;
+	padding-top:0px;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0px 0px 4px #09F inset;
+	border-bottom:1px solid #09F;
+	position:relative;
+	float:right;
+	height:40px;
+	width:420px;
+	background:#000;
+	margin-top: 10px;
+	padding-left: 10px;	
+
+}
+
+#log ul a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	color: #09F;
+	text-decoration:none;
+}
+
+
+#mycart:hover a {
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	display: block;
+}
+
+#newproducts:hover a {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+}
+
+#reviews:hover a {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+}
+
+#mycart {
+	float:left;
+	list-style:none outside none;
+	color: #09F;
+	margin-top:10px;
+	margin-left:35px;
+}
+
+
+ #myaccount {
+float: left;
+margin-top: 9px;
+margin-left: 0px;
+list-style: none outside none;
+}  
+
+#myaccount li {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	border:none;
+}
+#myaccount li:hover {
+	background: #000;
+	
+	/* Rounded corners */
+	
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#myaccount li a {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px; 
+	display:block;
+	outline:0;
+	text-decoration:none;
+}
+
+#log #myaccount li:hover a {
+	color:#FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#myaccount li ul li {
+	font-size:13px;
+	line-height:24px;
+	position:relative;
+	padding:0;
+	margin:0;
+	float:none;
+	text-align:left;
+	width:130px;
+}
+
+.dropdown_7column {
+	margin:0px auto;
+	width:90px;
+	float:left;
+	position:absolute;
+	left:-999em; /* Hides the drop down */
+	text-align:left;
+	padding:10px 5px 10px 5px;
+	border-top:none;
+	background:#000;
+	z-index:2;
+	
+}
+
+#myaccount li:hover .dropdown_7column {
+	left:-1px;
+	top:auto;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.col_7 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	width:130px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+#top #log #myaccount li:hover div a {
+	font-size:13px;
+	color:#09F;
+}
+
+#top #log #myaccount li:hover div a:hover {
+	color:#FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#myaccount li ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 12px 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #F0F0F0;
+}
+
+#myaccount li ul li:hover {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+
+#newproducts {
+    float: left;
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+#reviews {
+float: left;
+list-style: none outside none;
+font-size: 12px;
+margin-top: 9px;
+margin-left: 20px;
+}
+
+
+#search{ float: right; height: 50px; margin-top: 35px;}
+
+
+#keywords {
+	height: 35px;
+position: relative;
+width: 250px;
+padding-top: 0px;
+padding-left: 10px;
+background: none repeat scroll 0% 0% #FFF;
+border-radius: 6px 0px 0px 6px;
+border-top: 1.5px solid #09F;
+border-left: 1.5px solid #09F;
+border-bottom: 1.5px solid #09F;
+border-right:none;
+}
+
+.search-icon { 
+background:url(../images/search-icon-blue.png) no-repeat;
+width: 35px;
+height: 37px;
+border: medium none;
+float: right;
+border-radius: 0px 5px 5px 0px;
+background-color:#FFF;
+border-top: 1.5px solid #09F;
+border-bottom: 1.5px solid #09F;
+border-right: 1.5px solid #09F;
+cursor:pointer;}
+
+#breadcrumb{
+	float:left;
+	margin-top:9px;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+	height:20px;
+	background:#FFF;
+	width:100%;
+
+}
+
+#breadcrumb A.headerCrumb {
+	color: #000F;
+	text-decoration: none;
+	text-align: left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	margin-left:10px;
+}
+
+#breadcrumb A.headerCrumb:hover {
+  color:#09F;
+}
+
+#menu {
+	list-style:none;
+	width:920px;
+	margin:0px auto;
+	height:45px;
+	padding:2px 20px 0px 20px;
+	/* Background color and gradients */
+	/* Borders */
+	font-family: Tahoma, Geneva, sans-serif;
+	z-index:3
+	
+}
+
+#menu li.navheading {
+	float: left;
+display: block;
+text-align: center;
+position: relative;
+border: medium none;
+margin: 6px 5px 0px 6px;
+padding: 5px 0px;
+}
+
+#menu li.navheading-sale {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	padding: 5px 0px 5px 0px;
+	margin-right:0px;
+	margin-left:2px;
+	margin-top:3px;
+	margin-bottom:3px;
+	border:none;
+}
+
+#menu li.navheading-sale:hover a {
+	background-color:#FFF;
+	color:#000;
+	background: #9999;
+	background: -moz-linear-gradient(top, #FFF, #EEEEEE);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#EEEEEE));
+	/* Rounded corners */
+	
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+#menu li a {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px; 
+	color: #FFF;
+	display:block;
+	outline:0;
+	text-decoration:none;
+}
+
+#menu li:hover a, #menu li:focus a {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#menu li .drop {
+	padding-right:21px;
+	
+	z-index: 1;
+}
+#menu li:hover .drop, #menu li:focus .drop {
+	
+	
+}
+
+.dropdown_1column,  
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns,
+.dropdown_6columns {
+	margin:6px auto;
+	float:left;
+	position:absolute;
+	left:-999em; /* Hides the drop down */
+	text-align:left;
+	padding:10px 0px 10px 0px;
+}
+
+.dropdown_1column {
+	width: 140px;
+	z-index: 1;
+}
+
+.dropdown_3columns {
+	width: 420px;
+	z-index: 1;
+}
+.dropdown_4columns {
+	width: 560px;
+	z-index: 1;
+}
+.dropdown_5columns {
+	width: 750px;
+	z-index: 1;
+}
+.dropdown_6columns {
+	width: 850px;
+	z-index: 1;
+}
+
+#menu li:hover .dropdown_1column, 
+#menu li:hover .dropdown_3columns,
+#menu li:hover .dropdown_4columns,
+#menu li:hover .dropdown_5columns,
+#menu li:hover .dropdown_6columns,
+#menu li:focus .dropdown_1column, 
+#menu li:focus .dropdown_3columns,
+#menu li:focus .dropdown_4columns,
+#menu li:hover .dropdown_5columns,
+#menu li:focus .dropdown_6columns {
+	left:-20px;
+	top:23px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.col_1,
+.col_3,
+.col_4,
+.col_5,
+.col_6 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+
+.col-1 {
+	width:130px;
+	font-family: Tahoma, Geneva, sans-serif;
+	background: #EEEEEE;
+	border: 1px solid #777777;
+	border-top: none;
+	/* background: #FFF; */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 10px;
+	padding-left: 10px;;
+}
+
+
+.col_1 {
+	width:130px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.col_3 {width:420px;
+	background: #EEEEEE;
+	border: 1px solid #777777;
+	border-top: none;
+	/* background: #FFF; */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:15px;}
+	
+.col_4 {width:575px;
+	background: #EEEEEE;
+	border: 1px solid #777777;
+	border-top: none;
+	/* background: #FFF; */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 10px;
+	padding-left: 10px;}
+.col_5 {width:750px;
+	background: #EEEEEE;
+	border: 1px solid #777777;
+	border-top: none;
+	/* background: #FFF; */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:15px;}
+	
+	
+.col_6 {width:900px;
+	background: #EEEEEE;
+	border: 1px solid #777777;
+	border-top: none;
+	/* background: #FFF; */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:15px;}
+
+
+#menu ul li {
+	line-height:21px;
+}
+
+
+#menu li:hover div a, #menu li:focus div a {
+	font-size:12px;
+	color:#015b86;
+}
+#menu li:hover div a:hover, #menu li:focus div a:focus {
+	color:#029feb;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+#menu li ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 12px 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #F0F0F0;
+}
+#menu li ul li {
+	font-size:12px;
+	line-height:24px;
+	position:relative;
+	text-shadow: 1px 1px 1px #ffffff;
+	padding:0;
+	margin:0;
+	float:none;
+	text-align:left;
+	width:130px;
+}
+#menu li ul li:hover, #menu li ul li:focus {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,9 @@
+s:1433:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-control-p-4275.html"><img src="images/2015-1x-control-bar(sm).jpg" class=""   alt="2015 Cabrinha 1X Control Bar" title="2015 Cabrinha 1X Control Bar" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-control-p-4275.html">2015 Cabrinha 1X Control Bar</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-complete-bindings-p-4200.html"><img src="images/2015-h1(sm).jpg" class=""   alt="2015 Cabrinha H1 Complete Bindings" title="2015 Cabrinha H1 Complete Bindings" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-complete-bindings-p-4200.html">2015 Cabrinha H1 Complete Bindings</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-radar-p-4208.html"><img src="images/2015-cabrinha-radar(sm).jpg" class=""   alt="2015 Cabrinha Radar" title="2015 Cabrinha Radar" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-radar-p-4208.html">2015 Cabrinha Radar</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

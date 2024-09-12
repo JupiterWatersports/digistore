@@ -1,0 +1,20 @@
+.cl_se_result_table {width:100%;}
+
+.head_result {font-size:14px;font-weight:bold; text-align:center; border-bottom:2px solid #ddd;}
+
+.head_result_td {border-bottom: 0px solid #000000;}
+
+.result_cell {border:1px solid #ddd;}
+.dataTableHeadingContent{color:#1e91cf; font-size:12px;}
+
+.col_order {width: 7%; text-align:right;}
+.col_order a{font-size:12px;}
+.col_name {width:23%; text-align:center;}
+.col_phone {width:23%; text-align:center;}
+.col_date {width: 15%;text-align:center;}
+.col_quantity {width:5%;text-align:center;}
+.col_status {width:12%;}
+
+#new_search_link {font-size:18px;font-weight:bold;color:#191E89;}
+
+tr.result_row:hover {background-color:#e5e5e5;}

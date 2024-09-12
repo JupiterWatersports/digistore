@@ -1,0 +1,84 @@
+<?php
+/* 
+  template-bottom.php - OSC to CSS v2.0 Sept 2010
+  Released under the GNU General Public License
+  OSC to CSS v2.0 http://www.niora.com/css-oscommerce.php
+*/
+
+/*IMPORTANT NOTE
+This file is set up to allow easy conversion between 'right column only' format and 'left and right column' format. For permanant use
+once the format has been chosen, the following changes should be made:
+IF USING THE SITE WITH RIGHT COLUMN ONLY:
+3 STEPS:
+1) includes/template_top.php
+	delete these 3 lines:
+		<div class="grid_2" id="column_left">
+			<?php require(DIR_WS_INCLUDES . 'column_left.php'); ?>
+		</div>
+2) includes/column_right.php
+	Delete these two comments and everything between:
+	
+	//start: Section to delete to covert this site to right column only. 
+	//end: Section to delete to covert this site to right column only. 
+	
+3)css/styles.css
+	delete these two selectors:
+		#right-column-only{
+		display: none;
+		}
+	
+		#left-and-right, #column_left{
+		display: none 
+		}
+
+IF USING THE SITE WITH BOTH LEFT AND RIGHT COLUMNS
+4 STEPS:
+1)includes/template-bottom.php
+	change "class" in div opposite id=column_right from class="grid_4 alpha" to class='grid_2 alpha"
+	
+2)css/styles.css
+	delete these two selectors:
+		#right-column-only{
+		display: none;
+		}
+	
+		#left-and-right, #column_left{
+		display: none 
+		}
+3) includes/classes/boxes.php
+	change this line:
+	$this->table_parameters = 'class="grid_4 alpha" '; 
+	to this:
+	$this->table_parameters = 'class="grid_2 alpha" '; 
+	
+4) includes/column_right
+	Delete these two comments and everything between:
+	
+	//start: Section to delete to covert this site to left and right columns.
+	//end: Section to delete to covert this site to left and right columns.
+
+
+*/
+?>
+
+
+</div><!-- close content -->
+
+
+
+
+<div class="clear"></div>
+
+<div class="grid_12" id="footer">
+
+</div><!--close footer-->
+
+<div class="clear"></div>
+	<?php require(DIR_WS_INCLUDES . 'footer.php'); ?>
+</div><!--close grid container-->
+
+</body>
+</html>
+<?php
+//end file
+?>

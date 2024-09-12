@@ -1,0 +1,194 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./Security-Pro_files/filelist.xml">
+<link rel=Edit-Time-Data href="./Security-Pro_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>What is Security Pro</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>root</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>root</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>14</o:TotalTime>
+  <o:Created>2008-12-02T04:15:00Z</o:Created>
+  <o:LastSaved>2008-12-02T04:53:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>375</o:Words>
+  <o:Characters>2141</o:Characters>
+  <o:Lines>17</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2629</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{margin-right:0cm;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p
+	{margin-right:0cm;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=EN-GB style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h2>What is Security Pro?</h2>
+
+<p><em>Security Pro is simply a security function that cleans
+$_GET/$HTTP_GET_VARS/$_REQUEST(The $_GET part) at source. This being
+application_top.php. The variables are cleaned recursively the key concept
+being that we ALLOW characters into the querystring as opposed to attempting to
+&quot;clean&quot; some bad characters. Having implemented Security Pro your
+querystring should be safe as long as the contribution/code calls
+application_top.php.</em></p>
+
+<p><em>We are zealously cleaning here so there is always a risk that some
+contibution may introduce to the querystring a character that is not allowed,
+so please ensure that you fully test that all your payment systems etc. are
+functioning correctly.</em></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>After much testing allowed characters are as follows: -<br>
+a-z<br>
+A-Z<br>
+0-9<br>
+.(dot)<br>
+-(hyphen)<br>
+_(underscore)<br>
+{}<br>
+space (needed for search)<br>
+% character removed<br>
+$get_var is urldecoded before the preg_replace strips bad characters.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>In this version we alter the $GLOBALS variable to the $_GET
+cleansed version.<br>
+<br>
+This obviously is going to cause a few issues. One of which was the payment
+system PROTX. The way we have got around this is to add a setting in admin
+where you can EXCLUDE specific &quot;known to be safe&quot; files from the
+cleansing process. In the case of PROTX it is e.g. protx_process.php. So if you
+test well and find any files that are not functioning due to our added security
+you can now either adjust those files to meet the requirements of FWR Security
+Pro, or you can exclude those files from the cleansing process if you feel they
+are safe.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:473.25pt;
+ height:109.5pt'>
+ <v:imagedata src="./Security-Pro_files/image001.jpg" o:title="fwr-security"/>
+</v:shape><![endif]--><![if !vml]><img width=631 height=146
+src="./Security-Pro_files/image002.jpg" v:shapes="_x0000_i1025"><![endif]></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Now that this is urldecoding and is missing the % character
+a lot more scripts, payment modules etc will fail .. this is a GOOD thing. By
+all means exclude your broken payment module from cleansing by security Pro ..
+however, I wouldn't advise doing the same for a less important contribution ..
+why not see where it's stopped by this script and change it so that it doesn't
+use bad characters in the querystring.<br>
+<br>
+Most important: Test fully your important systems after enabling this .
+.especially payment/shipping etc.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Please try to think along the following lines:-<br>
+<br>
+If Security Pro breaks a feature/function<br>
+<br>
+1) Try to remove the need for the feature to use bad characters (Stay here as
+long as possible)<br>
+<br>
+2) Exclude the file from cleansing only if you really have to. (Should only be
+critical operations like payment)<br>
+<br>
+3) NEVER alter the preg_replace or other functions in security.php unless
+improving it (making it tougher).<br>
+In the case of this contribution &quot;Yaaay I got it to work by removing X in
+security.php!&quot; = you broke your security.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

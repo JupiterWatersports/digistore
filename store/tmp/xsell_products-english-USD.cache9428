@@ -1,0 +1,13 @@
+s:2205:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/propel-current-pro-aluminum-sup-paddle-p-7422.html"><img src="images/Propel-Current-Pro-Aluminum-SUP-Paddle-200.jpg" class=""   alt="Propel Current Pro Aluminum SUP Paddle" title="Propel Current Pro Aluminum SUP Paddle" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/propel-current-pro-aluminum-sup-paddle-p-7422.html">Propel Current Pro Aluminum SUP Paddle</a><span class="alsop-product-price">$89.90</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/quickblade-kanaha-hybrid-adjustable-lever-lock-90-p-8271.html"><img src="images/hybrid-qb_200.jpg" class=""   alt="Quickblade Kanaha Hybrid Adjustable Lever Lock 90" title="Quickblade Kanaha Hybrid Adjustable Lever Lock 90" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/quickblade-kanaha-hybrid-adjustable-lever-lock-90-p-8271.html">Quickblade Kanaha Hybrid Adjustable Lever Lock 90</a><span class="alsop-product-price">$279.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/quickblade-flyweight-83-hybrid-fixed-paddle-p-7279.html"><img src="images/quickblade-83-hybrid_1000.jpeg" class=""   alt="Quickblade Flyweight 83 Hybrid Fixed Paddle" title="Quickblade Flyweight 83 Hybrid Fixed Paddle" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/quickblade-flyweight-83-hybrid-fixed-paddle-p-7279.html">Quickblade Flyweight 83 Hybrid Fixed Paddle</a><span class="alsop-product-price">$219.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,9 @@
+s:1391:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3928"><img src="images/2014-north-nugget(Sm).jpg" class=""   alt="2014 North Nugget" title="2014 North Nugget" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3928">2014 North Nugget</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3959"><img src="images/nkb-front-surfpad(sm).jpg" class=""   alt="North Front Surfpads w/ Mini Pads" title="North Front Surfpads w/ Mini Pads" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3959">North Front Surfpads w/ Mini Pads</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3685"><img src="images/gopro-surfmount(sm).jpg" class=""   alt="GoPro Surfboard Mount" title="GoPro Surfboard Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3685">GoPro Surfboard Mount</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

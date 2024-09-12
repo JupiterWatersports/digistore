@@ -1,0 +1,9 @@
+s:1368:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2013-axis-vanguard-p-3707.html"><img src="images/axis_vanguard(sm).jpg" class=""   alt="2013 Axis Vanguard" title="2013 Axis Vanguard" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2013-axis-vanguard-p-3707.html">2013 Axis Vanguard</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2012-cabrinha-switchblade-p-3064.html"><img src="images/2012_Cab_SB_2(sm).jpg" class=""   alt="2012 Cabrinha Switchblade" title="2012 Cabrinha Switchblade" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2012-cabrinha-switchblade-p-3064.html">2012 Cabrinha Switchblade</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/mystic-warrior-2012-p-3211.html"><img src="images/mystic_warrior_02(sm).jpg" class=""   alt="Mystic Warrior III 2012" title="Mystic Warrior III 2012" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/mystic-warrior-2012-p-3211.html">Mystic Warrior III 2012</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

@@ -1,0 +1,13 @@
+s:1946:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fanatic-sky-sup-foil-p-8675.html"><img src="images/2021-fanatic-sky-sup-_1000.jpeg" class=""   alt="Fanatic Sky SUP Foil" title="Fanatic Sky SUP Foil" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fanatic-sky-sup-foil-p-8675.html">Fanatic Sky SUP Foil</a><span class="alsop-product-price">$1,599.99</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/2019-jp-australia-foil-carbon-pro-p-7353.html"><img src="images/2019-foilslate-pro200.jpg" class=""   alt="2019 JP Australia Foil Carbon Pro" title="2019 JP Australia Foil Carbon Pro" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/2019-jp-australia-foil-carbon-pro-p-7353.html">2019 JP Australia Foil Carbon Pro</a><span class="alsop-product-price">$1,174.50</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/one-rocket-sup-foilboard-p-9219.html"><img src="images/2021-fone-rocket-sup_1000.jpeg" class=""   alt="F One Rocket SUP FoilBoard" title="F One Rocket SUP FoilBoard" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/one-rocket-sup-foilboard-p-9219.html">F One Rocket SUP FoilBoard</a><span class="alsop-product-price">$1,709.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

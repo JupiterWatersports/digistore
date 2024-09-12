@@ -1,0 +1,12 @@
+UPDATE products SET products_quantity = '33', products_model = '13LIMITED', products_price = '779.0000', products_weight = '10.00', manufacturers_id = '', products_status = '1' WHERE products_id = 3708;
+UPDATE products SET products_quantity = '16', products_model = '13VANGUARD', products_price = '589.0000', products_weight = '10.00', manufacturers_id = '', products_status = '1' WHERE products_id = 3707;
+UPDATE products SET products_quantity = '3', products_model = '13SPECTRUM', products_price = '599.0000', products_weight = '10.00', manufacturers_id = '10', products_status = '1' WHERE products_id = 3524;
+UPDATE products SET products_quantity = '1', products_model = '13STYLUS', products_price = '619.0000', products_weight = '10.00', manufacturers_id = '10', products_status = '1' WHERE products_id = 3526;
+UPDATE products SET products_quantity = '3', products_model = '13TRONIC', products_price = '579.0000', products_weight = '10.00', manufacturers_id = '10', products_status = '1' WHERE products_id = 3527;
+UPDATE products SET products_quantity = '1', products_model = '13XO', products_price = '649.0000', products_weight = '10.00', manufacturers_id = '10', products_status = '1' WHERE products_id = 3525;
+UPDATE products SET products_quantity = '2', products_model = '13ALLROUND', products_price = '491.2000', products_weight = '10.00', manufacturers_id = '16', products_status = '1' WHERE products_id = 3595;
+UPDATE products SET products_quantity = '2', products_model = '13PROLTD', products_price = '695.0000', products_weight = '10.00', manufacturers_id = '16', products_status = '1' WHERE products_id = 3594;
+UPDATE products SET products_quantity = '1', products_model = '13TRAX8', products_price = '764.1500', products_weight = '10.00', manufacturers_id = '135', products_status = '1' WHERE products_id = 3650;
+UPDATE products SET products_quantity = '4', products_model = 'JAIME13', products_price = '599.0000', products_weight = '10.00', manufacturers_id = '11', products_status = '1' WHERE products_id = 3561;
+UPDATE products SET products_quantity = '1', products_model = '13TEAMSERIES', products_price = '1049.0000', products_weight = '10.00', manufacturers_id = '11', products_status = '1' WHERE products_id = 3597;
+UPDATE products SET products_quantity = '6', products_model = '13XRIDE', products_price = '649.9500', products_weight = '10.00', manufacturers_id = '11', products_status = '1' WHERE products_id = 3562;

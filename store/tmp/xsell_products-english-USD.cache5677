@@ -1,0 +1,14 @@
+s:2631:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/hr-complete-kiteboarding-lesson-crash-course-p-199.html"><img src="images/6hour_Lessons_200.jpg" class=""   alt="6 Hr Complete Kiteboarding Lesson: Crash Course" title="6 Hr Complete Kiteboarding Lesson: Crash Course" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/hr-complete-kiteboarding-lesson-crash-course-p-199.html">6 Hr Complete Kiteboarding Lesson: Crash Course</a><span class="alsop-product-price">$699.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/hr-kiteboarding-lesson-discover-kiteboarding-p-197.html"><img src="images/BeginnerLessons_200.jpg" class=""   alt="2 Hr Kiteboarding Lesson:  Discover kiteboarding" title="2 Hr Kiteboarding Lesson:  Discover kiteboarding" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/hr-kiteboarding-lesson-discover-kiteboarding-p-197.html">2 Hr Kiteboarding Lesson:  Discover kiteboarding</a><span class="alsop-product-price">$279.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/hr-kiteboarding-lesson-get-wet-p-198.html"><img src="images/Lessons4h_1st_200.jpg" class=""   alt="4 Hr Kiteboarding Lesson: Get Wet!" title="4 Hr Kiteboarding Lesson: Get Wet!" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/hr-kiteboarding-lesson-get-wet-p-198.html">4 Hr Kiteboarding Lesson: Get Wet!</a><span class="alsop-product-price">$499.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/foil-boarding-lesson-p-3842.html"><img src="images/FoilLessons_200.jpg" class=""   alt="Foil Boarding Lesson" title="Foil Boarding Lesson" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/foil-boarding-lesson-p-3842.html">Foil Boarding Lesson</a><span class="alsop-product-price">$300.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

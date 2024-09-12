@@ -1,0 +1,63 @@
+<?php
+/*
+  $Id$
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2010 osCommerce
+
+  Released under the GNU General Public License
+*/
+define('MODULE_BOXES_VIPHONE_STATUS','True');
+$def_image='iphone_150x300.jpg';
+
+define('MODULE_BOXES_VIPHONE_IMAGE_NAME', $def_image);
+          $img_dir = DIR_FS_CATALOG_IMAGES . 'viphone/';
+            $images = '';
+            if ($dir = @dir($img_dir))
+            {
+                while ($file = $dir->read())
+                {
+                    if (!is_dir($img_dir . $file))
+                    {
+                        if( isset($def_image) )
+                        {
+                            $images .= ", \'$file\'";
+                        }
+                        else
+                        {
+                            $def_image = "$file";
+                            $images = "\'$file\'";
+                        }
+                    }
+                }
+}
+
+
+            echo '<tr><td><div class="ui-widget viphoneBoxContainer">' .
+					'  <div class="ui-widget-header viphoneBoxHeading">' . MODULE_BOXES_VIPHONE_BOX_TITLE . '</div>' .
+					'  <div class="ui-widget-content viphoneBoxContents">' .
+            		'    <table cellpadding="0" cellspacing="0" width="100%" border="0">' .
+                    '    <tr>' .
+					'      <td valign=top>' .
+                    '        <div style="text-align: center">' .
+                    '          <a href="http://www.viphone.su" target="_blank" title="' . MODULE_BOXES_VIPHONE_MESSAGE . '">' . MODULE_BOXES_VIPHONE_MESSAGE . '</a>' .
+                    '        </div>' .
+                    '      </td>' .
+                    '    </tr>' .
+                    '    <tr>' .
+	                '      <td align="center">' .
+		            '        <div align="center">' .
+                    '	       <a href="http://www.viphone.su" target="_blank" title="' . MODULE_BOXES_VIPHONE_MESSAGE . '">' .
+                    '            <img width="90%" height="90%" src="' . DIR_WS_IMAGES . 'viphone/' . MODULE_BOXES_VIPHONE_IMAGE_NAME . '" border="0" />' . 
+                    '          </a>' .
+                    '        </div>' .
+	                '      </td>' .
+                    '    </tr>' .
+                    '    </table>' .
+					'  </div>' .
+					'</div></td></tr>';
+            
+ 
+?>

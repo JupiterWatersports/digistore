@@ -1,0 +1,9 @@
+s:1327:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3708"><img src="images/axis_limited(sm).jpg" class=""   alt="2013 Axis Limited" title="2013 Axis Limited" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3708">2013 Axis Limited</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4286"><img src="images/2015-ion-apex-blackgreen(sm).jpg" class=""   alt="2015 Ion Apex" title="2015 Ion Apex" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4286">2015 Ion Apex</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4299"><img src="images/gopro-hero4-silver(sm).jpg" class=""   alt="GoPro Hero4 Silver" title="GoPro Hero4 Silver" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4299">GoPro Hero4 Silver</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

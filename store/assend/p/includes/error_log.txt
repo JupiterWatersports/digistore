@@ -1,0 +1,9 @@
+[27-Aug-2012 09:51:44 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[27-Aug-2012 09:52:00 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[27-Aug-2012 09:52:12 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/application_top.php on line 503
+[27-Aug-2012 09:52:12 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[27-Aug-2012 09:52:20 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/application_top.php on line 503
+[27-Aug-2012 09:52:21 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[11-Nov-2013 22:37:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/product_info.php on line 488
+[11-Nov-2013 22:37:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/product_info.php on line 488
+[11-Nov-2013 22:39:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/product_info.php on line 488

@@ -1,0 +1,9 @@
+s:1423:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-stand-paddleboard-paddle-p-1843.html"><img src="images/suppaddlebagsmall.jpg" class=""   alt="Dakine Sup Stand Up Paddleboard Paddle Bag" title="Dakine Sup Stand Up Paddleboard Paddle Bag" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-stand-paddleboard-paddle-p-1843.html">Dakine Sup Stand Up Paddleboard Paddle Bag</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/amundson-126-trx-p-3996.html"><img src="images/amundson-126-tr-x(sm).jpg" class=""   alt="Amundson 12'6 TR-X" title="Amundson 12'6 TR-X" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/amundson-126-trx-p-3996.html">Amundson 12'6 TR-X</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/super-suction-cargo-p-3541.html"><img src="images/cargo_net(sm).jpg" class=""   alt="Super Suction Cargo Net" title="Super Suction Cargo Net" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/super-suction-cargo-p-3541.html">Super Suction Cargo Net</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

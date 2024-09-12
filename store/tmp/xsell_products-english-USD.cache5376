@@ -1,0 +1,12 @@
+s:1356:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/gobag-dry-bag-minnow-p-4954.html"><img src="images/go-bag-minnow_200.jpg" class=""   alt="GoBag Dry Bag Minnow" title="GoBag Dry Bag Minnow" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/gobag-dry-bag-minnow-p-4954.html">GoBag Dry Bag Minnow</a><span class="alsop-product-price">$28.42</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fidlock-hermetic-dry-bag-p-8851.html"><img src="images/Maxi-orange_1000.jpeg" class=""   alt="Fidlock Hermetic Dry Bag" title="Fidlock Hermetic Dry Bag" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fidlock-hermetic-dry-bag-p-8851.html">Fidlock Hermetic Dry Bag</a><span class="alsop-product-price">$29.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

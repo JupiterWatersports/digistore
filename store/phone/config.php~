@@ -1,0 +1,52 @@
+<?php
+
+// This file includes all the necessary components for the Ipod Touch/Iphone Web App to run.
+// Please configure the correct values for your store
+$dbserver = '';
+$dbusername = '';
+$dbpassword = '';
+$database = '';
+$db_prefix = '';
+
+// Set the amount of orders to show on initial viewing, currently set at 25. When show more is clicked, it is then incremented by the amount set, and then decremented when show less orders is clicked.
+$pagelimit = '25';
+
+// Set your order status ID's as appropriate, if you do not know your order status id's then please upload the file, test.php to your server and run it.
+// Awaiting Despatch
+$awades1 = '2'; 
+$awades2 = '100';
+//$var = 'ORDER_STATUS_ID';
+
+// Processing/Awaiting Payment
+$pro1 = '1';
+$pro2 = '101';
+$pro3 = '5003';
+//$var = 'ORDER_STATUS_ID';
+
+//Despatched/Delivered/Shipped
+$des1 = '3';
+$des2 = '102';
+//$var = 'ORDER_STATUS_ID';
+
+//Cancelled
+$can1 = '5';
+$can2 = '103'; 
+$can3 = '105';
+//$var = 'ORDER_STATUS_ID';
+
+// Set Shop Index Title, remember width is 320px wide with refresh button to left, something around 20 characters would be suitable
+$shopname = 'Shop Name';
+
+// Set to 1 to show Credit Card info, 0 to not show
+$showccinfo = '1';
+
+// Show Products Model No, 1 = Yes, 0 = No
+$showmodelno = '1';
+// Configure $lowstock to display products with a quantity, equal to or lower than the value.
+$lowstock = '5';
+
+$version = 'v1.2';
+//Change this option to match the database column in orders table, cc_cvv, cc_cvc etc, if it doesn't exist it doesn't appear.
+$cardsecurity = 'cc_cvc';
+$cardsecurityname = 'CVC';
+?>

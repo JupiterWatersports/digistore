@@ -1,0 +1,9 @@
+s:1501:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-aero-rack-long-pair-p-2777.html"><img src="images/DAKINE_AERORACKPADLONG_BLACK.jpg" class=""   alt="Dakine Aero Rack Pad Long Pair" title="Dakine Aero Rack Pad Long Pair" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-aero-rack-long-pair-p-2777.html">Dakine Aero Rack Pad Long Pair</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/peter-grimm-hasselhoff-p-2161.html"><img src="images/hassSM.png" class=""   alt="Peter Grimm Hasselhoff Sun Hat" title="Peter Grimm Hasselhoff Sun Hat" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/peter-grimm-hasselhoff-p-2161.html">Peter Grimm Hasselhoff Sun Hat</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/ocean-eyes-shark-polarized-sunglasses-p-3107.html"><img src="images/oceaneyes_shark.jpg" class=""   alt="Ocean Eyes Shark Polarized Sunglasses" title="Ocean Eyes Shark Polarized Sunglasses" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/ocean-eyes-shark-polarized-sunglasses-p-3107.html">Ocean Eyes Shark Polarized Sunglasses</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

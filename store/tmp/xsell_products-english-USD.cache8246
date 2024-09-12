@@ -1,0 +1,14 @@
+s:2494:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/jewel-amp-semidry-65-bz-dl-p-8079.html"><img src="images/2020-ion-jewel-6-5-200.jpg" class=""   alt="Jewel Amp Semidry 6/5 BZ DL" title="Jewel Amp Semidry 6/5 BZ DL" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/jewel-amp-semidry-65-bz-dl-p-8079.html">Jewel Amp Semidry 6/5 BZ DL</a><span class="alsop-product-price">$374.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/gofoil-carbon-tuttle-plate-adapter-p-7459.html"><img src="images/GFOILADAPT200.png" class=""   alt="GoFoil Carbon Tuttle - Plate Adapter" title="GoFoil Carbon Tuttle - Plate Adapter" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/gofoil-carbon-tuttle-plate-adapter-p-7459.html">GoFoil Carbon Tuttle - Plate Adapter</a><span class="alsop-product-price">$175.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/np-mission-fz-32-p-6513.html"><img src="images/np-mission-fz-32-black_200.jpg" class=""   alt="NP Mission FZ 3/2" title="NP Mission FZ 3/2" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/np-mission-fz-32-p-6513.html">NP Mission FZ 3/2</a><span class="alsop-product-price">$249.99</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/mystic-diva-53-backzip-fullsuit-p-7679.html"><img src="images/mystic-diva-5-3-wesuit-front-aqua_200.jpg" class=""   alt="Mystic Diva 5/3 Backzip Fullsuit" title="Mystic Diva 5/3 Backzip Fullsuit" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/mystic-diva-53-backzip-fullsuit-p-7679.html">Mystic Diva 5/3 Backzip Fullsuit</a><span class="alsop-product-price">$247.50</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,22 @@
+s:2189:"<!-- also_purchased_products //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td>
+    <td height="14" class="infoBoxHeading" width="100%">Customers who bought this product also purchased</td>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/kite-hero-gopro-line-mount-p-2769.html?<osCsid>"><img src="images/kitehero_linemount_02.jpg" border="0" alt="Kite Hero GoPro Line Mount" title=" Kite Hero GoPro Line Mount " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/kite-hero-gopro-line-mount-p-2769.html?<osCsid>">Kite Hero GoPro Line Mount</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/2011-wainman-hawaii-blunt-p-2944.html?<osCsid>"><img src="images/wainman_hawaii_blunt_135_01.jpg" border="0" alt="2011 Wainman Hawaii Blunt 2" title=" 2011 Wainman Hawaii Blunt 2 " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/2011-wainman-hawaii-blunt-p-2944.html?<osCsid>">2011 Wainman Hawaii Blunt 2</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/flash-16gb-gopro-action-memory-card-p-3333.html?<osCsid>"><img src="images/16gbmaxflash.jpg" border="0" alt="Max Flash 16GB GoPro Action Cam Memory Card" title=" Max Flash 16GB GoPro Action Cam Memory Card " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/flash-16gb-gopro-action-memory-card-p-3333.html?<osCsid>">Max Flash 16GB GoPro Action Cam Memory Card</a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- also_purchased_products_eof //-->
+";

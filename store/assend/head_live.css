@@ -1,0 +1,132 @@
+
+
+#form
+{
+	position: relative;
+	vertical-align:middle;
+	text-align:right;
+	vertical-align:middle;
+	
+}
+
+
+
+
+#ProdresultsContainer,  #ProductsresultsContainer
+{
+	border-bottom:  1px solid #36F;
+	border-top:  1px solid #3d7bad;
+	border-left:  1px solid #a4c9e3;
+	border-right:  1px solid #a4c9e3;
+	border-top:0px;
+	display: none;
+	padding: 0px;
+	width: 500px;
+	position:absolute;
+	z-index:10000;
+    background-color:#FFF;
+    vertical-align:middle;
+	font-weight:normal;
+	max-height: 300px !important;
+	overflow:auto;
+	
+}
+
+#HeadresultsContainer
+{
+border-width: 0px 1px 1px;
+border-style: none solid solid;
+border-color: -moz-use-text-color #A4C9E3 #36F;
+display: none;
+padding: 0px;
+width: 250px;
+position: absolute;
+background-color: #FFF;
+vertical-align: middle;
+font-weight: normal;
+max-height: 300px !important;
+overflow: auto !important;
+text-align: left;
+z-index:100000;
+	
+}
+
+#ProdresultsContainer a, #HeadresultsContainer a, #ProdresultsContainerOrder input, #ProdresultsContainerOrder a, #ProductsresultsContainer a
+{
+line-height:30px;
+display:block;
+font-weight:normal;
+padding-left:12px;
+text-align:left;
+color:#333333;
+font-size:14px;
+text-decoration:none;
+vertical-align:middle;
+text-align:left;
+cursor:pointer;
+}
+
+
+#ProdresultsContainerOrder
+{
+	border-bottom:  1px solid #36F;
+	border-top:  1px solid #3d7bad;
+	border-left:  1px solid #a4c9e3;
+	border-right:  1px solid #a4c9e3;
+	border-top:0px;
+	display: none;
+	padding: 0px;
+	width: 500px;
+	position:absolute;
+	z-index:10000;
+    background-color:#FFF;
+    vertical-align:middle;
+	font-weight:normal;
+	max-height: 300px !important;
+	overflow:auto;
+	
+}
+
+#ProdresultsContainerOrder input{border:none;}
+
+.url-holder
+{
+
+}
+
+.url-holder:hover, .url-holder2:hover, #ProdresultsContainerOrder input:hover {
+background-color: #bdd0f9;
+text-decoration:none;
+color:#333333;
+font-weight:normal;
+}
+
+.url-holder_title
+{
+height:20px;
+vertical-align:middle;
+position: relative;
+padding-top:2px;
+padding-bottom:2px;
+text-align:left;
+color:#333333;
+font-size:10px;
+font-weight:bold;
+background-color: #bdd0f9;
+line-height:20px;
+}
+
+
+.url-title
+{
+	font-size: 11px;
+vertical-align:middle;
+}
+
+.url-desc
+{
+	font-size: 11px;
+	padding-right: 10px;
+vertical-align:middle;
+}
+@media only screen and (max-device-width : 567px) {#ProdresultsContainer{ margin-top:0px !important;}}

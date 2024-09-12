@@ -1,0 +1,9 @@
+s:1299:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopole-evo-p-4059.html"><img src="images/gopole-evo(sm).jpg" class=""   alt="GoPole Evo" title="GoPole Evo" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopole-evo-p-4059.html">GoPole Evo</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/sandisk-64gb-microsd-card-p-3953.html"><img src="images/sandisk-64gb(Sm).jpg" class=""   alt="SanDisk 64gb microSD Card" title="SanDisk 64gb microSD Card" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/sandisk-64gb-microsd-card-p-3953.html">SanDisk 64gb microSD Card</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/regular-leash-p-3881.html"><img src="images/fcs-6ft-leash(sm).jpg" class=""   alt="FCS 6' Regular Leash" title="FCS 6' Regular Leash" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/regular-leash-p-3881.html">FCS 6' Regular Leash</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

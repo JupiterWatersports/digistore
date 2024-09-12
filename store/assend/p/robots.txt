@@ -1,0 +1,9 @@
+# These settings will keep spiders from indexing your unwanted pages
+#  This assumes that your OSC install is in your web sites ROOT directory
+
+User-Agent: *
+Disallow: /pos
+Disallow: /barcode.php
+Disallow: /assend/
+
+

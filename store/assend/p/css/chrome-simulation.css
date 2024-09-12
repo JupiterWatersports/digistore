@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width : 359px) {body{width:305px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 360px) and (max-width : 374px) {body{width:345px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 375px) and (max-width : 413px) {body{width:360px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 414px) and (max-width : 479px) {body{width:399px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 480px) and (max-width : 567px) {body{width:465px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 568px) and (max-width : 599px) {body{width:553px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 600px) and (max-width : 639px) {body{width:585px; border: 2px solid #11C22C;}}		
+@media only screen and (min-width : 640px) and (max-width : 665px) {body{width:625px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 667px) and (max-width : 735px) {body{width:652px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 736px) and (max-width : 767px) {body{width:721px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 768px) and (max-width : 799px) {body{width:753px; border: 2px solid #11C22C;}}	
+@media only screen and (min-width : 800px) and (max-width : 959px) {body{width:785px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 960px) and (max-width : 1023px) {body{width:945px; border: 2px solid #11C22C;}}
+@media only screen and (min-width : 1024px) and (max-width : 1280px) {body{width:1009px; border: 2px solid #11C22C;}}						

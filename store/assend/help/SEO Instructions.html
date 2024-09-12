@@ -1,0 +1,111 @@
+<legend>Configuration</legend>
+<p>You will find a new setting group in your admin control panel under <b>SEO =&gt; SEO URLs</b></p>
+<ul>
+    <li><b>Enable SEO URLs?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the SEO URLs contribution globally.</li>
+    </ul>
+
+    <li><b>Add cPath to product URLs? <font color="#990000">*NEW*</font> </b></li>
+    <ul>
+        <li>Default Setting: false</li>
+        <li>This setting enables/disables the option of adding the cPath parameter to the end of product pages.</li>
+        <li><b>Example:</b> some-product-p-1.html?cPath=xx</li>
+    </ul>
+    <li><b>Add category parent to begining of URLs? <font color="#990000">*NEW*</font></b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of adding the category parent to the beginning of category URLs.  This was added to maintain backward compatibility with <= 2.0b releases.</li>
+        <li><b>Example:</b> parent-category-p-1.html</li>
+    </ul>
+    <li><b>Choose URL Rewrite Type</b></li>
+    <ul>
+        <li>Default Setting: Rewrite</li>
+        <li>This setting selection of URL rewrite types. Currently, there is only the 1 type (Rewrite) but in the future there will be more. </li>
+    </ul>
+    <li><b>Filter Short Words</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting allows a store owner to filter short words which typically add no value. Don't set this too high! </li>
+    </ul>
+    <li><b>Output W3C valid URLs (parameter string)? <font color="#990000">*NEW*</font></b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting allows a store owner to choose W3C valid URLs.</li>
+    </ul>
+    <li><b>Enable SEO cache to save queries?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the query cache engine globally. If disabled each URL generated will take 1 query. </li>
+    </ul>
+    <li><b>Enable product cache?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of using cache for the products.</li>
+    </ul>
+    <li><b>Enable categories cache?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of using cache for the categories. </li>
+    </ul>
+    <li><b>Enable manufacturers cache?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of using cache for the manufacturers.</li>
+    </ul>
+    <li><b>Enable articles cache?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of using cache for the articles (if installed). </li>
+    </ul>
+    <li><b>Enable information cache?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of using cache for the information pages (if installed). </li>
+    </ul>
+    <li><b>Enable topics cache?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the option of using cache for the article topics (if installed). </li>
+    </ul>
+    <li><b>Enable automatic redirects?</b></li>
+    <ul>
+        <li>Default Setting: true</li>
+        <li>This setting enables/disables the automatic 301 header redirect logic. This sends a moved permanent header for all old URLs to the new ones. <i>This setting is highly recommended for stores that have already been indexed by spiders.</i> </li>
+    </ul>
+    <li><b>Enter special character conversions</b></li>
+    <ul>
+        <li>Default Setting: <i>NULL</i> </li>
+        <li>This setting allows a store owner to enter a list of special character conversions. Please note the format below.</li>
+        <li><b>FORMAT</b>: char=&gt;conv, char2=&gt;conv2, char3=&gt;conv3</li>
+        <li>NOTE: use a comma as the separator </li>
+    </ul>
+    <li><b>Remove all non-alphanumeric characters?</b></li>
+    <ul>
+        <li>Default Setting: false</li>
+        <li>This setting allows the store owner to remove all non-alphanumeric characters from the URL. This is highly effective and will result in some interesting URLs. For example, <b>some-product-p-1.html</b> will become <b>someproduct-p-1.html</b> </li>
+    </ul>
+    <li><b>Reset SEO URLs Cache </b></li>
+    <ul>
+        <li>Default Setting: false </li>
+        <li>This setting allows the store owner to clear the SEO cache manually.</li>
+    </ul>
+</ul>
+</fieldset>
+<br/>
+<br/>
+<fieldset>
+<legend>OPTIONAL - Performance Monitoring and Assessment</legend>
+<p>In includes/application_bottom.php paste this code just after the opening PHP tag:</p>
+<textarea cols="76" rows="5">
+  if ( $_REQUEST['profile'] == 'on' || $_SESSION['profile'] == 'on' ) {
+          $_SESSION['profile'] = isset($_REQUEST['profile']) ? $_REQUEST['profile'] : 'on';
+        $seo_urls->profile();
+  }
+</textarea>
+<p>To activate the performance diagnostic code append <b>?profile=on</b> to any URL which will save the setting to your session. Now you should see the performance profile data at the footer. You can browse the catalog and the output will be at the footer. This will allow you to quickly assess the performance of the homepage, category, and product pages.  To turn it back off append <b>?profile=off</b> to any URL.  </p>
+</fieldset>
+<hr/>
+<p>This documentation was generated by <a href="http://www.phpdoc.org">phpDocumentor v1.3.0RC3</a></p>
+

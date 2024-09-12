@@ -1,0 +1,9 @@
+s:1434:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestro-p-3428.html"><img src="images/Jimmy_lewis_maestro(sm).jpg" class=""   alt="Jimmy Lewis Maestro" title="Jimmy Lewis Maestro" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestro-p-3428.html">Jimmy Lewis Maestro</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/rail-guards-stand-paddleboard-p-2611.html"><img src="images/NSI_railguards_01.jpg" class=""   alt="NSI SUP Rail Guards Stand Up Paddleboard" title="NSI SUP Rail Guards Stand Up Paddleboard" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/rail-guards-stand-paddleboard-p-2611.html">NSI SUP Rail Guards Stand Up Paddleboard</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-suction-mount-p-3158.html"><img src="images/gopro_suction_cup_mount.jpg" class=""   alt="GoPro Suction Cup Mount" title="GoPro Suction Cup Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-suction-mount-p-3158.html">GoPro Suction Cup Mount</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

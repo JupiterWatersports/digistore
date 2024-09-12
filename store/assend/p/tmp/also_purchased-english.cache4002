@@ -1,0 +1,9 @@
+s:1309:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2013-north-p-3591.html"><img src="images/2013_evo_bluegreen(sm).jpg" class=""   alt="2013 North Evo" title="2013 North Evo" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2013-north-p-3591.html">2013 North Evo</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/mystic-warrior-2013-p-3835.html"><img src="images/2013-mystic-warrior-red(sm).jpg" class=""   alt="Mystic Warrior 2013" title="Mystic Warrior 2013" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/mystic-warrior-2013-p-3835.html">Mystic Warrior 2013</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-surface-vest-p-3298.html"><img src="images/SurfaceVest_Black.jpg" class=""   alt="Dakine Surface Vest" title="Dakine Surface Vest" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-surface-vest-p-3298.html">Dakine Surface Vest</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

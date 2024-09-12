@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.label-wrapper{border:1px solid; margin:5px;}
+.content_gen{display:none;}
+.wrapper{width:auto;}
+body{font-size:12px;}
+img.header-img{width:35%;}
+.result_container img{height:70px;}
+
+

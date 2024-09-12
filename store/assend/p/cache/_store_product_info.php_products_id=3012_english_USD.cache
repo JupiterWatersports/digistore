@@ -1,0 +1,405 @@
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN"> <html dir="LTR" lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" > <title>North Vegas 2011 Kitesurf Kiteboard Kite</title> <meta name="Description" content="North Vegas 2011 Kitesurf Kiteboard Kite is aimed at the intermediate/advanced rider looking for a c kite that will help them progress." > <meta name="Keywords" content="North,Vegas,2011,Kite,kitesurf,kiteboard" > <meta http-equiv="Content-Language" content="ru-RU" > <meta name="googlebot" content="all" > <meta name="robots" content="noodp" > <meta name="slurp" content="noydir" > <meta name="robots" content="index, follow" > <link rel="canonical" href="http://jupiterkiteboarding.com/store/north-vegas-2011-kite-p-3012.html?<osCsid>" > <!-- EOF: Header Tags SEO Generated Meta Tags --> <link rel="alternate" media="only screen and (max-width: 640px)" href="http://jupiterkiteboarding.com/store/mobile_product_info.php?products_id=3012" > <base href="http://jupiterkiteboarding.com/store/"> <link rel="stylesheet" type="text/css" href="stylesheet.css"> <link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" /> <script type="text/javascript" src="js/prototype.js"></script> <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script> <script type="text/javascript" src="js/lightbox.js"></script> <script type="text/javascript">
+function getxmlHttpObj()
+{
+		var xmlHttp;
+		try
+		{
+			// Firefox, Opera 8.0+, Safari
+			xmlHttp=new XMLHttpRequest();
+		}
+		catch (e)
+		{
+			// Internet Explorer
+			try
+			{
+				xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+			}
+			catch (e)
+			{
+				try
+				{
+					xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				catch (e)
+				{
+					alert("Your browser does not support AJAX!");
+					return false;
+				}
+			}
+		}
+		return xmlHttp;
+}
+
+function getPrice(sp_price,price,product_id,attr_arr)
+{
+		opt_id = document.getElementById("optionsid").value;
+
+		xmlHttpObj = getxmlHttpObj();
+
+		xmlHttpObj.onreadystatechange=function()
+		{
+			if(xmlHttpObj.readyState==4)
+			{
+				document.getElementById("display_price").innerHTML =  xmlHttpObj.responseText;
+			}
+		}
+		xmlHttpObj.open("GET","ajax_onchange_price.php?sp_price="+sp_price+"&price="+price+"&option_id="+opt_id+"&product_id="+product_id+"&product_opt="+attr_arr,true);
+		xmlHttpObj.send();
+		
+}
+</script> </head> <body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0"> <a name="North Vegas 2011 Kitesurf Kiteboard Kite"></a> <table width="950" border="0" cellspacing="0" cellpadding="1" bgcolor="#dedede" align="center" > <tr> <td><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"> <tr> <td> <!-- header //--> <style>
+body {
+	background-color:#000;
+}
+</style> <body> <table border="0" width="100%" cellspacing="0" cellpadding="1"> <tr class="headerNavigation"> <td align="right" height="15" style="padding:0px 10px 0px 10px; color: #3879C8;" bgcolor='#E5E5E5'><span class="headerNavigationtop"><a href="https://www.jupiterkiteboarding.com/store/account.php" class="headerNavigationtop">My Account</a> &nbsp;|&nbsp; <a href="http://jupiterkiteboarding.com/store/shopping_cart.php" class="headerNavigationtop">Cart Contents</a> &nbsp;|&nbsp; <a href="https://www.jupiterkiteboarding.com/store/checkout_shipping.php" class="headerNavigationtop">Checkout</a> &nbsp; | &nbsp;<a href="http://jupiterkiteboarding.com/store/specials.php" class="headerNavigationtop">Specials</a> 
+    &nbsp; | &nbsp;<a href="http://jupiterkiteboarding.com/store/products_new.php" class="headerNavigationtop">New Products</a> &nbsp; | &nbsp;<a href="http://jupiterkiteboarding.com/store/reviews.php" class="headerNavigationtop">Reviews</a>&nbsp; | &nbsp;<a href="https://www.jupiterkiteboarding.com/store/contact_us.php" class="headerNavigationtop">Contact us</a>&nbsp; | &nbsp;<a href="http://jupiterkiteboarding.com/store/tracking.php" class="headerNavigationtop">Order Tracking</a>&nbsp; |</span></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr class="header"> <td height="65" valign="middle"></a><img src="../../images/summerlogo4.jpg" width="288" height="120"></td> <td><img src="images/northheader.jpg"></img></td> </tr> </table> <table  BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%> <tr class="headerNavigation" valign=middle align=left style="background:#E5E5E5"> <td width="14%" height="28" class="headerNavigation" style="padding-left:5px;"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/kiteboarding-c-611.html">Kiteboarding</a></td> <td width="16%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/paddleboarding-c-612.html">Paddleboarding</a></td> <td width="15%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/wakeboarding-c-200.html">Wakeboarding</a></td> <td width="8%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/gopro-c-551.html">GoPro</a></td> <td width="13%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/water-wear-c-67.html">Water Wear</a></td> <td width="13%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/windsurfing-c-549.html">Windsurfing</a></td> <td width="13%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/skate-balance-boards-c-582.html">Long Boards</a></td> <td width="8%" class="headerNavigation"><a class="headerNavigation" href="http://jupiterkiteboarding.com/store/surfing-c-627.html">Surfing</a></td> </tr> </table><table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr class="headerCrumb"> <td height="28" class="headerCrumb" valign="middle" style="padding:0px 10px 0px 2px">&nbsp;&nbsp;<a href="http://jupiterkiteboarding.com" class="headerCrumb">Home</a> &raquo; <a href="http://jupiterkiteboarding.com/store/index.php" class="headerCrumb">Shop Online</a> &raquo; <a href="http://jupiterkiteboarding.com/store/kiteboarding-c-611.html" class="headerCrumb">Kiteboarding</a> &raquo; <a href="http://jupiterkiteboarding.com/store/kiteboarding-kitesurfing-kites-c-611_45.html" class="headerCrumb">Kitesurfing Kites</a> &raquo; <a href="http://jupiterkiteboarding.com/store/kitesurfing-kites-north-kites-c-611_45_56.html" class="headerCrumb">North Kites</a> &raquo; <a href="http://jupiterkiteboarding.com/store/north-vegas-2011-kite-p-3012.html" class="headerCrumb"></a></td> <td  align="right" style="padding:0px 11px 0px 10px" class="headerCrumb" valign="middle"> <table cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle"> <!-- search_box_oef //--> <form name="quick_find" action="http://jupiterkiteboarding.com/store/advanced_search_result.php?<osCsid>" method="get"><input type="hidden" name="search_in_description" value="1"><input type="text" name="keywords" size="10" maxlength="30" style="width: 135px; height:20px; font-size:12px;" onclick="this.value=''"><td  style="vertical-align: top; padding:0px 0px 0px 10px;"><input type="image" src="includes/languages/english/images/buttons/button_quick_find.gif" border="0" alt="Quick Find" title=" Quick Find "></a></form></td></tr></table></td></td> </tr> </table> </tr> </table> <!-- header_eof //--> <!-- body //--> <table border="0" width="100%" cellspacing="1" cellpadding="1" height="STORE_HEIGHT"bgcolor="#FFFFFF"> <tr> <td width="160" valign="top"><table border="0" width="160" cellspacing="0" cellpadding="2"> <!-- left_navigation //--> <script type="text/javascript" src="jquery.min.js"></script> <script type="text/javascript" src="ddaccordion.js">
+
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script> <script type="text/javascript">
+
+
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='images/plus.gif' class='statusicon' />", "<img src='images/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+		jQuery(".submenu").show();	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+		if(isuseractivated){
+			if(state=='block') window.location.href=header;
+		}
+	}
+})
+
+
+</script> <style type="text/css">
+
+.glossymenu{
+margin: 5px 0;
+padding: 0;
+width: 100%; /*width of menu*/
+border-bottom-width: 0;
+color:#000;
+font-family: Tahoma,Verdana,Arial,sans-serif;
+font-size:11px;
+}
+
+.glossymenu a.menuitem{
+	color: #000;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	width: auto;
+	padding: 4px 0;
+	padding-left: 10px;
+	text-decoration: none;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: #000;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+	color: #2A7CC8;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-family: Tahoma,Verdana,Arial,sans-serif;
+font-size:12px;
+}
+
+.glossymenu div.submenu ul li{
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+	colorz: #000;
+	color: #CCC;
+	background-color: #0E5ABC;
+}
+
+</style> <tr> <td valign="top" class="main"> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">Browse Store</td> <td height="14" class="infoBoxHeading" nowrap><img src="images/infobox/corner_right.gif" border="0" alt="" width="11" height="25"></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" height="100%"  width="100%" style="margin-top:1px;" class="infoBox"> <tr> <td valign="top" style="padding:1px; "> <table border="0" cellpadding="0" cellspacing="0" height="100%"  width="100%" style="margin-top:1px;" class="infoBox"> <tr> <td valign="top" style="padding:1px;" class="infoBoxContents"> <div class="glossymenu"><a id="menuitemcPath=611" class="menuitem submenuheader" href="http://jupiterkiteboarding.com/store/kiteboarding-c-611.html?<osCsid>">Kiteboarding</a><div class="submenu"><ul><li><a href="http://jupiterkiteboarding.com/store/kiteboarding-trainer-kites-lessons-c-611_587.html?<osCsid>">Trainer Kites and Lessons</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-kitesurfing-kites-c-611_45.html?<osCsid>">Kitesurfing Kites</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-accessories-c-611_36.html?<osCsid>">Accessories</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-kiteboards-fins-pads-straps-c-611_305.html?<osCsid>">Kiteboards, Fins, Pads & Straps</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-harnesses-c-611_312.html?<osCsid>">Harnesses</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-kiteboarding-packages-c-611_49.html?<osCsid>">Kiteboarding Packages</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-control-bars-lines-c-611_62.html?<osCsid>">Control Bars & Lines</a> <a href="http://jupiterkiteboarding.com/store/kiteboarding-kite-bladder-board-repair-c-611_65.html?<osCsid>">Kite, Bladder & Board Repair</a> </li></ul></div></div> </td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- show_subcategories_eof //--> <!-- manufacturers //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">Manufacturers</td> <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td class="boxText"><form name="manufacturers" action="http://jupiterkiteboarding.com/store/index.php?<osCsid>" method="get"><select name="mp_id" onChange="this.form.submit();" size="1" style="width: 100%"><option value="" SELECTED>Please Select</option><option value="53">AirTime</option><option value="68">Airush</option><option value="65">Alex Aguera</option><option value="89">Amsteel</option><option value="72">Aquaglide</option><option value="106">Aquapac</option><option value="112">Arbor</option><option value="77">Banshee Bungee</option><option value="73">Bic SUP</option><option value="56">BoardFisher</option><option value="128">Boardworks</option><option value="37">C4 Waterman</option><option value="10">Cabrinha</option><option value="123">CamelBak</option><option value="127">CamelBak</option><option value="78">Chinook</option><option value="125">Continental</option><option value="16">Crazyfly</option><option value="21">Dakine</option><option value="62">Ding All</option><option value="86">Doc Martin&#039;s</option><option value="115">DocksLocks</option><option value="49">Dry Case</option><option value="110">Ez Kine</option><option value="88">Fibre Glas Fin ..</option><option value="52">Fix My Kite</option><option value="121">Futures</option><option value="129">Gas</option><option value="59">Gatekeeper</option><option value="46">Gath</option><option value="38">Global Surf</option><option value="61">GoPro</option><option value="99">High Surf Acces..</option><option value="75">Hobie</option><option value="95">Indo</option><option value="118">ION</option><option value="20">Jimmy Lewis</option><option value="85">Jupiter</option><option value="105">Kaenon</option><option value="71">Kahuna Creation..</option><option value="81">King Surf Hawai..</option><option value="51">Kite Fix</option><option value="67">Kite Hero</option><option value="109">Lift SUP</option><option value="23">Liquid Force</option><option value="47">Litewave</option><option value="63">MBS</option><option value="108">Mike Waltz Film..</option><option value="57">Mule Transport ..</option><option value="117">Mustang</option><option value="42">Mystic</option><option value="30">Naish</option><option value="18">Nobile</option><option value="11">North</option><option value="132">NP</option><option value="39">NPX</option><option value="43">NSI</option><option value="74">NSP</option><option value="54">OAM</option><option value="91">Ocean Eyes</option><option value="87">Ocean Potion</option><option value="29">Ozone</option><option value="116">Penny</option><option value="96">Peter Grimm</option><option value="104">PFD In A Bag</option><option value="131">PhixDoctor</option><option value="126">PKS</option><option value="111">Powerline Sport..</option><option value="26">Premier</option><option value="60">Pro Kite Surf</option><option value="48">Pro-tec</option><option value="92">Progression</option><option value="84">Prolimit</option><option value="40">Quickblade</option><option value="114">Rack-it-Up</option><option value="69">Rainbow Fin Com..</option><option value="97">Rainbow Sandals</option><option value="64">Riviera Paddles..</option><option value="13">RRD</option><option value="102">SBC Kiteboard M..</option><option value="44">Sea Specs</option><option value="82">Sean Ordonez</option><option value="50">Shapers</option><option value="58">Skywatch</option><option value="12">Slingshot</option><option value="107">Sticky Bumps</option><option value="119">Straight Line</option><option value="113">SUP WHeels</option><option value="133">SUPThings</option><option value="55">Surf Co. Hawaii</option><option value="120">Surf Nano Produ..</option><option value="45">Surf Shades</option><option value="34">Surftech</option><option value="80">Tahoe</option><option value="70">Thule</option><option value="122">Triple 8</option><option value="124">UKPRO</option><option value="66">ULI</option><option value="19">Underground</option><option value="94">VewDo</option><option value="35">Wainman Hawaii</option><option value="83">Walden</option><option value="130">Watermans</option><option value="36">Werner</option><option value="98">West</option><option value="79">Yakima</option><option value="33">YOLO</option></select></form></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- manufacturers_eof //--> <!-- specials //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">Specials</td> <td height="14" class="infoBoxHeading" nowrap><a href="http://jupiterkiteboarding.com/store/specials.php?<osCsid>"><img src="images/infobox/arrow_right.gif" border="0" alt="more" title=" more " width="12" height="25"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td align="center" class="boxText"><a href="http://jupiterkiteboarding.com/store/progression-instructional-kiteboard-beginner-edit-p-152.html?<osCsid>"><img src="images/progressionDVD_beginner.jpg" border="0" alt="Progression 1 Instructional Kiteboard Beginner DVD 2nd Edit" title=" Progression 1 Instructional Kiteboard Beginner DVD 2nd Edit " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/progression-instructional-kiteboard-beginner-edit-p-152.html?<osCsid>">Progression 1 Instructional Kiteboard Beginner DVD 2nd Edit</a><br><s>$32.95</s><br><span class="productSpecialPrice">$29.95</span></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- specials_eof //--> <!-- whats_new //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">What's New?</td> <td height="14" class="infoBoxHeading" nowrap><a href="http://jupiterkiteboarding.com/store/products_new.php?<osCsid>"><img src="images/infobox/arrow_right.gif" border="0" alt="more" title=" more " width="12" height="25"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td align="center" class="boxText"><a href="http://jupiterkiteboarding.com/store/hummer-2013-p-3584.html?<osCsid>"><img src="images/2013_ion_hummer_blackgreen(Sm).jpg" border="0" alt="Ion Hummer 2013" title=" Ion Hummer 2013 " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/hummer-2013-p-3584.html?<osCsid>">Ion Hummer 2013</a><br>&nbsp;$189.95&nbsp;</td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- whats_new_eof //--> <!-- reviews //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">Reviews</td> <td height="14" class="infoBoxHeading" nowrap><a href="http://jupiterkiteboarding.com/store/reviews.php?<osCsid>"><img src="images/infobox/arrow_right.gif" border="0" alt="more" title=" more " width="12" height="25"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td class="boxText"><table border="0" cellspacing="0" cellpadding="2"><tr><td class="infoBoxContents"><a href="http://jupiterkiteboarding.com/store/product_reviews_write.php?products_id=3012&<osCsid>"><img src="images/box_write_review.gif" border="0" alt="Write Review" title=" Write Review " width="200" height="200"></a></td><td class="infoBoxContents"><a href="http://jupiterkiteboarding.com/store/product_reviews_write.php?products_id=3012&<osCsid>">Write a review on this product!</a></td></tr></table></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- reviews_eof //--> <!-- shopinfo //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">Infomation</td> <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td class="boxText"><a href="http://jupiterkiteboarding.com/store/shipping-i-35.html?<osCsid>"  class="menuBoxLink">Shipping</a><br><a href="http://jupiterkiteboarding.com/store/conditions-of-use-i-2.html?<osCsid>"  class="menuBoxLink">Conditions of Use</a><br><a href="http://jupiterkiteboarding.com/store/privacy-i-3.html?<osCsid>"  class="menuBoxLink">Privacy</a><br><a href="http://jupiterkiteboarding.com/store/about-us-i-33.html?<osCsid>"  class="menuBoxLink">About us</a><br><a href="http://jupiterkiteboarding.com/store/contact_us.php?<osCsid>">Contact Us</a><br><a href="http://jupiterkiteboarding.com/store/sitemap.php?<osCsid>">Site Map</a><br><a href="http://jupiterkiteboarding.com/store/tracking.php?<osCsid>">Order Tracking</a><br></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- information_eof //--> <!-- tell_a_friend //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">Tell A Friend</td> <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td align="left" class="boxText"><form name="tell_a_friend" action="http://jupiterkiteboarding.com/store/tell_a_friend.php?<osCsid>" method="get"><input type="text" name="to_email_address" size="10">&nbsp;<input type="image" src="includes/languages/english/images/buttons/button_tell_a_friend.gif" border="0" alt="Tell A Friend" title=" Tell A Friend "><input type="hidden" name="products_id" value="3012"><br>Tell someone you know about this product.</form></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- tell_a_friend_eof //--> <!-- recently_viewed //--> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> <td width="100%" height="14" class="infoBoxHeading">&nbsp;Recently Viewed</td> <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents"> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> <tr> <td align="left" class="boxText"><a href="http://jupiterkiteboarding.com/store/2012-cabrinha-switchblade-p-3064.html?<osCsid>"><img src="images/2012_Cab_SB_2(sm).jpg" border="0" alt="2012 Cabrinha Switchblade" title=" 2012 Cabrinha Switchblade " width="200" height="200" hspace="2" vspace="3"><br>
+ 2012 Cabrinha Switchblade<br>
+$804.30</a></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- recently_viewed_eof //--> <!-- left_navigation_eof //--> </table></td> <!-- body_text //--> <td width="100%" valign="top"><form name="cart_quantity" action="http://jupiterkiteboarding.com/store/north-vegas-2011-kite-p-3012.html?action=add_product&<osCsid>" method="post" onSubmit="doAddProduct(this); return false;"> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tr> <td><table width="100%" border="0" cellspacing="0" cellpadding="0"> <tr> <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> <tr> <td></td> </tr> <tr> <td> <img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td> </tr> <tr> <td class="main"><table width="100%" border="0" cellspacing="0" cellpadding="0"> <tr> <td width="30%"> <table width="70%" border="0" align="center" cellpadding="0" cellspacing="0"> <tr> <td> <table border="0" cellspacing="0" cellpadding="2" align="right"> <tr> <td align="center" class="smallText"> <!-- // BOF MaxiDVD: Modified For Ultimate Images Pack! //--> </td> </tr> </table> <a href="http://jupiterkiteboarding.com/store/images/north_vegas_03.jpg?<osCsid>" target="_blank" rel="lightbox[product]" title="North Vegas 2011 Kite"><img src="images/north_vegas_01A.jpg" border="0" alt="North Vegas 2011 Kite" title=" North Vegas 2011 Kite " width="200" height="200" hspace="1" vspace="1"><br/><img src="includes/languages/english/images/buttons/image_enlarge.gif" border="0" alt="Click to enlarge" title=" Click to enlarge " width="65" height="18"></a> <!-- // EOF MaxiDVD: Modified For Ultimate Images Pack! //--> </td> </tr> </table></td> <td width="20%" align="left"> <table width="46" border="0" cellpadding="2" cellspacing="0"> <tr> <td class="main" colspan="2">&nbsp;Available Options:</td> </tr> <tr> <td width="77" class="main">&nbsp;Kite Package:</td> <td class="main"> <select name="id[46]"  id="cmbooption_1"  onclick="calculateOptionsPrice()" onchange="calculateOptionsPrice()"  ><option value="640">Kite Only</option><option value="859">Kite Complete (+$343.00)</option></select></td> </tr> <tr> <td width="77" class="main">&nbsp;Kite Only:</td> <td class="main"> <select name="id[60]"  id="cmbooption_2"  onclick="calculateOptionsPrice()" onchange="calculateOptionsPrice()"  ><option value="872">12 Meter (+$245.00)</option></select></td> </tr> </table> <script>
+				var basePrice=650.00;
+				var allOptions=[46,60];
+				function calculateOptionsPrice(){
+					if(allOptions.length==0) return;
+					var prod_base=basePrice;
+					var prod_diff=0;
+					
+					for(i=0;i<allOptions.length;i++){
+						var obj=document.getElementsByName('id['+allOptions[i]+']')[0];
+						
+						if(obj.value){
+							var opt_id=allOptions[i];
+							var opt_val=obj.value;
+							
+							if(opt_id==46){try{ if(opt_val==859){prod_diff+=343.00;} }catch(e){}}if(opt_id==60){try{ if(opt_val==872){prod_diff+=245.00;} }catch(e){}}						}
+					
+					}
+					
+					//alert(prod_base+prod_diff);
+					
+					document.getElementById("totalstr").innerHTML='<b>Total Price: </b> $'+(prod_base+prod_diff).toFixed(2);
+				
+				
+				}
+				
+				</script> <input type="hidden" name="optionsid" id="optionsid" value="46,60" /> </td> <td width="49%"><table width="100%" border="0" cellspacing="0" cellpadding="0"> <tr valign="top"> <td class="headerproduct"> <table width="0" border="0" cellspacing="0" cellpadding="0" align="right"> <tr> <td> <a href="http://jupiterkiteboarding.com/store/2012-north-rebel-p-3124.html?<osCsid>"><img src="includes/languages/english/images/buttons/button_next_product.gif" border="0" alt="Next Product" title=" Next Product " width="23" height="18"></a>
+                                                      &nbsp;</td> </tr> </table></td> </tr> <tr valign="top"> <td class="headerproduct"><font size="2"><h1><B>North Vegas 2011 Kite<br><span class="smallText">[Stock Code: NORTHVEG11]</span></b></h1> </font><br> </td> </tr> <tr> <td class="smalltextgray">This product was added to our catalog on 06/09/2011.</td> </tr> <tr> <td >&nbsp;</td> </tr> <tr> <td align="right"><font color="#5680A9"><table id="display_price" class="" align="right" border="0" width="100%" cellspacing="0" cellpadding="0"><tr class="PriceListBIG"><td align="left">&nbsp;MSRP:&nbsp;$929.95</td></tr><tr class="pricenowBIG"><td align="left">&nbsp;Our&nbsp;Price:&nbsp;$650.00</td></tr><tr class="savingBIG"><td ="left" >&nbsp;You&nbsp;Save&nbsp;:&nbsp;$279.95&nbsp;(30%)</td></tr></table></font> <br clear="both" /> <div style="text-align:left;padding:3px 5px;float:left; color:#000;" class="savingBIG"  id="totalstr"></div> <script>
+											  calculateOptionsPrice();
+											  </script> </td> </tr> <tr> <td>&nbsp;</td> </tr> <tr> <td><input type="hidden" name="products_id" value="3012"><input type="image" src="includes/languages/english/images/buttons/button_in_cart1.gif" border="0" alt="Add to Cart" title=" Add to Cart "> <img src="images/pixel_trans.gif" border="0" alt="" width="10px" height="10"> <a href="http://jupiterkiteboarding.com/store/product_reviews_write.php?products_id=3012&<osCsid>"><img src="includes/languages/english/images/buttons/button_write_review.gif" border="0" alt="Write Review" title=" Write Review " width="98" height="18"></a> <img src="images/pixel_trans.gif" border="0" alt="" width="10px" height="10"> <a target="_blank" href="http://jupiterkiteboarding.com/store/product_print.php?products_id=3012&<osCsid>"><img src="includes/languages/english/images/buttons/button_product_print.gif" border="0" alt="Print Product" title=" Print Product " width="98" height="18"></A> <td class="main"> <div align="left"> </div> </td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="10px" height="10"> </td> </tr> </table></td> </tr> </table></td> </tr> <tr> <td class="main" > <table width="98%" border="0" align="center" cellpadding="3" cellspacing="2"> <tr> <td class="main"><br> <B>Products Description:</B></td> </tr> </table> <table width="98%" border="0" align="center" cellpadding="3" cellspacing="2"> <tr> <td class="productDesc"> <p><style type="text/css"> <!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"&#65325;&#65331; &#26126;&#26397;";
+	mso-font-charset:78;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"&#65325;&#65331; &#26126;&#26397;";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"&#65325;&#65331; &#26126;&#26397;";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:709308555;
+	mso-list-template-ids:-372978692;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61623;;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:&#61607;;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--> </style><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">The 2011 North Vegas kite is a pure C-shape freestyle and freeride design that embodies radical new-school kiteboarding and delivers the precision feel needed to stomp today's most technical tricks and challenge tomorrow's limits. A non-compromise design that delivers massive pop, steady pull and a predictable, direct turning radius. Pull the trigger on massive mega-loops or unhook and launch into a mobe with the assurance of rock-solid pull and steadiness. The Vegas delivers high de-power with the widest range of use although it&rsquo;s a C-kite and gives you virtually no de-power for full-on powered wakestyle. The 2011 Vegas: Style and conviction without compromise.</span></p> <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" class="MsoNormal"><b><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">Construction details 2011:</span></b></p> <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" class="MsoNormal"><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">&bull; Fusion 11_unique leading edge to strut connection<br />
+&bull; Relaunch bungees<br />
+&bull; North Pulley<br />
+&bull; Easy Pump _inclusive custom North valves<br />
+&bull; Glued Overlap Seam<br />
+&bull; Dacron Trailing Edge<br />
+&bull; Insignia Tape _highest stability<br />
+&bull; New Pigtails _with Dacron reinforcements (doubled and converted cleanest)<br />
+&bull; Leading Edge Seam Construction<br />
+&bull; New Cam Batten ends with Monofilm<br />
+&bull; 20mm Strut ends and Strut zipper _for easy bladder exchange<br />
+&bull; Triangular Canopy Reinforcements at the strut nose<br />
+&bull; TE Battens<br />
+&bull; Triangular TE Patches<br />
+&bull; Kevlar patches<br /> <br /> </span></p> <p style="" class="MsoNormal"><span style="font-size: 10pt; font-family: Tahoma;"><b>DEFLATOR PIN:</b></span></p> <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" class="MsoNormal"><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">The low-drag ribs require a high inflation pressure, thus all valves at the chambers of the Rhino06 are self-closing. Thanks to the worked-in drainage functionality, the air can be let out within a few seconds.</span></p> <p style="" class="MsoNormal">&nbsp;</p> <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" class="MsoNormal"><b><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">5TH&nbsp;ELEMENT&nbsp;BAR:</span></b></p> <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" class="MsoNormal"><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">Still one step ahead, the fifth edition of our tried and tested 5th Element Bar is possibly the most effective and trustworthy safety system on the market. 2010 nearly any Kiteboarding magazine declared it the test winner. The Iron Heart III requires minimal release forces and is not affected by harsh sand and saltwater conditions. The double de-power line in combination with the Sliding Stopper and Stopper Ball ensures that the bar is always where you want it to be in all situations. Our small, lightweight Vario Cleat allows you to quickly and easily adjust it to your desired de-power stroke while the system automatically trims your lines to the perfect length. If the dangling trim line has ever interfered with your flow in the past, you can now forget about it focus on your riding: Simply Velcro the dangling portion to the stopper ball so it&rsquo;s never in your way. The Micro Loop is no longer an integrated feature, but for those who like the comfort of riding with fixed power, the system can quickly and easily be fitted.<br />
+Riders of all skill levels, from newcomers to pros, will benefit from the simplicity and functionality of the new 5th Element Bar Trust Bar and Iron Heart IV.</span></p> <div align="center" style="text-align:center" class="MsoNormal"><span style="font-size:10.0pt;font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;"> <hr width="100%" size="2" align="center" /> </span></div> <p style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto" class="MsoNormal"><b><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:&quot;Times New Roman&quot;">SIZES: KITE</span></b><span style="font-size:10.0pt;font-family:Tahoma;mso-bidi-font-family:
+&quot;Times New Roman&quot;"> </span></p> <ul type="disc"> <li style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+    mso-list:l0 level1 lfo1;tab-stops:list .5in" class="MsoNormal"><span style="font-size:10.0pt;
+    font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+    &quot;Times New Roman&quot;">14 sqm - (MSRP $1869 - Kite Complete) &ndash; (MSRP $1379 -      Kite Only)</span></li> <li style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+    mso-list:l0 level1 lfo1;tab-stops:list .5in" class="MsoNormal"><span style="font-size:10.0pt;
+    font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+    &quot;Times New Roman&quot;">12 sqm - (MSRP $1769 - Kite Complete) &ndash; (MSRP $1279 -      Kite Only)</span></li> <li style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+    mso-list:l0 level1 lfo1;tab-stops:list .5in" class="MsoNormal"><span style="font-size:10.0pt;
+    font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+    &quot;Times New Roman&quot;">10 sqm - (MSRP $1669 - Kite Complete) &ndash; (MSRP $1179 -      Kite Only)</span></li> <li style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+    mso-list:l0 level1 lfo1;tab-stops:list .5in" class="MsoNormal"><span style="font-size:10.0pt;
+    font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+    &quot;Times New Roman&quot;">9 sqm - (MSRP $1619 - Kite Complete) &ndash; (MSRP $1129 -      Kite Only)</span></li> <li style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+    mso-list:l0 level1 lfo1;tab-stops:list .5in" class="MsoNormal"><span style="font-size:10.0pt;
+    font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+    &quot;Times New Roman&quot;">7 sqm - (MSRP $1519 - Kite Complete) &ndash; (MSRP $1029 -      Kite Only)</span></li> <li style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+    mso-list:l0 level1 lfo1;tab-stops:list .5in" class="MsoNormal"><span style="font-size:10.0pt;
+    font-family:Tahoma;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+    &quot;Times New Roman&quot;">5 sqm - (MSRP $1419 - Kite Complete) &ndash; (MSRP $929 -      Kite Only)&nbsp;</span></li> </ul> <hr /> <p><span style="font-size: xx-small;"><em><strong><span style="font-family: Tahoma;">Sizes listed may not always reflect immediate availability.</span></strong></em></span><span style="font-size: 8.5pt; font-family: 'Tahoma','sans-serif';"><br /> </span><span style="font-size: 8.5pt; font-family: 'Tahoma','sans-serif';"><span style="font-size: xx-small;"><em><strong><span style="font-family: Tahoma;"><br /> </span></strong></em></span></span></p> <p>&nbsp;</p><br> <!-- BOF Bundled Products--> <!-- EOF Bundled Products--> </td> </tr> </table></form> </td> </tr> <!-- // BOF MaxiDVD: Modified For Ultimate Images Pack! //--> <tr> <td> <table width="100%"> <tr> <td align="center" class="smallText"> <a href="http://jupiterkiteboarding.com/store/images/north_vegas_02.jpg?<osCsid>" rel="lightbox[product]"><img src="images/north_vegas_02(sm).jpg" border="0" alt="North Vegas 2011 Kite" title=" North Vegas 2011 Kite " width="200" height="200" hspace="1" vspace="1"><br><img src="includes/languages/english/images/buttons/image_enlarge.gif" border="0" alt="Click to enlarge" title=" Click to enlarge " width="65" height="18"></a> </td> <td align="center" class="smallText"> <a href="http://jupiterkiteboarding.com/store/images/north_vegas_03.jpg?<osCsid>" rel="lightbox[product]"><img src="images/north_vegas_03(sm).jpg" border="0" alt="North Vegas 2011 Kite" title=" North Vegas 2011 Kite " width="200" height="200" hspace="1" vspace="1"><br><img src="includes/languages/english/images/buttons/image_enlarge.gif" border="0" alt="Click to enlarge" title=" Click to enlarge " width="65" height="18"></a> </td> <td align="center" class="smallText"> <a href="http://jupiterkiteboarding.com/store/images/north_vegas_01.jpg?<osCsid>" rel="lightbox[product]"><img src="images/north_vegas_01(sm).jpg" border="0" alt="North Vegas 2011 Kite" title=" North Vegas 2011 Kite " width="200" height="200" hspace="1" vspace="1"><br><img src="includes/languages/english/images/buttons/image_enlarge.gif" border="0" alt="Click to enlarge" title=" Click to enlarge " width="65" height="18"></a> </td> </tr> <tr> <td align="center" class="smallText"> <a href="http://jupiterkiteboarding.com/store/images/north_vegas_05.jpg?<osCsid>" rel="lightbox[product]"><img src="images/north_vegas_05(sm).jpg" border="0" alt="North Vegas 2011 Kite" title=" North Vegas 2011 Kite " width="200" height="200" hspace="1" vspace="1"><br><img src="includes/languages/english/images/buttons/image_enlarge.gif" border="0" alt="Click to enlarge" title=" Click to enlarge " width="65" height="18"></a> </td> <td align="center" class="smallText"> <a href="http://jupiterkiteboarding.com/store/images/north_vegas_04.jpg?<osCsid>" target="_blank" rel="lightbox[product]"><img src="images/north_vegas_04(sm).jpg" border="0" alt="North Vegas 2011 Kite" title=" North Vegas 2011 Kite " width="200" height="200" hspace="1" vspace="1"><br><img src="includes/languages/english/images/buttons/image_enlarge.gif" border="0" alt="Click to enlarge" title=" Click to enlarge " width="65" height="18"></a> </td> <td></td> </tr> </table> </td> </tr> <!-- // BOF MaxiDVD: Modified For Ultimate Images Pack! //--> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td> </tr> <tr> <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"> <tr> <td> <!--- BEGIN Header Tags SEO Social Bookmarks --> <!--- END Header Tags SEO Social Bookmarks --> <HR> <BR> </td> </tr> </table> </td> </tr> <tr><td> <!-- xsell_products //--> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td> <td height="14" class="infoBoxHeading" width="100%">We Also Recommend :</td> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents"> <tr> <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/2012-north-select-p-3126.html?<osCsid>"><img src="images/north_2012_select_deck.jpg" border="0" alt="2012 North Select" title=" 2012 North Select " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/2012-north-select-p-3126.html?<osCsid>">2012 North Select</a><br>$820.99<br></td> <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/north-transformer-soul-2011-seat-harness-p-2381.html?<osCsid>"><img src="images/north_transformersoul_01.jpg" border="0" alt="North Transformer Soul 2011 Seat Harness" title=" North Transformer Soul 2011 Seat Harness " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/north-transformer-soul-2011-seat-harness-p-2381.html?<osCsid>">North Transformer Soul 2011 Seat Harness</a><br>$169.99<br></td> <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/mystic-warrior-len10-2011-p-2411.html?<osCsid>"><img src="images/mystic_warrior3allover_02_a(sm).jpg" border="0" alt="Mystic Warrior III Len10 2011" title=" Mystic Warrior III Len10 2011 " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/mystic-warrior-len10-2011-p-2411.html?<osCsid>">Mystic Warrior III Len10 2011</a><br>$215.95<br></td> </tr> </table> </td> </tr> </table> <!-- xsell_products_eof //--> <br /> </td></tr> <!-- recently_viewed //--> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td> </tr> <tr> <td> <table border="0" width="100%" cellspacing="0" cellpadding="0"> <tr> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td> <td height="14" class="infoBoxHeading" width="100%">&nbsp;Recently Viewed</td> <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td> </tr> </table> <table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox"> <tr> <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents"> <tr> <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/2012-cabrinha-switchblade-p-3064.html?<osCsid>"><img src="images/2012_Cab_SB_2(sm).jpg" border="0" alt="2012 Cabrinha Switchblade" title=" 2012 Cabrinha Switchblade " width="200" height="200" hspace="2" vspace="3"><br>
+ 2012 Cabrinha Switchblade</a><br>
+$804.30</td> </tr> </table> </td> </tr> </table> </td> </tr> <!-- recently_viewed_eof //--> <tr> <td> </td> </tr> <tr> <td>&nbsp;</td> </tr> <tr> <td>&nbsp;</td> </tr> </table></td> </tr> </table></td> </tr> <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td> </tr> <tr> <td class="smallText" align="center">Currently viewing:&nbsp;
+        <a title="North Vegas 2011 Kitesurf Kiteboard Kite" href="http://jupiterkiteboarding.com/store/north-vegas-2011-kite-p-3012.html?<osCsid>"/# North Vegas 2011 Kitesurf Kiteboard Kite">North Vegas 2011 Kitesurf Kiteboard Kite</a> </td> </tr> </table> </td> <!-- body_text_eof //--> </tr> </table> <!-- body_eof //--> <!-- footer //--> <table border="0" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" valign="top"> <tr><td> <table width="100%"  border="0" cellspacing="0" cellpadding="0" height="24" valign="middle"> <tr bgcolor="#000000" class="footerLinks"> <td width="100%" class="footerLinks"> </td> </tr> </table> <table width="100%" height="38"  border="0" cellpadding="0" cellspacing="0" > <tr> <td width="52%" height="40"><table width="100%"  border="0" cellspacing="0" cellpadding="0"> <tr> <td width="3%">&nbsp;</td> <td width="97%" class="footerlinks2" align="left"> 
+  &copy; Jupiter 2012 | 
+  
+  <!-- THIS IS NOT TO BE REMOVED UNLESS AGREED WITH DIGISTORE --> <span style="font-size:10px; color:#999; font-family:Verdana, Arial, sans-serif; padding-right:10px">Powered by <a href="http://www.digistore.co.nz/" style="color:#999" class="notice" target="_blank" >Digistore, Open source e-commerce</a></span> <!-- THIS IS NOT TO BE REMOVED UNLESS AGREED WITH DIGISTORE --> </td> </tr> </table></td> <td width="48%" height="40" align="right"> <img src="images/icons/paypal.jpg" border="0" alt="" width="82" height="26"><img src="images/icons/visa.jpg" border="0" alt="" width="41" height="26"><img src="images/icons/mastercard.jpg" border="0" alt="" width="41" height="26"><img src="images/icons/discover.jpg" border="0" alt="" width="40" height="26"><img src="images/icons/amex.jpg" border="0" alt="" width="40" height="26">	 &nbsp;</td> </tr> <tr> <td> </td> </tr> </table> <table style="text-align:left; padding-left:10px;" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" > <tr> </tr> </table> <table style="text-align:left; padding-left:10px;" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" > <tr> <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td> </tr> <tr> <td align="center" class="footerLinks"> <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script> <script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-19040522-1");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	</script> <!-- footer_eof //--> </td> </tr> </table> </td> </tr> </table> <br> </body> </html>
+
+

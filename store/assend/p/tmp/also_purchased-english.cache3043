@@ -1,0 +1,8 @@
+s:1060:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-aero-rack-long-pair-p-2777.html"><img src="images/DAKINE_AERORACKPADLONG_BLACK.jpg" class=""   alt="Dakine Aero Rack Pad Long Pair" title="Dakine Aero Rack Pad Long Pair" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-aero-rack-long-pair-p-2777.html">Dakine Aero Rack Pad Long Pair</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/chinook-windsurfing-uphaul-line-p-3046.html"><img src="images/Chinook_Uphaul.jpg" class=""   alt="Chinook Windsurfing Uphaul Line" title="Chinook Windsurfing Uphaul Line" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/chinook-windsurfing-uphaul-line-p-3046.html">Chinook Windsurfing Uphaul Line</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

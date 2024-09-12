@@ -1,0 +1,12 @@
+s:1413:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fcs-regular-leash-p-3881.html"><img src="images/fcs-6ft-leash(sm).jpg" class=""   alt="FCS Regular Leash" title="FCS Regular Leash" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fcs-regular-leash-p-3881.html">FCS Regular Leash</a><span class="alsop-product-price">$29.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/dakine-john-john-florence-pro-comp-p-6762.html"><img src="images/dakine john john pro comp leashes_1000.jpeg" class=""   alt="Dakine John John Florence Pro Comp" title="Dakine John John Florence Pro Comp" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/dakine-john-john-florence-pro-comp-p-6762.html">Dakine John John Florence Pro Comp</a><span class="alsop-product-price">$32.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

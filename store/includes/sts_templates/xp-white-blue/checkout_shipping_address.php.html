@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html $htmlparams>
+  <link rel="stylesheet" type="text/css" href="$templatedir/stylesheet.css">
+ <!--$headcontent-->
+<META NAME="Keywords" content="<?php echo $keywordtag; ?>">
+<META NAME="Description" content="<?php if (tep_not_null($cat_description['categories_description'])){
+echo (strip_tags($cat_description['categories_description']));
+} else { echo $description; }?>">
+</head>
+<body bgcolor="#F7F7F7">
+<center>
+<div id="container">
+<table width="100%" border="0" cellspacing="0" cellpadding="1" bgcolor="#C9C9C9">
+  <tr>
+    <td bgcolor="#C9C9C9"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+        <tr>
+          <td>
+<!-- header //-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr class="header">
+    <td height="65" valign="middle"><a href="index.php"><img src="<?php echo DIR_WS_IMAGES ?>/logo.jpg" border="0" alt="<?php echo  STORE_NAME ?>" title="<?php echo  STORE_NAME ?>"></a></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1">
+  <tr class="headerNavigation">
+    <td align="left" class="headerNavigation" height="15"  bgcolor='#E5E5E5'>	 <?php if (tep_session_is_registered('customer_id')) { ?><a href="<?php echo tep_href_link(FILENAME_LOGOFF, '', 'SSL'); ?>" class="headerNavigation"><?php echo HEADER_TITLE_LOGOFF; ?></a> &nbsp;|&nbsp; <?php } ?>
+	 <a href="<?php echo tep_href_link(FILENAME_ACCOUNT, '', 'SSL'); ?>" class="headerNavigation"><?php echo HEADER_TITLE_MY_ACCOUNT; ?></a> &nbsp;|&nbsp; <a href="<?php echo tep_href_link(FILENAME_SHOPPING_CART); ?>" class="headerNavigation"><?php echo HEADER_TITLE_CART_CONTENTS; ?></a> &nbsp;|&nbsp; <a href="<?php echo tep_href_link(FILENAME_CHECKOUT_SHIPPING, '', 'SSL'); ?>" class="headerNavigation"><?php echo HEADER_TITLE_CHECKOUT; ?></a> &nbsp; | &nbsp;<a href="<?php echo tep_href_link(FILENAME_SPECIALS, '', 'SSL'); ?>" class="headerNavigation"><?php echo FOOTER_SPECIALS; ?></a> 
+    &nbsp; | &nbsp;<a href="<?php echo tep_href_link(FILENAME_PRODUCTS_NEW, '', 'SSL'); ?>" class="headerNavigation"><?php echo FOOTER_PRODUCTS_NEW; ?></a> &nbsp; | &nbsp;<a href="<?php echo tep_href_link(FILENAME_ADVANCED_SEARCH, '', 'SSL'); ?>" class="headerNavigation"><?php echo FOOTER_SEARCH; ?></a>&nbsp; | &nbsp;<a href="<?php echo tep_href_link(FILENAME_CONTACT_US, '', 'SSL'); ?>" class="headerNavigation"><?php echo FOOTER_CONTACT; ?>&nbsp; | </a></td>
+
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1">
+  <tr class="headerCrumb">
+    <td height="25" class="headerCrumb" valign="middle">&nbsp;&nbsp;$breadcrumbs</td>
+<td  align="right" class="headerCrumb" valign="middle">
+                     <table cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle">$headersearchbox</td>
+  </tr>
+
+</table>
+
+<table border="0" width="100%" cellspacing="3" cellpadding="3" bgcolor="#FFFFFF" style="border-left:1px solid #C9C9C9;border-right:1px solid #C9C9C9;">
+  <tr>
+    <td width="160" valign="top"><table border="0" width="160" cellspacing="0" cellpadding="2" >
+        <tr><td>$categorybox</td></tr>
+        <tr><td>$manufacturerbox</td></tr>
+        <tr><td>$whatsnewbox</td></tr>
+        <tr><td>$informationbox</td></tr>
+      </table>
+    </td>
+    <td valign="top">
+      $content
+    </td>
+  </tr></table></td></tr>
+
+
+<table border="0" width="100%"border="0" cellspacing="0" cellpadding="0" align="center" style="border-left:2px solid <?php echo BORDER_BG; ?>;
+  border-right:2px solid <?php echo BORDER_BG; ?>;  border-bottom:1px solid <?php echo BORDER_BG; ?>; "  bgcolor="#C9C9C9">
+<tr><td>
+<table border="0" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+<tr><td>
+<table width="100%" height="38"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" >
+   <tr>
+   <td width="52%"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+   <tr>
+   <td width="3%">&nbsp;</td>
+   <td width="97%" class="footerlinks2" align="left"> 
+
+  <?php 
+  // Show store name and current year
+  echo "&copy; " . (STORE_NAME) . date(" Y"); ?></td>
+  </tr>
+  </table></td>
+  <td width="48%" align="right">
+  <?php 
+  // show payment options as select from the admin
+  if (DISPLAY_PAYPAL=='true'){
+  echo'<img src="' . DIR_WS_ICONS . 'paypal.jpg"></img>';
+  } 
+  if (DISPLAY_VISA=='true'){
+  echo '<img src="' . DIR_WS_ICONS . 'visa.jpg"></img>';
+  } 
+  if (DISPLAY_MASTERCARD=='true'){
+  echo '<img src="' . DIR_WS_ICONS . 'mastercard.jpg"></img>';
+  } 
+  if (DISPLAY_DISCOVER=='true'){
+  echo '<img src="' . DIR_WS_ICONS . 'discover.jpg"></img>';
+  } 
+  if (DISPLAY_AMEX=='true'){
+  echo '<img src="' . DIR_WS_ICONS . 'amex.jpg"></img>';
+  }
+  if (DISPLAY_JCB=='true'){
+  echo '<img src="' . DIR_WS_ICONS . 'jcb.jpg"></img>';
+  } 
+  ?>
+ &nbsp;</td>
+        </tr>
+        <tr>
+        	<td><?php echo DIGISTORE_NOTICE; ?>
+        	</td>
+        </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+      $banner_only
+    </td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+</div>
+</body>
+</html>

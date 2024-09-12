@@ -1,0 +1,11 @@
+s:948:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/zinka-spf-30-clear-lotion-45-zinc-oxide-p-8580.html"><img src="images/spf-20-zinka_200.jpg" class=""   alt="Zinka SPF 30 Clear Lotion 4.5% Zinc Oxide" title="Zinka SPF 30 Clear Lotion 4.5% Zinc Oxide" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/zinka-spf-30-clear-lotion-45-zinc-oxide-p-8580.html">Zinka SPF 30 Clear Lotion 4.5% Zinc Oxide</a><span class="alsop-product-price">$9.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

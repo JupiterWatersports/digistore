@@ -1,0 +1,207 @@
+<?php
+/*
+$Id: easydebit.php,v 1.00 2005/09/20 16:28:06 ab Exp $
+
+easyDebit ePayment GmbH
+
+Copyright (c) 2005 easyDebit ePayment GmbH
+
+Released under the GNU General Public License
+*/
+
+class easydebit {
+	var $code, $title, $description, $enabled;
+
+	// class constructor
+	function easydebit() {
+		global $order;
+
+		$this->code = 'easydebit';
+		
+		if(tep_session_is_registered('customer_id'))
+			$this->title = MODULE_PAYMENT_EASYDEBIT_ORDER_TITLE;
+		else
+			$this->title = MODULE_PAYMENT_EASYDEBIT_TEXT_TITLE;
+			
+		$this->description = MODULE_PAYMENT_EASYDEBIT_TEXT_DESCRIPTION;
+		$this->sort_order = MODULE_PAYMENT_EASYDEBIT_SORT_ORDER;
+		$this->enabled = ((MODULE_PAYMENT_EASYDEBIT_STATUS == 'True') ? true : false);
+
+		if ((int)MODULE_PAYMENT_EASYDEBIT_ORDER_STATUS_ID > 0) {
+			$this->order_status = MODULE_PAYMENT_EASYDEBIT_ORDER_STATUS_ID;
+		}
+
+		if (is_object($order)) $this->update_status();
+
+		$this->form_action_url = 'https://epi.easydebit.net/epi_popup.php';
+	}
+
+	// class methods
+	function update_status() {
+		global $order;
+
+		if ( ($this->enabled == true) && ((int)MODULE_PAYMENT_EASYDEBIT_ZONE > 0) ) {
+			$check_flag = false;
+			$check_query = tep_db_query("select zone_id from " . TABLE_ZONES_TO_GEO_ZONES . " where geo_zone_id = '" . MODULE_PAYMENT_EASYDEBIT_ZONE . "' and zone_country_id = '" . $order->billing['country']['id'] . "' order by zone_id");
+			while ($check = tep_db_fetch_array($check_query)) {
+				if ($check['zone_id'] < 1) {
+					$check_flag = true;
+					break;
+				} elseif ($check['zone_id'] == $order->billing['zone_id']) {
+					$check_flag = true;
+					break;
+				}
+			}
+
+			if ($check_flag == false) {
+				$this->enabled = false;
+			}
+		}
+	}
+
+	function javascript_validation() {
+		return false;
+	}
+
+	function selection() {
+		return array('id' => $this->code,
+		'module' => $this->title);
+	}
+
+	function pre_confirmation_check() {
+		return false;
+	}
+
+	function confirmation() {
+		return false;
+	}
+
+	function process_button() {
+		global $order, $currencies, $currency;
+
+		if (MODULE_PAYMENT_EASYDEBIT_CURRENCY == 'Selected Currency') {
+			$my_currency = $currency;
+		} else {
+			$my_currency = substr(MODULE_PAYMENT_EASYDEBIT_CURRENCY, 5);
+		}
+		if (!in_array($my_currency, array('CAD', 'EUR', 'GBP', 'JPY', 'USD'))) {
+			$my_currency = 'EUR';
+		}
+
+		$customer_id = $_SESSION['customer_id'];
+		
+		$customer_query = tep_db_query("select customers_gender, customers_dob from " . TABLE_CUSTOMERS . " where customers_id = '" . $customer_id . "'");
+		$customer_array = tep_db_fetch_array($customer_query);
+
+		// Checksum
+
+		$order_no = microtime();
+
+		$_SESSION['easyDebit_order_no'] = $order_no;
+		tep_session_register('easyDebit_order_no');
+
+		$popup_key = md5(MODULE_PAYMENT_EASYDEBIT_ID . $order_no . (number_format($order->info['total'] * 100 * $currencies->get_value($my_currency), 0, '','')) . 'automatic_pay_method' . tep_href_link(FILENAME_CHECKOUT_PROCESS, '', 'SSL') . tep_href_link(FILENAME_CHECKOUT_PAYMENT, '', 'SSL') .
+		MODULE_PAYMENT_EASYDEBIT_PROFILE . $customer_array['customers_gender'] . $order->billing['firstname'] . $order->billing['lastname'] . $order->billing['street_address'] . '' . '' .
+		$order->billing['postcode'] . $order->billing['city'] . $order->billing['country']['iso_code_2'] . $my_currency .
+		MODULE_PAYMENT_EASYDEBIT_IMPORTKEY
+		);
+
+
+		$process_button_string = tep_draw_hidden_field('action', 'automatic_pay_method') .
+		tep_draw_hidden_field('popup_id', MODULE_PAYMENT_EASYDEBIT_ID) .
+		tep_draw_hidden_field('order_no', $order_no) .
+		tep_draw_hidden_field('amount', number_format($order->info['total'] * 100 * $currencies->get_value($my_currency), 0, '','')) .
+		tep_draw_hidden_field('currency', $my_currency) .
+		tep_draw_hidden_field('profile', MODULE_PAYMENT_EASYDEBIT_PROFILE) .
+		tep_draw_hidden_field('popup_key', $popup_key) .
+
+		tep_draw_hidden_field('customer_gender', $customer_array['customers_gender']) .
+		tep_draw_hidden_field('customer_date_of_birth', str_replace('-', '', substr($customer_array['customers_dob'],0,10))) .
+
+		tep_draw_hidden_field('customer_prename', $order->billing['firstname']) .
+		tep_draw_hidden_field('customer_name', $order->billing['lastname']) .
+		tep_draw_hidden_field('customer_address1', $order->billing['street_address']) .
+		tep_draw_hidden_field('customer_address2', '') .
+		tep_draw_hidden_field('customer_address3', '') .
+		tep_draw_hidden_field('customer_zip', $order->billing['postcode']) .
+		tep_draw_hidden_field('customer_city', $order->billing['city']) .
+		tep_draw_hidden_field('customer_country', $order->billing['country']['iso_code_2']) .
+
+		tep_draw_hidden_field('customer_telephone' , $order->customer['telephone']).
+		tep_draw_hidden_field('customer_email' , $order->customer['email_address']).
+
+		tep_draw_hidden_field('back_url', tep_href_link(FILENAME_CHECKOUT_PROCESS, '', 'SSL')) .
+		tep_draw_hidden_field('back_error', tep_href_link(FILENAME_CHECKOUT_PAYMENT, '', 'SSL'));
+
+		return $process_button_string;
+	}
+
+	function before_process() {
+		global $order, $currencies, $currency;
+
+		
+		
+		if (MODULE_PAYMENT_EASYDEBIT_CURRENCY == 'Selected Currency') {
+			$my_currency = $currency;
+		} else {
+			$my_currency = substr(MODULE_PAYMENT_EASYDEBIT_CURRENCY, 5);
+		}
+		if (!in_array($my_currency, array('CAD', 'EUR', 'GBP', 'JPY', 'USD', 'CHF'))) {
+			$my_currency = 'EUR';
+		}
+
+		// Validation of return parameters
+
+		
+		if((md5($_SESSION['easyDebit_order_no'] . (number_format($order->info['total'] * 100 * $currencies->get_value($my_currency), 0, '','')) .
+		$_GET['action'] . $my_currency . $_GET['taid'] . $_GET['epi_payment_id'] . MODULE_PAYMENT_EASYDEBIT_PKEY)) == $_GET['export_key'])
+		{
+			$order->info['cc_owner'] = $_GET['taid'];
+			$order->info['cc_number'] = $_GET['epi_payment_id'];
+			
+		}
+		else
+		{
+			tep_redirect(tep_href_link(FILENAME_CHECKOUT_PAYMENT, '', 'SSL'));
+		}
+
+		return false;
+	}
+
+	function after_process() {
+		return false;
+	}
+
+	function output_error() {
+		return false;
+	}
+
+	function check() {
+		if (!isset($this->_check)) {
+			$check_query = tep_db_query("select configuration_value from " . TABLE_CONFIGURATION . " where configuration_key = 'MODULE_PAYMENT_EASYDEBIT_STATUS'");
+			$this->_check = tep_db_num_rows($check_query);
+		}
+		return $this->_check;
+	}
+
+	function install() {
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Enable easyDebit Module', 'MODULE_PAYMENT_EASYDEBIT_STATUS', 'True', 'Do you want to accept easyDebit payments?', '6', '3', 'tep_cfg_select_option(array(\'True\', \'False\'), ', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('PopupID', 'MODULE_PAYMENT_EASYDEBIT_ID', '4711', 'PopupID to use for the easyDebit service', '6', '4', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Profile', 'MODULE_PAYMENT_EASYDEBIT_PROFILE', '1', 'Profile to use for the easyDebit service', '6', '4', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('ImportKey', 'MODULE_PAYMENT_EASYDEBIT_IMPORTKEY', 'TEST1234', 'IMPORTKEY to use for the easyDebit service', '6', '4', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Payment Key', 'MODULE_PAYMENT_EASYDEBIT_PKEY', 'test1234', 'pkey to use for the easyDebit service', '6', '4', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Transaction Currency', 'MODULE_PAYMENT_EASYDEBIT_CURRENCY', 'Selected Currency', 'The currency to use for credit card transactions', '6', '6', 'tep_cfg_select_option(array(\'Selected Currency\',\'Only USD\',\'Only CAD\',\'Only EUR\',\'Only GBP\',\'Only JPY\'), ', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Sort order of display.', 'MODULE_PAYMENT_EASYDEBIT_SORT_ORDER', '0', 'Sort order of display. Lowest is displayed first.', '6', '0', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, use_function, set_function, date_added) values ('Payment Zone', 'MODULE_PAYMENT_EASYDEBIT_ZONE', '0', 'If a zone is selected, only enable this payment method for that zone.', '6', '2', 'tep_get_zone_class_title', 'tep_cfg_pull_down_zone_classes(', now())");
+		tep_db_query("insert into " . TABLE_CONFIGURATION . " (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, use_function, date_added) values ('Set Order Status', 'MODULE_PAYMENT_EASYDEBIT_ORDER_STATUS_ID', '0', 'Set the status of orders made with this payment module to this value', '6', '0', 'tep_cfg_pull_down_order_statuses(', 'tep_get_order_status_name', now())");
+	}
+
+	function remove() {
+		tep_db_query("delete from " . TABLE_CONFIGURATION . " where configuration_key in ('" . implode("', '", $this->keys()) . "')");
+	}
+
+	function keys() {
+		return array('MODULE_PAYMENT_EASYDEBIT_STATUS', 'MODULE_PAYMENT_EASYDEBIT_ID', 'MODULE_PAYMENT_EASYDEBIT_PROFILE', 'MODULE_PAYMENT_EASYDEBIT_IMPORTKEY', 'MODULE_PAYMENT_EASYDEBIT_PKEY', 'MODULE_PAYMENT_EASYDEBIT_CURRENCY', 'MODULE_PAYMENT_EASYDEBIT_ZONE', 'MODULE_PAYMENT_EASYDEBIT_ORDER_STATUS_ID', 'MODULE_PAYMENT_EASYDEBIT_SORT_ORDER');
+	}
+}
+?>

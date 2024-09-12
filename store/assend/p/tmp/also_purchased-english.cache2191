@@ -1,0 +1,22 @@
+s:2211:"<!-- also_purchased_products //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td>
+    <td height="14" class="infoBoxHeading" width="100%">Customers who bought this product also purchased</td>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/2011-north-xride-p-2368.html?<osCsid>"><img src="images/north_xride_02.jpg" border="0" alt="2011 North Xride" title=" 2011 North Xride " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/2011-north-xride-p-2368.html?<osCsid>">2011 North Xride</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/dakine-matrix-2011-kiteboard-duel-sport-impact-vest-p-2710.html?<osCsid>"><img src="images/DAKINE_MATRIXVEST_BLACK.jpg" border="0" alt="Dakine Matrix 2011 Kiteboard Duel Sport Impact Vest" title=" Dakine Matrix 2011 Kiteboard Duel Sport Impact Vest " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/dakine-matrix-2011-kiteboard-duel-sport-impact-vest-p-2710.html?<osCsid>">Dakine Matrix 2011 Kiteboard Duel Sport Impact Vest</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/slingshot-dual-action-kite-pump-p-293.html?<osCsid>"><img src="images/slingshot_pump_02.jpg" border="0" alt="Slingshot Dual Action Kite Pump" title=" Slingshot Dual Action Kite Pump " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/slingshot-dual-action-kite-pump-p-293.html?<osCsid>">Slingshot Dual Action Kite Pump</a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- also_purchased_products_eof //-->
+";

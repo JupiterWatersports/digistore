@@ -1,0 +1,9 @@
+s:1351:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3257"><img src="images/bindings_plush.jpg" class=""   alt="Liquid Force Plush 2012 Wakeboard Binding" title="Liquid Force Plush 2012 Wakeboard Binding" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3257">Liquid Force Plush 2012 Wakeboard Binding</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4136"><img src="images/" class=""   alt="Surf Wax" title="Surf Wax" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4136">Surf Wax</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3881"><img src="images/fcs-6ft-leash(sm).jpg" class=""   alt="FCS 6' Regular Leash" title="FCS 6' Regular Leash" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3881">FCS 6' Regular Leash</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

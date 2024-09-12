@@ -1,0 +1,9 @@
+s:1401:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2214"><img src="images/NSIinserts.jpg" class=""   alt="NSI Surface Mount Footstrap Inserts" title="NSI Surface Mount Footstrap Inserts" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2214">NSI Surface Mount Footstrap Inserts</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3844"><img src="images/dakine-primo-footstrap(sm).jpg" class=""   alt="Dakine Primo Footstrap" title="Dakine Primo Footstrap" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3844">Dakine Primo Footstrap</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3881"><img src="images/fcs-6ft-leash(sm).jpg" class=""   alt="FCS 6' Regular Leash" title="FCS 6' Regular Leash" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3881">FCS 6' Regular Leash</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

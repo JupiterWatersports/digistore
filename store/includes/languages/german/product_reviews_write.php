@@ -1,0 +1,24 @@
+<?php
+/*
+  $Id: product_reviews_write.php 1739 2007-12-20 00:52:16Z hpdl $
+
+  Digistore v4.0,  Open Source E-Commerce Solutions
+  http://www.digistore.co.nz
+
+  Copyright (c) 2003 osCommerce, http://www.oscommerce.com
+
+  Released under the GNU General Public License
+*/
+
+define('NAVBAR_TITLE', 'Meinungen');
+
+define('SUB_TITLE_FROM', 'Autor:');
+define('SUB_TITLE_REVIEW', 'Ihre Meinung:');
+define('SUB_TITLE_RATING', 'Bewertung:');
+
+define('TEXT_NO_HTML', '<small><font color="#ff0000"><b>ACHTUNG:</b></font></small>&nbsp;HTML wird nicht unterst&uuml;tzt!');
+define('TEXT_BAD', '<small><font color="#ff0000"><b>SCHLECHT</b></font></small>');
+define('TEXT_GOOD', '<small><font color="#ff0000"><b>SEHR GUT</b></font></small>');
+
+define('TEXT_CLICK_TO_ENLARGE', 'F&uuml;r eine gr&ouml;ssere Darstellung<br />klicken Sie auf das Bild.');
+?>

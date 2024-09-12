@@ -1,0 +1,9 @@
+s:1349:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-cabrinha-switchblade-p-3899.html"><img src="images/2014-cabrinha-switchblade(sm).jpg" class=""   alt="2014 Cabrinha Switchblade" title="2014 Cabrinha Switchblade" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-cabrinha-switchblade-p-3899.html">2014 Cabrinha Switchblade</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-slider-p-3311.html"><img src="images/SliderBag_Black.jpg" class=""   alt="Dakine Slider Bag" title="Dakine Slider Bag" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-slider-p-3311.html">Dakine Slider Bag</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-surface-vest-p-3298.html"><img src="images/SurfaceVest_Black.jpg" class=""   alt="Dakine Surface Vest" title="Dakine Surface Vest" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-surface-vest-p-3298.html">Dakine Surface Vest</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

@@ -1,0 +1,9 @@
+s:1324:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-apex-p-3926.html"><img src="images/2014-ion-apex-black(sm).jpg" class=""   alt="2014 Ion Apex" title="2014 Ion Apex" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-apex-p-3926.html">2014 Ion Apex</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-dakine-vega-p-4038.html"><img src="images/2014-vega-black(sm).jpg" class=""   alt="2014 Dakine Vega" title="2014 Dakine Vega" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-dakine-vega-p-4038.html">2014 Dakine Vega</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-cabrinha-switchblade-p-3899.html"><img src="images/2014-cabrinha-switchblade(sm).jpg" class=""   alt="2014 Cabrinha Switchblade" title="2014 Cabrinha Switchblade" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-cabrinha-switchblade-p-3899.html">2014 Cabrinha Switchblade</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

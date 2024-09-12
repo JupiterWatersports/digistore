@@ -1,0 +1,8 @@
+s:1015:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4160"><img src="images/fcs-bungy-lockdown(sm).jpg" class=""   alt="FCS Premium Bungy Lock Downs" title="FCS Premium Bungy Lock Downs" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4160">FCS Premium Bungy Lock Downs</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4220"><img src="images/futures-sup-keel(Sm).jpg" class=""   alt="Futures Sup Keel Large White" title="Futures Sup Keel Large White" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4220">Futures Sup Keel Large White</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

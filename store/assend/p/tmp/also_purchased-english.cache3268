@@ -1,0 +1,9 @@
+s:1337:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2012-north-rebel-p-3124.html"><img src="images/north_2012_rebel(sm).jpg" class=""   alt="2012 North Rebel" title="2012 North Rebel" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2012-north-rebel-p-3124.html">2012 North Rebel</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-kiteboard-handle-p-2656.html"><img src="images/dakine_handle.jpg" class=""   alt="Dakine Kiteboard Handle" title="Dakine Kiteboard Handle" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-kiteboard-handle-p-2656.html">Dakine Kiteboard Handle</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-renegade-2012-p-3290.html"><img src="images/Renagade_Rasta(sm).jpg" class=""   alt="Dakine Renegade 2012" title="Dakine Renegade 2012" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-renegade-2012-p-3290.html">Dakine Renegade 2012</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

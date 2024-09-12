@@ -1,0 +1,13 @@
+s:1913:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/20162017-crazyfly-hexa-bindings-p-5787.html"><img src="images/2016-crazyfly-hexa-bindings_200.jpg" class=""   alt="2016-2017 Crazyfly Hexa Bindings" title="2016-2017 Crazyfly Hexa Bindings" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/20162017-crazyfly-hexa-bindings-p-5787.html">2016-2017 Crazyfly Hexa Bindings</a><span class="alsop-product-price">$154.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/mystic-car-seat-cover-p-8253.html"><img src="images/Mystic-seatcover-single_1000.jpeg" class=""   alt="Mystic Car Seat Cover" title="Mystic Car Seat Cover" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/mystic-car-seat-cover-p-8253.html">Mystic Car Seat Cover</a><span class="alsop-product-price">$64.99</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/manera-seat-cover-p-9598.html"><img src="images/2022-manera-car-seat-cover_1000.jpeg" class=""   alt="Manera Seat Cover" title="Manera Seat Cover" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/manera-seat-cover-p-9598.html">Manera Seat Cover</a><span class="alsop-product-price">$79.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

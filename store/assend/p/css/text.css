@@ -1,0 +1,125 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+	Licensed under GPL and MIT.
+*/
+
+/* Basic HTML
+----------------------------------------------------------------------------------------------------*/
+body, #tab_container {
+ font-family:Arial, Helvetica, sans-serif; font-size: 80%; line-height: 1.5em;
+	 font-style: normal; text-transform: none; -webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #fff;text-decoration: none;
+}
+
+
+a:focus {
+	outline: 1px dotted;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* Headings
+----------------------------------------------------------------------------------------------------*/
+
+
+h1 { font-size: 2em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+h3 { font-size: 20px; line-height: 34px;}
+h4 { font-size: 18px; line-height: 30px;}
+h5 { font-size: 1em; margin-bottom: 1.25em; }
+h6 { font-size: 0.8em; font-weight: bold; }
+
+/* spacing & typography
+----------------------------------------------------------------------------------------------------*/
+
+p { margin: 0 0 1.5em; }
+
+.p-1 {margin: 0 0 0.5em;}
+
+p img.left, img.alignleft { margin: 0.5em 1.5em 1.5em 0; float: left; }
+
+p img.right, img.alignright { margin: 0.5em 0 1.5em 1.5em; float: right; }
+
+blockquote { 
+padding: 1.5em 1.5em 0px 1.5em; 
+margin: 0 0 1.5em; 
+display: inline-block; }
+
+strong { font-weight: 800; }
+
+em, dfn { font-style: italic; }
+
+dfn { font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+
+
+abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+
+address { margin: 0 0 1.5em; font-style: italic; }
+
+pre { margin: 1.5em 0; white-space: pre; }
+
+pre, code, tt, input { font: 1em/1.5em Consolas, Lucida Console , 'andale mono' , Courier , Monospace; }
+
+dl { margin: 0 0 1.5em 0; }
+
+dl dt { font-weight: bold; }
+
+dd { margin-left: 1.5em; }
+
+table { margin-bottom: 1.4em; width: 100%; }
+
+th { font-weight: bold; }
+
+th, td, caption { padding: 4px 10px 4px 5px; }
+
+
+
+tfoot { font-style: italic; }
+
+
+sup { vertical-align: top; }
+
+sub { vertical-align: bottom; }
+
+
+
+.small, .smalltext, sub, sup { font-size: .85em; margin-bottom: 1.875em; line-height: 1.66em; }
+
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+
+
+
+ul {list-style:none;
+-webkit-margin-before:0px;
+-webkit-margin-after:0px;}
+
+
+ul.disc { list-style-type: disc; }
+
+ul.empty, ol.empty { list-style-type: none; list-style-position: outside; }
+
+
+ol.zero { list-style-type: decimal-leading-zero; }
+
+
+
+cite:before { content: "“"; }
+
+cite:after { content: "”"; }
+
+#horizbreak {border-top: 1px solid #000; }
+#optionpricesNone {display:none}
+#product-img{ padding: 0px 15px 30px;
+vertical-align: top; }

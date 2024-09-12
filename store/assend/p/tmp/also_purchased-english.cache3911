@@ -1,0 +1,9 @@
+s:1253:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/apex-2014-p-3926.html"><img src="images/2014-ion-apex-black(sm).jpg" class=""   alt="Ion Apex 2014" title="Ion Apex 2014" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/apex-2014-p-3926.html">Ion Apex 2014</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-slider-p-3311.html"><img src="images/SliderBag_Black.jpg" class=""   alt="Dakine Slider Bag" title="Dakine Slider Bag" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-slider-p-3311.html">Dakine Slider Bag</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/vertex-2014-p-3927.html"><img src="images/2014-ion-vertex-sky(sm).jpg" class=""   alt="Ion Vertex 2014" title="Ion Vertex 2014" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/vertex-2014-p-3927.html">Ion Vertex 2014</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

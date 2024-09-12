@@ -1,0 +1,9 @@
+s:1403:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/wakeboarding-lessons-p-316.html"><img src="images/111(sm).jpg" class=""   alt="2 Hr Wakeboarding Lessons" title="2 Hr Wakeboarding Lessons" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/wakeboarding-lessons-p-316.html">2 Hr Wakeboarding Lessons</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-3way-mount-p-4169.html"><img src="images/gopro-3way(sm).jpg" class=""   alt="GoPro 3-Way Mount" title="GoPro 3-Way Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-3way-mount-p-4169.html">GoPro 3-Way Mount</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/rail-guards-stand-paddleboard-p-2611.html"><img src="images/NSI_railguards_01.jpg" class=""   alt="NSI SUP Rail Guards Stand Up Paddleboard" title="NSI SUP Rail Guards Stand Up Paddleboard" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/rail-guards-stand-paddleboard-p-2611.html">NSI SUP Rail Guards Stand Up Paddleboard</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

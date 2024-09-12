@@ -1,0 +1,9 @@
+s:1408:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopole-reach-p-4060.html"><img src="images/gopole-reach-small(sm).jpg" class=""   alt="GoPole Reach" title="GoPole Reach" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopole-reach-p-4060.html">GoPole Reach</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/sandisk-32gb-micosd-card-p-3849.html"><img src="images/sandisk-32gb-micro-sd(sm).jpg" class=""   alt="SanDisk 32gb micoSD Card" title="SanDisk 32gb micoSD Card" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/sandisk-32gb-micosd-card-p-3849.html">SanDisk 32gb micoSD Card</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-head-strap-quick-clip-mount-p-3495.html"><img src="images/gopro-headstrap(sm).jpg" class=""   alt="GoPro Head Strap + Quick Clip Mount" title="GoPro Head Strap + Quick Clip Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-head-strap-quick-clip-mount-p-3495.html">GoPro Head Strap + Quick Clip Mount</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

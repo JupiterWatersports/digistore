@@ -1,0 +1,14 @@
+s:2656:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fcs-adjustable-sup-race-comp-calf-leash-p-4162.html"><img src="images/fcs-adjustable-race-leash(sm).jpg" class=""   alt="FCS Adjustable SUP Race Comp Calf Leash" title="FCS Adjustable SUP Race Comp Calf Leash" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fcs-adjustable-sup-race-comp-calf-leash-p-4162.html">FCS Adjustable SUP Race Comp Calf Leash</a><span class="alsop-product-price">$38.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fcs-adjustable-sup-race-comp-ankle-leash-p-4163.html"><img src="images/fcs-adjustable-race-leash(sm).jpg" class=""   alt="FCS Adjustable SUP Race Comp Ankle Leash" title="FCS Adjustable SUP Race Comp Ankle Leash" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fcs-adjustable-sup-race-comp-ankle-leash-p-4163.html">FCS Adjustable SUP Race Comp Ankle Leash</a><span class="alsop-product-price">$39.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fcs-regular-ankle-surf-leash-p-4165.html"><img src="images/fcs-regular-leash(Sm).jpg" class=""   alt="FCS 9' Regular Ankle Surf Leash" title="FCS 9' Regular Ankle Surf Leash" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fcs-regular-ankle-surf-leash-p-4165.html">FCS 9' Regular Ankle Surf Leash</a><span class="alsop-product-price">$36.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/fcs-all-round-essential-leash-p-8455.html"><img src="images/2022-fcs-all-around-leash-black_1000.jpeg" class=""   alt="FCS 7' All Round Essential Leash" title="FCS 7' All Round Essential Leash" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/fcs-all-round-essential-leash-p-8455.html">FCS 7' All Round Essential Leash</a><span class="alsop-product-price">$36.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,284 @@
+/* modify colors etc. here for theming */
+
+body {
+    font-family:Helvetica,Arial,sans-serif ;
+    background: #FFFFFF;
+    color: #461f5c;
+}
+
+A {
+  color: #940045;
+  font-weight:bold;
+}
+
+#headerLogo {
+	font-size:16px;
+	color:#FFFFFF;
+	background-image:-webkit-gradient(linear,left top,left bottom,from( #B183CB ),to( #F3EBF5 ));
+	 background-image:-webkit-linear-gradient( #B183CB,#F3EBF5 );
+	 background-image:   -moz-linear-gradient( #B183CB,#F3EBF5 );
+	 background-image:    -ms-linear-gradient( #B183CB,#F3EBF5 );
+	 background-image:     -o-linear-gradient( #B183CB,#F3EBF5 );
+	 background-image:        linear-gradient( #B183CB,#F3EBF5 );
+}
+
+/* main area in login, create account, payment info */
+#returning_cust, #new_cust, #inscription, #abd, #text {
+	font-size:16px;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	color:#461f5c;
+	border:1px solid #ccb0db;
+	background:#fcf4fe;
+}
+
+#returning_cust h1, #new_cust h1, #inscription h1 {
+	font-size:18px;
+}
+
+/* also purchased box in mobile_product_info */
+#also_purchased {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	border:1px solid #f3ebf5;
+	background:#E4DEDB;
+}
+
+#also_purchased h2 {
+	font-size:14px;
+	font-weight:normal;
+}
+
+.prodCell_also {
+	border:0px solid #f3ebf5;
+}                                                            
+
+.prodCell_also .prodName, #prodCell .prodName {
+	font-size:12px;
+	color:#f3ebf5;
+	background:#f3ebf5;
+}
+
+.prodCell {
+	border:1px solid #ccb0db;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#ffffff;
+}
+
+.prodCell .prodName {
+	font-size:13px;
+	text-align:center;
+	color:#532a68;
+}
+
+.prodCell .prodPrice {
+	font-size:16px;
+	color:#544D57;
+}
+
+/* product images */
+#ficheProdImage {
+	border:1px solid #ccb0db;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+}
+
+/* product name, price and options area in product info page */
+#ficheProdTop {
+	border:1px solid #ccb0db;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#ffffff;
+}
+
+/* product image in product info page */
+#ficheProdTop .visuel {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#ffffff;
+}
+
+/* products name in product info page */
+#ficheProdTop h1 {
+	font-size:16px;
+	color:#515151;
+}
+
+/* products price in product info page */
+#ficheProdTop .prodPrice {
+	font-size:16px;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#532a68;
+	color:#ffffff;
+}
+
+/* products options in product info page */
+#ficheProdTop .options {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#f3ebf5;
+}
+
+/* products options name in product info page */
+#ficheProdTop .optName {
+	font-size:13px;
+}
+
+/* product description and comments area in product info page */
+#ficheProdMid {
+	font-size:16px;
+	border:1px solid #ccb0db;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+}
+
+/* contact form in contact us page */
+#contactForm {
+	font-size:16px;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	color:#461f5c;
+	border:1px solid #ccb0db;
+	background:#fcf4fe;
+}
+
+/* displaying.. in products, account_history, reviews */
+#results {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	color:#461f5c;
+	border:1px solid #ccb0db;
+	background:#ccb0db;
+}
+
+/* main text areas in most page */
+#cms, .cms {
+	font-size:16px;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	color:#532a68;
+	border:1px solid #ccb0db;
+	background:#f3ebf5;
+}
+
+/* titles in most page */
+#cms h2, .cms h2 {
+	font-size:18px;
+	font-weight:bold;
+}
+
+/* main area in checkout, newsletter, notifications etc. pages */
+#newsletter, #notifications, #checkout_conf, #checkout_shipping, #checkout_payment, #checkout_pmt_add, #checkout_ship_add, #checkout_success {
+	font-size:16px;
+	border:1px solid #ccb0db;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#ffffff;
+}
+
+#newsletter #text, #notifications #text, #text, #checkout_conf #text {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#ccb0db;
+}
+
+/* main buttons centered with backgound */
+#bouton, .bouton, #checkout_conf #bouton, #checkout_shipping #bouton, #checkout_payment #bouton, #checkout_pmt_add #bouton, #checkout_ship_add #bouton, #checkout_success #bouton,  #cms #bouton,  .cms .bouton, #returning_cust .bouton, #new_cust .bouton, #inscription #bouton, #contactForm  #bouton {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#b687cd;
+}
+
+/* mainareas in checkout pages */
+#checkout_shipping .ship_add, #checkout_payment .bill_add, #checkout_pmt_add .bill_add, #checkout_ship_add .ship_add {
+	font-size:16px;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	background:#ccb0db;
+	color:#ffffff;
+}
+
+/* mainareas in checkout pages */
+#checkout_shipping h1, #checkout_payment h1, #checkout_pmt_add h1, #checkout_ship_add h1, #checkout_conf h1, #checkout_success h1 {
+	font-size:14px;
+	color:#532a68;
+}
+
+/* Thank you text in checkout success */
+#checkout_success h1 {
+	font-size:16px;
+	color:#532a68;
+}
+
+hr, hr.separator {
+	background-color: #d6bce3; 
+}
+
+#footer {
+	font-size:12px;
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	color:#532a68;
+	border:1px solid #ccb0db;
+	background:#f3ebf5;
+}
+
+#messageStack {
+	border-radius:5px;/*css3*/
+    -moz-border-radius:5px;/*gecko (ex:Firefox)*/
+    -webkit-border-radius:5px;/*webkit (ex:safari)*/
+	color:#FFFFFF;
+	border:0px solid #ccb0db;
+}
+
+.messageStackSuccess {
+	background-color: #64a700; 
+}
+
+h1 {
+    font-weight:normal;
+}
+
+
+/* Footer and header toolbar  bar withJquery    */
+
+
+	nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+	nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 24px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+				
+	#homes .ui-icon { background:  url('../../images/home.png') 50% 50% no-repeat !important;  background-size: 24px 22px !important;  } 
+	#boutique .ui-icon { background:  url('../../images/boutique.png') 50% 50% no-repeat !important;  background-size: 24px 16px  !important;  } 
+	#compte .ui-icon { background:  url('../../images/compte.png') 30% 30% no-repeat !important;   background-size: 19px 19px !important;  } 
+	#search .ui-icon { background:  url('../../images/search2.png') 50% 50% no-repeat !important;   background-size: 22px 27px !important;  } 
+	#about .ui-icon { background:  url('../../images/help.png') 50% 50% no-repeat !important;   background-size: 20px 24px !important;  }
+	#shopping_cart .ui-icon { background:  url(../../images/boutique.png) 50% 50% no-repeat !important ; background-size: 24px 22px !important; }
+
+/* End Footer navigation bar withJquery    */
+
+
+/* Shipping and payment selection areas in checkout_shipping and checkout_payment    */
+#custom-fieldset div .ui-radio .ui-radio-on {
+    background: #b687cd !important;
+    color:#532a68;
+    text-shadow:0  1px  0  #ffffff ;
+}
+

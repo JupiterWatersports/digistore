@@ -1,0 +1,19 @@
+[27-Aug-2012 09:51:44 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[27-Aug-2012 09:52:00 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[27-Aug-2012 09:52:12 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/application_top.php on line 503
+[27-Aug-2012 09:52:12 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[27-Aug-2012 09:52:20 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/application_top.php on line 503
+[27-Aug-2012 09:52:21 UTC] PHP Fatal error:  Call to undefined function tep_draw_input_field1() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/header.php on line 111
+[11-Nov-2013 22:37:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/product_info.php on line 488
+[11-Nov-2013 22:37:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/product_info.php on line 488
+[11-Nov-2013 22:39:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/product_info.php on line 488
+[21-Oct-2014 14:07:14 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[21-Oct-2014 14:07:14 America/Los_Angeles] PHP Fatal error:  Call to undefined function query_posts() in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/barcode.php on line 9
+[21-Oct-2014 14:08:55 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[21-Oct-2014 14:09:26 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[21-Oct-2014 14:13:05 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[21-Oct-2014 14:13:05 America/Los_Angeles] PHP Fatal error:  Class 'WP_Query' not found in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/barcode.php on line 10
+[21-Oct-2014 14:21:20 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[21-Oct-2014 14:21:30 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[21-Oct-2014 14:22:57 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95
+[22-Oct-2014 12:54:28 America/Los_Angeles] PHP Warning:  define() expects at least 2 parameters, 1 given in /home/jupiterk/domains/jupiterkiteboarding.com/public_html/store/includes/languages/english.php on line 95

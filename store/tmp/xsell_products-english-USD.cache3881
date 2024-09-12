@@ -1,0 +1,12 @@
+s:1555:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/dakine-john-john-florence-pro-comp-p-6762.html"><img src="images/dakine john john pro comp leashes_1000.jpeg" class=""   alt="Dakine John John Florence Pro Comp" title="Dakine John John Florence Pro Comp" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/dakine-john-john-florence-pro-comp-p-6762.html">Dakine John John Florence Pro Comp</a><span class="alsop-product-price">$32.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/ocean-earth-9ft-longboard-premium-leash-p-5631.html"><img src="images/ocean-earth-9ft-premium-longboard-leash_200.jpg" class=""   alt="Ocean & Earth 9ft Longboard Premium Leash" title="Ocean & Earth 9ft Longboard Premium Leash" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/ocean-earth-9ft-longboard-premium-leash-p-5631.html">Ocean & Earth 9ft Longboard Premium Leash</a><span class="alsop-product-price">$42.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

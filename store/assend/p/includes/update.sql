@@ -1,0 +1,1 @@
+ALTER TABLE  `products` ADD  `products_msrp` DECIMAL( 15, 4 ) NOT NULL AFTER  `products_image_xl_6` ;

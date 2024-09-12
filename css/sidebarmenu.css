@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+}
+a:link {
+	color: #006;
+	text-decoration: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+a:hover {
+	color: #03F;
+	text-decoration: none;
+}
+.sidebar a {
+	color: #F00;
+}
+.sidebar a {
+	color: #FF0;
+}
+.sidebar a u {
+	color: #0F0;
+}
+.sidebar a {
+	color: #0F0;
+	font-size: 24px;
+}
+.sidebar a {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.sidebar a {
+	font-family: Tahoma, Geneva, sans-serif;
+	filter: Invert;
+}

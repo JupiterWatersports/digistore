@@ -1,0 +1,9 @@
+s:1340:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/nsp-coco-mat-98-p-3778.html"><img src="images/98_coco(sm).jpg" class=""   alt="NSP Coco Mat 9'8" title="NSP Coco Mat 9'8" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/nsp-coco-mat-98-p-3778.html">NSP Coco Mat 9'8</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/slingshot-trainer-kite-p-137.html"><img src="images/SlingshotTrainerB3-SM.jpg" class=""   alt="Slingshot B3 Trainer Kite" title="Slingshot B3 Trainer Kite" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/slingshot-trainer-kite-p-137.html">Slingshot B3 Trainer Kite</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestra-p-4107.html"><img src="images/jimmy-lewis-sup-maestra(sm).jpg" class=""   alt="Jimmy Lewis Maestra" title="Jimmy Lewis Maestra" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestra-p-4107.html">Jimmy Lewis Maestra</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

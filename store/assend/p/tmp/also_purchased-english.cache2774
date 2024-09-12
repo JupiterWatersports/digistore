@@ -1,0 +1,9 @@
+s:1312:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3870"><img src="images/trident-adjustable(sm).jpg" class=""   alt="Trident Adjustable" title="Trident Adjustable" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3870">Trident Adjustable</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3843"><img src="images/2013-nsp-e2-package(Sm).jpg" class=""   alt="NSP E2 Sup" title="NSP E2 Sup" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3843">NSP E2 Sup</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3475"><img src="images/12-surfbetty-package(sm).jpg" class=""   alt="NSP Surf Betty" title="NSP Surf Betty" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3475">NSP Surf Betty</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

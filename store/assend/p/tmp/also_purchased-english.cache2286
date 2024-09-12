@@ -1,0 +1,9 @@
+s:1503:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2733"><img src="images/aquaglide-powerstroke(sm).jpg" class=""   alt="Aquaglide Powerstroke Carbon Adjustable Paddle" title="Aquaglide Powerstroke Carbon Adjustable Paddle" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2733">Aquaglide Powerstroke Carbon Adjustable Paddle</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4092"><img src="images/qb-flyweight-ac(sm).jpg" class=""   alt="Quickblade Flyweight All Carbon" title="Quickblade Flyweight All Carbon" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4092">Quickblade Flyweight All Carbon</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4154"><img src="images/jimmylewis-hanalei-package(sm).jpg" class=""   alt="Jimmy Lewis Hanalei Package" title="Jimmy Lewis Hanalei Package" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4154">Jimmy Lewis Hanalei Package</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

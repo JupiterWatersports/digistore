@@ -1,0 +1,9 @@
+s:1473:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/cabrinha-sup-fin-p-3755.html"><img src="images/cab_sup_fin(sm).jpg" class=""   alt="Cabrinha Sup Fin" title="Cabrinha Sup Fin" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/cabrinha-sup-fin-p-3755.html">Cabrinha Sup Fin</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-paddleboard-paddle-cover-p-1563.html"><img src="images/dakinepaddlecoversmall.png" class=""   alt="Dakine SUP Paddleboard Paddle Cover" title="Dakine SUP Paddleboard Paddle Cover" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-paddleboard-paddle-cover-p-1563.html">Dakine SUP Paddleboard Paddle Cover</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/wheels-paddleboard-carrier-deluxe-p-3189.html"><img src="images/sup_wheels-deluxe(sm).jpg" class=""   alt="SUP Wheels Paddleboard Carrier Deluxe" title="SUP Wheels Paddleboard Carrier Deluxe" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/wheels-paddleboard-carrier-deluxe-p-3189.html">SUP Wheels Paddleboard Carrier Deluxe</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

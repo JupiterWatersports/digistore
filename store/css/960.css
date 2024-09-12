@@ -1,0 +1,276 @@
+/*
+	960 Grid System ~ Core CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Containers
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background:#fff;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_6,
+.grid_12 {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+ @media only screen and (min-width: 961px){ .grid_8{ float:left; margin-right:10px;}}
+
+.push_3, .push_4 {
+	position: relative;
+}
+
+.container_12 .grid_3 {
+	width: 220px;
+}
+
+.container_12 .grid_6 {
+	width: 460px;
+}
+
+
+.container_12 .grid_12 {
+	width: 940px;
+}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container_12 .grid_2 {
+	width: 200px;
+}
+
+.container_12 .grid_4 {
+	width: 300px;
+}
+
+
+
+.container_12 .grid_8 {
+	width: 680px;
+}
+
+
+
+/* `Grid >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* `Prefix Extra Space >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* `Prefix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* `Suffix Extra Space >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* `Suffix Extra Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* `Push Space >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 .push_3 {
+	left: 240px;
+}
+
+
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.container_12 .push_4 {
+	left: 320px;
+}
+
+
+
+
+
+
+/* `Push Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* `Pull Space >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* `Pull Space >> 16 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2009/12/06/new-clearfix-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/*
+	The following zoom:1 rule is specifically for IE6 + IE7.
+	Move to separate stylesheet if invalid CSS is a problem.
+*/
+* html .clearfix,
+*:first-child+html .clearfix {
+	zoom: 1;
+}
+
+#wrap {
+	width:960px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;}
+	
+	#header-wrapper {
+	width:100%;
+	background-image:url(water-store-top.jpg);
+	background-size:cover;}

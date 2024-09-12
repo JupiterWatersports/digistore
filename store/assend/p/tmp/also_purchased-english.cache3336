@@ -1,0 +1,9 @@
+s:1374:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-hero3-black-edition-p-3590.html"><img src="images/hero3_black(sm).jpg" class=""   alt="GoPro Hero3 Black Edition" title="GoPro Hero3 Black Edition" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-hero3-black-edition-p-3590.html">GoPro Hero3 Black Edition</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2013-ozone-edge-p-3576.html"><img src="images/2013_ozone_edge(sm).jpg" class=""   alt="2013 Ozone Edge" title="2013 Ozone Edge" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2013-ozone-edge-p-3576.html">2013 Ozone Edge</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/north-dual-action-kite-pump-p-2639.html"><img src="images/north-pump(sm).jpg" class=""   alt="North Dual Action Kite Pump" title="North Dual Action Kite Pump" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/north-dual-action-kite-pump-p-2639.html">North Dual Action Kite Pump</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

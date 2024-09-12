@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+	height: 428px;
+	width: 99px;
+	background-repeat: no-repeat;
+	background-image:url(images/socialsidebar_background.jpg)
+	background-position: middle;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#floatdiv {
+	position:absolute;
+	width:71px;
+	height:319px;
+	top:13px;
+	left:12px;
+
+}
+
+
+
+
+/**************************Social Sidebar Styles*****************************/
+
+.socialsidebar {
+	background-image:url(images/socialsidebar_background.jpg);
+	background-repeat:no-repeat;
+	position:absolute;
+	height:428px;
+	width:99px;
+}
+
+#socailsidebar #google+ {
+	height:79px;
+	width:73 px;
+	position:absolute;
+	right: 1px;
+
+}
+
+#socailsidebar #facebook {
+	height:74px;
+	width:73 px;
+	position:absolute;
+	top: 80px;
+
+}
+
+#socailsidebar #twitter {
+	height:74px;
+	width:73 px;
+	position:absolute;
+	bottom: 3px;
+	right: 1px;
+
+}
+
+#socailsidebar #youtube {
+	height:80px;
+	width:68 px;
+	position:absolute;
+	bottom: 78px;
+}

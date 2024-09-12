@@ -1,0 +1,14 @@
+s:2447:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/pickle-wax-remover-p-5613.html"><img src="images/pickle_200.jpg" class=""   alt="Pickle Wax Remover" title="Pickle Wax Remover" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/pickle-wax-remover-p-5613.html">Pickle Wax Remover</a><span class="alsop-product-price">$12.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/jimmy-lewis-destroyer-p-6509.html"><img src="images/jimmy-lewis-surf-destroyer-white__200.jpg" class=""   alt="Jimmy Lewis Destroyer" title="Jimmy Lewis Destroyer" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/jimmy-lewis-destroyer-p-6509.html">Jimmy Lewis Destroyer</a><span class="alsop-product-price">$1,095.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/softech-flash-eric-geiselman-surfboard-p-8477.html"><img src="images/softech-Eric-geiselman_1000.jpeg" class=""   alt="Softech Flash Eric Geiselman Surfboard" title="Softech Flash Eric Geiselman Surfboard" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/softech-flash-eric-geiselman-surfboard-p-8477.html">Softech Flash Eric Geiselman Surfboard</a><span class="alsop-product-price">$300.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/softech-roller-surfboard-p-8472.html"><img src="images/softech-roller_1000.jpeg" class=""   alt="Softech Roller Surfboard" title="Softech Roller Surfboard" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/softech-roller-surfboard-p-8472.html">Softech Roller Surfboard</a><span class="alsop-product-price">$300.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

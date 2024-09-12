@@ -1,0 +1,248 @@
+﻿/*
+* Based on Skeleton by Dave Gamache (www.getskeleton.com)
+* Modified by Vasterad
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base (1180 Grid)
+    #Desktop (960 Grid)
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+    
+    
+/* #Base (1180 Grid)
+================================================== */
+
+    #container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    #container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+
+    /* Nested Column Classes */
+
+    /* Base Grid */
+    .four.columns                    { width: 260px; }
+    #container .eight.columns        { width: 460px; }
+    .twelve.columns                  { width: 650px; }
+
+
+
+.inner-name-block{width:304px;}
+    .fullwidth-element { width: 1290px; }
+   
+    
+    @media only screen and (min-width: 1290px) and (max-width: 1390px) {
+        .fullwidth-element                  { width: 100% }
+    }
+    
+
+
+/* #Dekstop (960 Grid)
+================================================== */
+
+    /* Note: Design for a width of 960px */
+
+    @media only screen and (min-width: 960px) and (max-width: 1389px) {
+        #container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+        #container .columns                         {float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+
+        /* Nested Column Classes */
+
+        /* Base Grid */
+        #container .four.columns                    { width: 220px; }
+        #container .eight.columns                   { width: 460px; }
+        #container .twelve.columns                  { width: 700px; }
+
+
+
+        
+        .fullwidth-element                          { width: 1020px; }
+
+
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .fullwidth-element                          { width: 100% !important; margin-left:-10px; }
+    }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 960px) {
+        #container                                  { width: 768px; }
+		.global-affiliate-links-container			{ width: 625px; margin-left:auto; margin-right:auto;}
+        #container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        #container .four.columns                    { width: 172px; }
+        #container .eight.columns                   { width: 364px; }
+        #container .twelve.columns                  { width: 556px; }
+
+
+
+
+        .fullwidth-element                          { width: 100% }
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        #container,  { width: 300px; }
+		.global-affiliate-links-container{width:300px; margin-left:auto; margin-right:auto;}
+		.container, .wrapper-simple { width: 300px; }
+        #container .columns { margin: 0; }
+		 #container .four.columns {width:300px;}
+        .container .eight.columns { width: 280px; }
+        #container .eight.columns,
+        #container .twelve.columns { width: 300px; }
+        .three-columns{margin-left:10px; margin-right:10px;}
+		.fullwidth-element.gm-style .navigate {display:none;}
+		#container .inner-name-block{width:60%;}
+		.fullwidth-element.gm-style .place-desc-large {width:100%;}
+        
+        .fullwidth-element { width: 100% !important; margin-left:-10px; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+        #container { width: 420px; }
+		 .container { width: 420px; }
+        #container .columns,
+        #container .column { margin: 0; }
+
+        #container .one.column,
+        #container .one.columns,
+        #container .two.columns,
+        #container .three.columns,
+        #container .four.columns,
+        #container .five.columns,
+        #container .six.columns,
+        #container .seven.columns,
+        #container .eight.columns,
+        #container .nine.columns,
+        #container .ten.columns,
+        #container .eleven.columns,
+        #container .twelve.columns,
+        #container .thirteen.columns,
+        #container .fourteen.columns,
+        #container .fifteen.columns,
+        #container .sixteen.columns{ width: 420px; }
+		
+		
+		#content .products-new {width:50%; margin:10px 0px 35px;}
+		#account-details #signature {width:450px;}
+		.mini-cart-btns {margin: 10px 11%;}
+		.cart-buttons{width:100%;}
+		}
+
+    @media only screen and (min-width: 568px) and (max-width: 767px) {
+        .container { width: 560px;}
+		.global-affiliate-links-container{width:560px; margin-left:auto; margin-right:auto;}
+        .container .column { margin: 0; }
+
+        .container .four.columns,
+        .container .eight.columns{width:260px;}
+		.three-columns{ width: 250px; margin-left:10px; margin-right:10px;}
+		
+		
+		   .container .sixteen.columns {width:540px;}
+       
+        body.boxed,
+        .fullwidth-element,
+        .fullwidth .fullwidth-element.home-slider { width: 100% }
+
+        .fullwidth .parallax-content   { width: 420px; }
+		
+		.container .columns {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    }
+	
+	
+	
+	
+	
+	.mini-cart-item-full-details{width:75%;}
+	
+	#search #resultsContainer{margin-left:0px; width:100%;}
+	.gm-style .navigate {display:block; width:70px;}
+	#container .inner-name-block{width:100%;}
+	.center490{width:490px;}
+	#account-details #signature {width:510px;}
+	}
+	
+	 @media only screen and (min-width: 568px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {        .container { width: 553px;}
+	 .container .eight.columns {width:256px;}}
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    #container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .clearfix:after {
+      clear: both; }
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+    }
+	
+	.col-sm-20, .col-sm-3, .col-sm-4, .col-sm-37{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+	
+	@media (min-width:768px) {
+.col-sm-20, .col-sm-3, .col-sm-4, .col-sm-37, .col-sm-46{
+float:left
+}
+.col-sm-46 {
+width:46%
+}
+.col-sm-37 {
+width:37%
+}
+
+.col-sm-3 {
+width:25%
+}
+.col-sm-20 {
+width:20%
+}
+
+.upper-filters .col-sm-4:last-child{float:right;}
+
+}

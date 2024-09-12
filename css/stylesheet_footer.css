@@ -1,0 +1,11 @@
+@charset "UTF-8";
+footer {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	color: #333;
+}
+footer:hover {
+	color: #000;
+	font-family: "Allstar Regular";
+	font-size: 24px;
+}

@@ -1,0 +1,9 @@
+s:1401:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4060"><img src="images/gopole-reach-small(sm).jpg" class=""   alt="GoPole Reach" title="GoPole Reach" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4060">GoPole Reach</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3108"><img src="images/oceaneyes_sportsman.jpg" class=""   alt="Ocean Eyes Sportsman Polarized Sunglasses" title="Ocean Eyes Sportsman Polarized Sunglasses" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3108">Ocean Eyes Sportsman Polarized Sunglasses</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=1143"><img src="images/paddleboardrentals.jpg" class=""   alt="Paddleboarding Rentals" title="Paddleboarding Rentals" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=1143">Paddleboarding Rentals</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

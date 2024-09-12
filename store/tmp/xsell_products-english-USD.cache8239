@@ -1,0 +1,12 @@
+s:1393:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/2021-core-union-pro-p-8886.html"><img src="images/2021-core-union-board-straps-pads_200.jpg" class=""   alt="2021 Core Union Pro 3" title="2021 Core Union Pro 3" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/2021-core-union-pro-p-8886.html">2021 Core Union Pro 3</a><span class="alsop-product-price">$279.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/2021-core-union-comfort-p-8887.html"><img src="images/2021-core-union-comfort-bindings_200.jpg" class=""   alt="2021 Core Union Comfort" title="2021 Core Union Comfort" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/2021-core-union-comfort-p-8887.html">2021 Core Union Comfort</a><span class="alsop-product-price">$199.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,9 @@
+s:1360:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/surface-mount-footstrap-inserts-p-2214.html"><img src="images/NSIinserts.jpg" class=""   alt="NSI Surface Mount Footstrap Inserts" title="NSI Surface Mount Footstrap Inserts" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/surface-mount-footstrap-inserts-p-2214.html">NSI Surface Mount Footstrap Inserts</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/north-surfstraps-p-3960.html"><img src="images/nkb-surfstraps(Sm).jpg" class=""   alt="North Surfstraps" title="North Surfstraps" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/north-surfstraps-p-3960.html">North Surfstraps</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-north-whip-p-3929.html"><img src="images/2014-north-whip(Sm).jpg" class=""   alt="2014 North Whip" title="2014 North Whip" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-north-whip-p-3929.html">2014 North Whip</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

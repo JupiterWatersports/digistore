@@ -1,0 +1,9 @@
+s:1402:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3145"><img src="images/Wainman_Hawaii_Big_Mama_kite_03(sm).jpg" class=""   alt="Wainman Hawaii Big Mama 14.5m Kite" title="Wainman Hawaii Big Mama 14.5m Kite" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3145">Wainman Hawaii Big Mama 14.5m Kite</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3902"><img src="images/north-2014-rebel(sm).jpg" class=""   alt="2014 North Rebel" title="2014 North Rebel" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3902">2014 North Rebel</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3967"><img src="images/2014-mystic-warrior(sm).jpg" class=""   alt="Mystic Warrior 2014" title="Mystic Warrior 2014" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3967">Mystic Warrior 2014</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

@@ -1,0 +1,54 @@
+
+.men { 
+  float: left;
+  -webkit-transition: all 0.3s ease;  
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+
+.men ul li a { display: block; text-decoration: none; color: #000; font-size: .9em; }
+.men ul li > a { height:58px; padding: 19px 12px; }
+.men ul ul { 
+  display: none; 
+  position: absolute; 
+  top:100%;
+  min-width: 160px;
+  
+  border: 1px solid #CCC;
+}
+.men ul li:hover > ul { display: block; }
+.men ul ul > li { position: relative; }
+.men ul ul > li a { padding: 5px 15px 5px 10px; height: auto;  }
+.men ul ul > li a:hover { color: #fff; }
+
+
+@media all and (max-width: 768px) {
+  .example-header .container { width: 100%; }
+  
+  a.men-link { display: block; color: #fff;  float: right; text-decoration: none; padding: 19px 10px;}
+  .men { clear: both; min-width: inherit; float: none; }
+  .men, .men > ul ul { overflow: hidden; max-height: 0; }
+  .men > li > ul.sub-men { padding: 0px; border: none; }
+  .men.active, .men > ul ul.active { max-height: 55em; }
+  .men ul { display: inline; }
+  .men li, .men > ul > li { display: block; }
+  .men li h3 { color: #09F; display: block; padding: 0.8em; border-bottom: 1px solid #808080; position: relative; font-size:18px; line-height: 1; margin-bottom: 1em;}
+  .men li.has-submen > h3:after {
+    content: '+';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    font-size: 1.5em;
+    padding: 10px 0.5em;
+	color: #FFF;
+  }
+  .men li.has-submen > h3.active:after {
+    content: "-"; padding:10px 18px;
+  }
+  .men ul ul > li a { height: 34px; padding: 3px 18px 3px 30px; color:#FFF;}
+  .men ul ul, .men ul ul ul { display: inherit; position: relative; left: auto; top:auto; border:none;}
+  .location .active {padding-bottom:20px;}
+}
+

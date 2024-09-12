@@ -1,0 +1,13 @@
+s:2085:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-fx-kite-with-bar-super-closeout-p-9282.html"><img src="images/cabrinha fx kite with bar super closeout_1000.jpeg" class=""   alt="Cabrinha FX Kite With Bar Super Closeout*" title="Cabrinha FX Kite With Bar Super Closeout*" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-fx-kite-with-bar-super-closeout-p-9282.html">Cabrinha FX Kite With Bar Super Closeout*</a><span class="alsop-product-price">$-200.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-performance-package-p-9277.html"><img src="images/cabrinha performance kite package_1000.jpeg" class=""   alt="Cabrinha Performance Package*" title="Cabrinha Performance Package*" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-performance-package-p-9277.html">Cabrinha Performance Package*</a><span class="alsop-product-price">$-200.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-value-kite-package-p-9274.html"><img src="images/cabrinha best valve kite package_1000.jpeg" class=""   alt="Cabrinha Value Kite Package*" title="Cabrinha Value Kite Package*" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-value-kite-package-p-9274.html">Cabrinha Value Kite Package*</a><span class="alsop-product-price">$-200.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

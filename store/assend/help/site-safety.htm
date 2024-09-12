@@ -1,0 +1,281 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./site-safety_files/filelist.xml">
+<title>Making your site a bit more safe</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>root</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>root</o:LastAuthor>
+  <o:Revision>12</o:Revision>
+  <o:TotalTime>13</o:TotalTime>
+  <o:Created>2008-11-04T02:41:00Z</o:Created>
+  <o:LastSaved>2008-12-08T12:25:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>306</o:Words>
+  <o:Characters>1747</o:Characters>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2145</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=EN-GB link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=MsoTitle>Making your site a bit more safe</p>
+
+<p class=MsoTitle><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Now lets do some web site security.<span style="mso-spacerun: yes"> 
+</span>First we will hide the images directory a bit.<span style="mso-spacerun:
+yes">  </span>Open catalog/includes/configure.php and find the line;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><span style="mso-spacerun: yes">  </span>define('DIR_WS_IMAGES',
+'images/');<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Now we will rename the directory to something a little less obvious such
+as &quot;my-web-images&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><span style="mso-spacerun: yes">  </span>define('DIR_WS_IMAGES',
+'my-web-images/');<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Save the file and rename your images folder to your new name also.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>This will not totally protect your images folder but it will take one
+way away from hackers finding it.<span style="mso-spacerun: yes">  </span>Reset
+the permissions to 755 or the same as all your other folders, never keep a
+folder with permissions of 777.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>**************************************************************<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Now lets move onto the admin directory.<span style="mso-spacerun: yes"> 
+</span>In admin/includes/configure.php find<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><span style="mso-spacerun: yes">  </span>define('DIR_WS_ADMIN',
+'/admin/'); // absolute path required<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><span style="mso-spacerun: yes">  </span>define('DIR_FS_ADMIN',
+'/home/myroot/public_html/admin/'); // absolute pate required<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>And change your admin to something REALLY REALLY obscure such as<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><span style="mso-spacerun: yes">  </span>define('DIR_WS_ADMIN',
+'/Zz.496.tDxL7/'); // absolute path required<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><span style="mso-spacerun: yes">  </span>define('DIR_FS_ADMIN',
+'/home/myroot/public_html/Zz.496.tDxL7/'); // absolute pate required<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Save the file and don't forget to rename your admin directory to the
+same really really obscure name.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Open up robots.txt in root folder of your store and add <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Disallow: /new_admin_folder_name/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Changing new_admin_folder_name to name you renamed admin too<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>**************************************************************<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoBodyText>Permissions on folders should be no higher than 755. If
+your hosting setup demands permissions of 777 on folders then change hosts.</p>
+
+<p class=MsoBodyText>.htaccess, botfile.txt and iplog.txt in root folder of
+your store and sitemonitor_log.txt in admin folder need to be writeable 666
+they’re are protected via .hataccess file no one can see them via browser.</p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Now that you have renamed the admin folder, rename the dummy-admin
+folder to admin this will look like the real admin login page, but is a fake
+one that does nothing.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:10.0pt;font-family:"Courier New";mso-ansi-language:
+EN-US'>Now head off to
+http://www.ncircle.com/index.php?s=products_pci-compliance#freescan to get your
+free pci compliance scan!<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

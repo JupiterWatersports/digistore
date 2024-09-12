@@ -1,0 +1,15 @@
+s:2779:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/zap-whip-p-8750.html"><img src="images/zap-whip-carbon__200.jpg" class=""   alt="Zap Whip" title="Zap Whip" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/zap-whip-p-8750.html">Zap Whip</a><span class="alsop-product-price">$599.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/zap-medium-pro-classic-series-skimboard-p-8962.html"><img src="images/Zap-promedium-blue_1000.jpeg" class=""   alt="Zap Medium Pro Classic Series Skimboard" title="Zap Medium Pro Classic Series Skimboard" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/zap-medium-pro-classic-series-skimboard-p-8962.html">Zap Medium Pro Classic Series Skimboard</a><span class="alsop-product-price">$369.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/zap-m5-p-8749.html"><img src="images/zap-m5_1000.jpeg" class=""   alt="Zap M5" title="Zap M5" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/zap-m5-p-8749.html">Zap M5</a><span class="alsop-product-price">$329.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/zap-skimboards-large-wedge-p-7786.html"><img src="images/zap-skim-board-200.jpg" class=""   alt="Zap Skimboards Large Wedge" title="Zap Skimboards Large Wedge" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/zap-skimboards-large-wedge-p-7786.html">Zap Skimboards Large Wedge</a><span class="alsop-product-price">$199.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/zap-hellcat-v2-p-8751.html"><img src="images/cabrzap-hellcat-v2__200.jpg" class=""   alt="Zap Hellcat V2" title="Zap Hellcat V2" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/zap-hellcat-v2-p-8751.html">Zap Hellcat V2</a><span class="alsop-product-price">$495.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

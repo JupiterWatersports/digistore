@@ -1,0 +1,12 @@
+s:1697:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/nsi-sup-12-can-small-stand-up-paddleboard-on-deck-cooler-p-2615.html"><img src="images/NSI_deckcooler(sm).jpg" class=""   alt="NSI SUP 12 Can Small Stand Up Paddleboard On Deck Cooler" title="NSI SUP 12 Can Small Stand Up Paddleboard On Deck Cooler" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/nsi-sup-12-can-small-stand-up-paddleboard-on-deck-cooler-p-2615.html">NSI SUP 12 Can Small Stand Up Paddleboard On Deck Cooler</a><span class="alsop-product-price">$26.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/nsi-sup-24-can-small-stand-up-paddleboard-on-deck-cooler-p-2616.html"><img src="images/NSI_deckcooler_01.jpg" class=""   alt="NSI SUP 24 Can Small Stand Up Paddleboard On Deck Cooler" title="NSI SUP 24 Can Small Stand Up Paddleboard On Deck Cooler" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/nsi-sup-24-can-small-stand-up-paddleboard-on-deck-cooler-p-2616.html">NSI SUP 24 Can Small Stand Up Paddleboard On Deck Cooler</a><span class="alsop-product-price">$49.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,71 @@
+# These settings will keep spiders from indexing your unwanted pages
+#  This assumes that your OSC install is in your web sites ROOT directory
+User-agent: *
+Disallow: /store/password_list
+Disallow: /store/includes
+Disallow: /store/cgi-bin
+Disallow: /store/account.php
+Disallow: /store/account_edit.php
+Disallow: /store/account_history.php
+Disallow: /store/account_history_info.php
+Disallow: /store/account_password.php
+Disallow: /store/add_checkout_success.php
+Disallow: /store/address_book.php
+Disallow: /store/address_book_process.php
+Disallow: /store/advanced_search.php
+Disallow: /store/basket.php
+Disallow: /store/checkout_confirmation.php
+Disallow: /store/checkout_payment.php
+Disallow: /store/checkout_payment_address.php
+Disallow: /store/checkout_process.php
+Disallow: /store/checkout_shipping.php
+Disallow: /store/checkout_shipping_address.php
+Disallow: /store/checkout_success.php
+Disallow: /store/contact_bean.php
+Disallow: /store/cookie_usage.php
+Disallow: /store/create_account.php
+Disallow: /store/create_account_success.php
+Disallow: /store/login.php
+Disallow: /store/password_forgotten.php
+Disallow: /store/popup_image.php
+Disallow: /store/shopping_cart.php
+Disallow: /store/product_reviews_write.php
+Disallow: /store/assend
+Disallow: /assend
+Disallow: /store/product_print.php
+Disallow: /store/product_reviews.php
+Disallow: /store/product_reviews_info.php
+Disallow: /store/product_reviews_write.php
+Disallow: /store/reviews.php
+User-agent: Yandex
+Disallow: / 
+Goo (JP)
+
+User-agent: moget
+User-agent: ichiro
+Disallow: / 
+Naver (KR) 
+
+User-agent: NaverBot
+User-agent: Yeti
+Disallow: / 
+Baidu (CN)
+
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+Disallow: / 
+SoGou (CN) 
+
+User-agent: sogou spider
+Disallow: / 
+Youdao (CN) 
+
+
+# Feel free to add any other pages on your site that you don't want to be indexed by
+# the search engines.
+# PLEASE NOTE: Any pages that you list here should be secured by other means if you
+# dont want people to be able to view them, as some malicious users will look at a
+# robots.txt file to try to find "hidden" or "secret" areas of web sites to find
+# confidential information.
+

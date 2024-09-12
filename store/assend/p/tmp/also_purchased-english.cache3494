@@ -1,0 +1,9 @@
+s:1336:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4060"><img src="images/gopole-reach-small(sm).jpg" class=""   alt="GoPole Reach" title="GoPole Reach" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4060">GoPole Reach</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3990"><img src="images/ukpor-screwkit(Sm).jpg" class=""   alt="UKPro Knob & Nut Kit" title="UKPro Knob & Nut Kit" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3990">UKPro Knob & Nut Kit</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3157"><img src="images/gopro-floaty-bac(sm).jpg" class=""   alt="GoPro Floaty Backdoor" title="GoPro Floaty Backdoor" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3157">GoPro Floaty Backdoor</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

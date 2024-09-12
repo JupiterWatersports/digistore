@@ -1,0 +1,9 @@
+s:1357:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-surfboard-mount-p-3685.html"><img src="images/gopro-surfmount(sm).jpg" class=""   alt="GoPro Surfboard Mount" title="GoPro Surfboard Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-surfboard-mount-p-3685.html">GoPro Surfboard Mount</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/gopro-handlebar-seatpost-pole-mount-p-2482.html"><img src="images/gopro-handlebar-mount(sm).jpg" class=""   alt="GoPro Handlebar/ Seatpost/ Pole Mount" title="GoPro Handlebar/ Seatpost/ Pole Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/gopro-handlebar-seatpost-pole-mount-p-2482.html">GoPro Handlebar/ Seatpost/ Pole Mount</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/surf-wax-p-4136.html"><img src="images/" class=""   alt="Surf Wax" title="Surf Wax" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/surf-wax-p-4136.html">Surf Wax</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

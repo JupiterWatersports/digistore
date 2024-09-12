@@ -1,0 +1,13 @@
+s:1950:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/slingshot-b2-trainer-kite-p-136.html"><img src="images/SlingshotTrainerB2-SM.jpg" class=""   alt="Slingshot B2 Trainer Kite" title="Slingshot B2 Trainer Kite" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/slingshot-b2-trainer-kite-p-136.html">Slingshot B2 Trainer Kite</a><span class="alsop-product-price">$129.95</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/ozone-go-v1-kiteboarding-trainer-kite-p-8141.html"><img src="images/ozone-go-trainer-kite-red-200.jpg" class=""   alt="Ozone GO V1 Kiteboarding Trainer Kite" title="Ozone GO V1 Kiteboarding Trainer Kite" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/ozone-go-v1-kiteboarding-trainer-kite-p-8141.html">Ozone GO V1 Kiteboarding Trainer Kite</a><span class="alsop-product-price">$199.99</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/ozone-ignition-v3-p-8409.html"><img src="images/21-ozone-ignition-green-v3-__200.jpg" class=""   alt="Ozone Ignition V3" title="Ozone Ignition V3" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/ozone-ignition-v3-p-8409.html">Ozone Ignition V3</a><span class="alsop-product-price">$249.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

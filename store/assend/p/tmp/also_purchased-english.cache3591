@@ -1,0 +1,9 @@
+s:1331:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4002"><img src="images/2014-evo-blue(Sm).jpg" class=""   alt="2014 North Evo" title="2014 North Evo" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4002">2014 North Evo</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3971"><img src="images/pks-strut-mount(Sm).jpg" class=""   alt="PKS GoPro Strut Mount" title="PKS GoPro Strut Mount" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3971">PKS GoPro Strut Mount</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3790"><img src="images/2014-np-neo-hoodie(Sm).jpg" class=""   alt="NP Neo Hoodie 2mm" title="NP Neo Hoodie 2mm" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3790">NP Neo Hoodie 2mm</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

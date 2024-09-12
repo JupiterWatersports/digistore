@@ -1,0 +1,22 @@
+<?php
+/*
+  $Id$
+
+  The Exchange Project - Community Made Shopping!
+  http://www.theexchangeproject.org
+
+  Copyright (c) 2000,2001 The Exchange Project
+
+  Released under the GNU General Public License
+  ----------------------------------------------------------
+  BearHappy 09/04/2004
+  Edited by VK 05.11.05
+*/
+define('MODULE_SHIPPING_FREEAMOUNT_TEXT_UNIT', ' Kg ');
+define('MODULE_SHIPPING_FREEAMOUNT_TEXT_TITLE', 'Kostenlose Lieferung');
+define('MODULE_SHIPPING_FREEAMOUNT_TEXT_DESCRIPTION', 'Kostenlose Lieferung w/Minimaler Gesamtbetrag');
+define('MODULE_SHIPPING_FREEAMOUNT_TEXT_WAY', 'Für Aufträge über €' . MODULE_SHIPPING_FREEAMOUNT_AMOUNT . ' oder mehr mit einem maximalen Paket-Gewicht über '  . MODULE_SHIPPING_FREEAMOUNT_WEIGHT_MAX . ' ' . MODULE_SHIPPING_FREEAMOUNT_TEXT_UNIT);
+define('MODULE_SHIPPING_FREEAMOUNT_TEXT_ERROR', 'Kostenlose Lieferung nur für eine Bestellung über €' . MODULE_SHIPPING_FREEAMOUNT_AMOUNT . ' oder mehr mit einem maximalen Pauschalgewicht von '  . MODULE_SHIPPING_FREEAMOUNT_WEIGHT_MAX . ' ' . MODULE_SHIPPING_FREEAMOUNT_TEXT_UNIT);
+define('MODULE_SHIPPING_FREEAMOUNT_COST', '0.00');
+
+?>

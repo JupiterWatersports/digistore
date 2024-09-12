@@ -1,0 +1,9 @@
+s:1397:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestro-p-3428.html"><img src="images/Jimmy_lewis_maestro(sm).jpg" class=""   alt="Jimmy Lewis Maestro" title="Jimmy Lewis Maestro" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestro-p-3428.html">Jimmy Lewis Maestro</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestra-p-4107.html"><img src="images/jimmy-lewis-sup-maestra(sm).jpg" class=""   alt="Jimmy Lewis Maestra" title="Jimmy Lewis Maestra" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/jimmy-lewis-maestra-p-4107.html">Jimmy Lewis Maestra</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/quickblade-flyweight-carbon-p-4092.html"><img src="images/qb-flyweight-ac(sm).jpg" class=""   alt="Quickblade Flyweight All Carbon" title="Quickblade Flyweight All Carbon" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/quickblade-flyweight-carbon-p-4092.html">Quickblade Flyweight All Carbon</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

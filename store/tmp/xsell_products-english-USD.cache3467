@@ -1,0 +1,12 @@
+s:1414:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/paddleboarding-rentals-p-1143.html"><img src="images/paddleboarding-rental_1000.jpeg" class=""   alt="Paddleboarding Rentals" title="Paddleboarding Rentals" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/paddleboarding-rentals-p-1143.html">Paddleboarding Rentals</a><span class="alsop-product-price">$49.00</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/paddleboarding-group-rentals-p-3468.html"><img src="images/group paddle boarding rentals_1000.jpeg" class=""   alt="Paddleboarding Group Rentals" title="Paddleboarding Group Rentals" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/paddleboarding-group-rentals-p-3468.html">Paddleboarding Group Rentals</a><span class="alsop-product-price">$40.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

@@ -1,0 +1,22 @@
+s:2088:"<!-- also_purchased_products //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_left.gif" border="0" alt="" width="11" height="25"></td>
+    <td height="14" class="infoBoxHeading" width="100%">Customers who bought this product also purchased</td>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" border="0" alt="" width="11" height="25"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="4" class="infoBoxContents">
+  <tr>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/protec-standard-water-helmet-p-207.html?<osCsid>"><img src="images/prowater.jpg" border="0" alt="Pro-tec Ace Standard Water Helmet" title=" Pro-tec Ace Standard Water Helmet " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/protec-standard-water-helmet-p-207.html?<osCsid>">Pro-tec Ace Standard Water Helmet</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/dakine-hook-knife-p-2183.html?<osCsid>"><img src="images/dakinehookknifeLG.jpg" border="0" alt="Dakine Hook Knife" title=" Dakine Hook Knife " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/dakine-hook-knife-p-2183.html?<osCsid>">Dakine Hook Knife</a></td>
+    <td align="center" class="smallText" width="33%" valign="top"><a href="http://jupiterkiteboarding.com/store/gopro-wrist-housing-mount-p-2767.html?<osCsid>"><img src="images/GOPRO_HD_WRIST_HOUSING.jpg" border="0" alt="GoPro HD Wrist Housing Mount" title=" GoPro HD Wrist Housing Mount " width="200" height="200"></a><br><a href="http://jupiterkiteboarding.com/store/gopro-wrist-housing-mount-p-2767.html?<osCsid>">GoPro HD Wrist Housing Mount</a></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- also_purchased_products_eof //-->
+";

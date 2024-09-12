@@ -1,0 +1,11 @@
+s:858:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/uv-hex-flex-hybrid-p-8233.html"><img src="images/quickblade-uv-hybrid-blue-front_200.jpg" class=""   alt="UV Hex Flex Hybrid" title="UV Hex Flex Hybrid" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/uv-hex-flex-hybrid-p-8233.html">UV Hex Flex Hybrid</a><span class="alsop-product-price">$399.99</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

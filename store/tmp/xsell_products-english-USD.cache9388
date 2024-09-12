@@ -1,0 +1,12 @@
+s:1515:"
+<div class="clear spacer-tall"></div>
+<h3 style="margin-bottom:10px; text-transform:uppercase; text-align:center;">We Also Recommend :</h3><hr />
+<div class="xsell-products-container">
+<div class="xsell-carousel">
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-replacement-bladders-p-8761.html"><img src="images/cabrinha-leading-edge_200.jpg" class=""   alt="Cabrinha Replacement Bladders" title="Cabrinha Replacement Bladders" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/cabrinha-replacement-bladders-p-8761.html">Cabrinha Replacement Bladders</a><span class="alsop-product-price">$179.99</span></div></div>
+    <div class="xsell-products"><div class="xsell-image"><a href="https://www.jupiterkiteboarding.com/store/airtime-pu-leading-edge-replacement-bladders-p-2566.html"><img src="images/Airtime_LeadingEdge_01.jpg" class=""   alt="AirTime PU Leading Edge Replacement Bladders" title="AirTime PU Leading Edge Replacement Bladders" width="200" height="200" /></a></div><div class="xtra-products-info"><a href="https://www.jupiterkiteboarding.com/store/airtime-pu-leading-edge-replacement-bladders-p-2566.html">AirTime PU Leading Edge Replacement Bladders</a><span class="alsop-product-price">$44.00</span></div></div>
+
+</div>
+<button id="xsell-left" class="leftArrow" value="left"></button>
+<button id="xsell-right" class="rightArrow" value="right"></button>
+</div>";

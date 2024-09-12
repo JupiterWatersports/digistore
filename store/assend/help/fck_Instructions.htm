@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>FCK Instructions</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.3  (Unix)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20081212;1455400">
+	<META NAME="ProgId" CONTENT="Word.Document">
+	<META NAME="Originator" CONTENT="Microsoft Word 9">
+	<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>root</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>root</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2008-11-27T03:58:00Z</o:Created>
+  <o:LastSaved>2008-11-27T03:59:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Lines>1</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+	<STYLE TYPE="text/css">
+	<!--
+		P { color: #000000 }
+		H2 { color: #000000 }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-GB" TEXT="#000000" DIR="LTR">
+<H2 LANG="en-US">FCK Instructions</H2>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>Change read and
+write permissions to 777 for: userfiles in the root of your website.</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>catalog/userfiles/</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>catalog/userfiles/file</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>catalog/userfiles/media</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>catalog/userfiles/image</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>catalog/userfiles/flash</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>Insert the path
+to your /userfiles/ directory in: </FONT></FONT>
+</P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>admin/fckeditor/editor/filemanager/connectors/php/config.php</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>$Config['UserFilesPath']
+= '/userfiles/' ;</FONT></FONT></P>
+<P LANG="en-US"><FONT FACE="Courier New"><FONT SIZE=2>and a few lines
+down:</FONT></FONT></P>
+<P>&nbsp;<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-US">$Config['UserFilesAbsolutePath']
+= '/YOUR/ABSOLUTE/PATH/OF/THE/USERFILES/DIRECTORY/' ;</SPAN></FONT></FONT></P>
+<P>&nbsp;<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-US">Install
+any Addons in the Addons directory.</SPAN></FONT></FONT></P>
+</BODY>
+</HTML>

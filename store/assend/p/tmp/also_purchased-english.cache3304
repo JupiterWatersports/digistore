@@ -1,0 +1,8 @@
+s:1040:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2609"><img src="images/Dakine_StraightLeash_01.jpg" class=""   alt="Dakine Sup 10' Straight Paddleboard Calf Leash" title="Dakine Sup 10' Straight Paddleboard Calf Leash" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=2609">Dakine Sup 10' Straight Paddleboard Calf Leash</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4016"><img src="images/t-1-orange(Sm).jpg" class=""   alt="FCS T-1 Traction Pad" title="FCS T-1 Traction Pad" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=4016">FCS T-1 Traction Pad</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

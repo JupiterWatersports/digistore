@@ -1,0 +1,8 @@
+s:965:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3049"><img src="images/JL_Kwad.jpg" class=""   alt="Jimmy Lewis Kwad KT" title="Jimmy Lewis Kwad KT" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3049">Jimmy Lewis Kwad KT</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3114"><img src="images/gath_full_visor_01.jpg" class=""   alt="Gath Gedi Full-Face Shield" title="Gath Gedi Full-Face Shield" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/product_info.php?products_id=3114">Gath Gedi Full-Face Shield</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

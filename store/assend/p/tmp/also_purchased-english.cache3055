@@ -1,0 +1,9 @@
+s:1316:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/hq-hydra-p-3865.html"><img src="images/hq-hydra(sm).jpg" class=""   alt="HQ Hydra" title="HQ Hydra" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/hq-hydra-p-3865.html">HQ Hydra</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/dakine-aero-rack-long-pair-p-2777.html"><img src="images/DAKINE_AERORACKPADLONG_BLACK.jpg" class=""   alt="Dakine Aero Rack Pad Long Pair" title="Dakine Aero Rack Pad Long Pair" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/dakine-aero-rack-long-pair-p-2777.html">Dakine Aero Rack Pad Long Pair</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2014-elements-p-4103.html"><img src="images/14-nsp-element-package(sm).jpg" class=""   alt="2014 NSP Elements" title="2014 NSP Elements" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2014-elements-p-4103.html">2014 NSP Elements</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

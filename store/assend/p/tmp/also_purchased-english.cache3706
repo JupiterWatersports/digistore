@@ -1,0 +1,9 @@
+s:1425:"<!-- also_purchased_products v2-->
+    <div  class="pl-heading">Customers who bought this product also purchased</div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-switchblade-p-4197.html"><img src="images/2015-cabrinha-switchblade(sm).jpg" class=""   alt="2015 Cabrinha Switchblade" title="2015 Cabrinha Switchblade" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-switchblade-p-4197.html">2015 Cabrinha Switchblade</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-control-p-4275.html"><img src="images/2015-1x-control-bar(sm).jpg" class=""   alt="2015 Cabrinha 1X Control Bar" title="2015 Cabrinha 1X Control Bar" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/2015-cabrinha-control-p-4275.html">2015 Cabrinha 1X Control Bar</a></div>
+    <div class="pl also-purchased-products"><a href="http://www.jupiterkiteboarding.com/store/mystic-force-impact-vest-p-723.html"><img src="images/mysticforceSM.png" class=""   alt="Mystic Force Impact Vest" title="Mystic Force Impact Vest" width="200" height="200" /></a><br /><a href="http://www.jupiterkiteboarding.com/store/mystic-force-impact-vest-p-723.html">Mystic Force Impact Vest</a></div>
+
+<div class="clear"></div>
+<!--end also_purchased_products-->
+";

@@ -1,0 +1,741 @@
+# $Id: .htaccess 1739 2007-12-20 00:52:16Z hpdl $
+# This is used with Apache WebServers 
+# 
+# For this to work, you must include the parameter 'Options' to 
+# the AllowOverride configuration 
+# 
+# Example: 
+# 
+# <Directory "/usr/local/apache/htdocs"> 
+#   AllowOverride Options 
+# </Directory> 
+# 
+# 'All' with also work. (This configuration is in the 
+# apache/conf/httpd.conf file) 
+ 
+# The following makes adjustments to the SSL protocol for Internet  
+# Explorer browsers 
+ 
+
+ 
+# If Search Engine Friendly URLs do not work, try enabling the 
+# following Apache configuration parameter 
+
+# AcceptPathInfo On 
+ 
+# Fix certain PHP values 
+# (commented out by default to prevent errors occuring on certain 
+# servers) 
+
+# php_value session.use_trans_sid 0 
+
+Options +FollowSymLinks 
+# AllowOverride All 
+RewriteEngine On 
+
+RewriteBase /store/
+
+## Check if not directory and ends in /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+## If not a directory skip next RewriteRule
+RewriteRule ^ - [S=2]
+
+## Check if HTTPS and WWW
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+RewriteCond %{https} off
+
+## This RewriteRule skipped if URI was a directory
+RewriteRule ^(.*)$ https://www.jupiterkiteboarding.com/store/$1 [R=301,L]
+
+## This RewriteRule used if URI was a directory
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [S=1]
+RewriteRule ^(.*)/$ https://www.jupiterkiteboarding.com/store/$1 [R=301,L]
+
+
+## hide .php extension
+# To externally redirect /dir/foo.php to /dir/foo
+
+
+# To internally forward /dir/foo to /dir/foo.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f 
+RewriteRule ^(.*)$ $1.html
+
+# 301s for random URLs without known origin
+
+Redirect 301 /store/Kiteboarding-Accessories-Helmets/c36_48_193/index.html  /store/helmets-c-611_36_193.html?
+Redirect 301 /store/Kiteboarding-Accessories-Fins/c36_48_206/index.html  /store/kiteboard-fins-c-611_305_206.html?
+Redirect 301 /store/Kiteboarding-Closeouts-Accessories/c36_223_361/index.html /store/accessories-c-611_36.html?
+Redirect 301 /store/The-Kite-Shop-Spinners-Hot-Air-Balloons/c277_234_241/index.html /store/404.php?
+Redirect 301 /store/The-Kite-Shop-Stunt-Kites/c277_275/index.html /store/404.php?
+
+# Redirect 301 /store/create_account.php /store/index.php
+# Redirect 301 /store/create_account.php?guest=guest /store.index.php
+
+
+#end unknown 301s
+
+Redirect 301 /store/mobile-index.php /store
+Redirect 301 /store/mobile_index.php /store/
+Redirect 301 /store/mobile_product_info.php	 /store/product_info.php
+Redirect 301 /store/mobile_products.php	 /store/index.php
+Redirect 301 /store/product_reviews.php /store/product_info.php
+Redirect 301 /store/search.php /store/advanced_search.php
+Redirect 301 /store/mobile_search.php /store/advanced_search.php
+Redirect 301 /store/mobile_advanced_search.php /store/advanced_search.php
+Redirect 301 /store/kitesurfing-kites-fone-kites-c-611_45_639.html /store/kitesurfing-kites-c-611_45.html?filter_id=135&sort=products_sort_order
+Redirect 301 /store/fone-kites-c-611_45_639.html /store/kitesurfing-kites-c-611_45.html?filter_id=135&sort=products_sort_order
+Redirect 301 /store/kitesurfing-kites-naish-kites-c-611_45_604.html /store/404.php
+Redirect 301 /store/naish-kites-c-611_45_604.html /store/404.php
+Redirect 301 /store/kitesurfing-kites-slingshot-kites-c-611_45_57.html /store/404.php
+Redirect 301 /store/slingshot-kites-c-611_45_57.html /store/404.php
+Redirect 301 /store/kitesurfing-kites-ozone-kites-c-611_45_640.html /store/kitesurfing-kites-c-611_45.html?filter_id=29&sort=products_sort_order
+Redirect 301 /store/ozone-kites-c-611_45_640.html /store/kitesurfing-kites-c-611_45.html?filter_id=29&sort=products_sort_order
+Redirect 301 /store/Kiteboarding-Kites-Flexifoil/c36_45_267/index.html /store/404.php
+Redirect 301 /store/used-kitesurf-kiteboards-c-611_486.html /store/used-kiteboards
+Redirect 301 /store/kiteboards?cPath=611_305 /store/boards-c-611_305.html
+
+Redirect 301 /store/kiteboard-trainer-kite-i-61.html /store/pages.php?page=get-started-kiteboarding
+Redirect 301 /store/getstartedkiteboarding.php /store/pages.php?page=get-started-kiteboarding
+Redirect 301 /store/getstartedkiteboarding2.php /store/pages.php?page=kiteboard-lessons
+Redirect 301 /store/kiteboard-lessons-i-54.html /store/pages.php?page=kiteboard-lessons
+Redirect 301 /store/frequently-asked-questions-i-57.html /store/pages.php?page=kiteboarding-faq
+Redirect 301 /store/frequently_asked_kite_questions.php  /store/pages.php?page=kiteboarding-faq
+Redirect 301 /store/kiteboarding-frequently-asked-questions-i-57.html /store/pages.php?page=kiteboarding-faq
+Redirect 301 /store/purchasinggear.php /store/pages.php?page=buying-kiteboarding-gear
+Redirect 301 /store/buying-kiteboarding-gear-i-56.html /store/pages.php?page=buying-kiteboarding-gear
+Redirect 301 /store/safekiteboarding.php /store/pages.php?page=safe-kiteboarding-guidelines
+Redirect 301 /store/safekiteboarding /store/pages.php?page=safe-kiteboarding-guidelines
+Redirect 301 /store/safe-kiteboarding-guidelines-i-42.html /store/pages.php?page=safe-kiteboarding-guidelines
+
+Redirect 301 /store/strapless-riding-i-63.html /store/pages.php?page=ridingstrapless
+Redirect 301 /store/required-safety-equipment-sups-i-67.html /store/pages.php?page=required-safety-equipment-sups
+Redirect 301 /store/paddleboarding-faq-i-68.html /store/pages.php?page=paddleboarding-faq
+
+Redirect 301 /store/how-to-paddleboard-i-51.html /store/pages.php?page=how-to-paddleboard
+Redirect 301 /store/getstartedwakeboarding.php /store/pages.php?page=get-started-wakeboarding
+Redirect 301 /store/started-wakeboarding-i-66.html /store/pages.php?page=get-started-wakeboarding
+Redirect 301 /store/hotels.php /store/pages.php?page=hotels
+Redirect 301 /store/hotels /store/pages.php?page=hotels
+Redirect 301 /store/hotels-i-65.html /store/pages.php?page=hotels
+Redirect 301 /store/pricematch.php /store/pages.php?page=pricematch
+Redirect 301 /store/privacy-i-3.html /store/privacy-policy.php
+
+Redirect 301 /store/shipping-i-35.html /store/pages.php?page=shipping
+Redirect 301 /store/shipping.php /store/pages.php?page=shipping
+Redirect 301 /store/2015-cabrinha-kite-only-p-4414.html /store/product_info.php?products_id=5244
+Redirect 301  /store/jimmylewis-sup.html /store/jimmy-lewis-m-20.html
+Redirect 301  /store/2016-cabrinha-fx-kite-only-p-4414.html /store/product_info.php?products_id=5244
+
+RewriteRule ^(.*)/$ $1 [R=301]
+
+
+
+
+# Begin Google Base File Rewrite Code
+RewriteRule jupiter_outfile.txt googlebase.php
+# End Google Base File Rewrite Code
+
+RewriteRule ^(.*)-p-([0-9]+).html$ product_info.php?products_id=$2&%{QUERY_STRING} 
+RewriteRule ^(.*)-c-([0-9_]+).html$ index.php?cPath=$2&%{QUERY_STRING} 
+RewriteRule ^(.*)-m-([0-9]+).html$ index.php?manufacturers_id=$2&%{QUERY_STRING} 
+RewriteRule ^(.*)-pi-([0-9]+).html$ popup_image.php?pID=$2&%{QUERY_STRING} 
+RewriteRule ^(.*)-pr-([0-9]+).html$ product_reviews.php?products_id=$2&%{QUERY_STRING} 
+RewriteRule ^(.*)-pri-([0-9]+).html$ product_reviews_info.php?products_id=$2&%{QUERY_STRING} 
+
+# Articles contribution 
+RewriteRule ^(.*)-t-([0-9_]+).html$ articles.php?tPath=$2&%{QUERY_STRING} 
+RewriteRule ^(.*)-a-([0-9]+).html$ article_info.php?articles_id=$2&%{QUERY_STRING} 
+
+
+# Information pages 
+RewriteRule ^(.*)-i-([0-9]+).html$ information.php?info_id=$2&%{QUERY_STRING} 
+RewriteRule ^get-started-kiteboarding$  pages.php?page=get-started-kiteboarding 
+Redirect 301 /store/pages.php?page=get-started-kiteboarding /store/get-started-kiteboarding 
+
+# Links contribution 
+
+# Newsdesk contribution 
+
+
+
+ErrorDocument 404 /store/404.php
+
+# Bad bot
+SetEnvIfNoCase User-Agent "^abot" bad_bot
+SetEnvIfNoCase User-Agent "^aipbot" bad_bot
+SetEnvIfNoCase User-Agent "^asterias" bad_bot
+SetEnvIfNoCase User-Agent "^EI" bad_bot
+SetEnvIfNoCase User-Agent "^libwww-perl" bad_bot
+SetEnvIfNoCase User-Agent "^LWP" bad_bot
+SetEnvIfNoCase User-Agent "^lwp" bad_bot
+SetEnvIfNoCase User-Agent "^MSIECrawler" bad_bot
+SetEnvIfNoCase User-Agent "^nameprotect" bad_bot
+SetEnvIfNoCase User-Agent "^PlantyNet_WebRobot" bad_bot
+SetEnvIfNoCase User-Agent "^UCmore" bad_bot
+SetEnvIfNoCase User-Agent "Alligator" bad_bot
+SetEnvIfNoCase User-Agent "AllSubmitter" bad_bot
+SetEnvIfNoCase User-Agent "Anonymous" bad_bot
+SetEnvIfNoCase User-Agent "Asterias" bad_bot
+SetEnvIfNoCase User-Agent "autoemailspider" bad_bot
+SetEnvIfNoCase User-Agent "Badass" bad_bot
+SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
+SetEnvIfNoCase User-Agent "BecomeBot" bad_bot
+SetEnvIfNoCase User-Agent "Bitacle" bad_bot
+SetEnvIfNoCase User-Agent "bladder\ fusion" bad_bot
+SetEnvIfNoCase User-Agent "Blogshares\ Spiders" bad_bot
+SetEnvIfNoCase User-Agent "Board\ Bot" bad_bot
+SetEnvIfNoCase User-Agent "Board\ Bot" bad_bot
+SetEnvIfNoCase User-Agent "Convera" bad_bot
+SetEnvIfNoCase User-Agent "ConveraMultiMediaCrawler" bad_bot
+SetEnvIfNoCase User-Agent "c-spider" bad_bot
+SetEnvIfNoCase User-Agent "DA" bad_bot
+SetEnvIfNoCase User-Agent "DnloadMage" bad_bot
+SetEnvIfNoCase User-Agent "Download\ Demon" bad_bot
+SetEnvIfNoCase User-Agent "Download\ Express" bad_bot
+SetEnvIfNoCase User-Agent "Download\ Wonder" bad_bot
+SetEnvIfNoCase User-Agent "dragonfly" bad_bot
+SetEnvIfNoCase User-Agent "DreamPassport" bad_bot
+SetEnvIfNoCase User-Agent "DSurf" bad_bot
+SetEnvIfNoCase User-Agent "DTS Agent" bad_bot
+SetEnvIfNoCase User-Agent "EBrowse" bad_bot
+SetEnvIfNoCase User-Agent "eCatch" bad_bot
+SetEnvIfNoCase User-Agent "edgeio" bad_bot
+SetEnvIfNoCase User-Agent "Email\ Extractor" bad_bot
+SetEnvIfNoCase User-Agent "EmailSiphon" bad_bot
+SetEnvIfNoCase User-Agent "EmailWolf" bad_bot
+SetEnvIfNoCase User-Agent "EmeraldShield" bad_bot
+SetEnvIfNoCase User-Agent "ESurf" bad_bot
+SetEnvIfNoCase User-Agent "Exabot" bad_bot
+SetEnvIfNoCase User-Agent "ExtractorPro" bad_bot
+SetEnvIfNoCase User-Agent "FileHeap!\ file downloader" bad_bot
+SetEnvIfNoCase User-Agent "FileHound" bad_bot
+SetEnvIfNoCase User-Agent "Forex" bad_bot
+SetEnvIfNoCase User-Agent "Franklin\ Locator" bad_bot
+SetEnvIfNoCase User-Agent "FreshDownload" bad_bot
+SetEnvIfNoCase User-Agent "FrontPage" bad_bot
+SetEnvIfNoCase User-Agent "FSurf" bad_bot
+SetEnvIfNoCase User-Agent "Gaisbot" bad_bot
+SetEnvIfNoCase User-Agent "Gamespy_Arcade" bad_bot
+SetEnvIfNoCase User-Agent "genieBot" bad_bot
+SetEnvIfNoCase User-Agent "GetBot" bad_bot
+SetEnvIfNoCase User-Agent "GetRight" bad_bot
+SetEnvIfNoCase User-Agent "Gigabot" bad_bot
+SetEnvIfNoCase User-Agent "Go!Zilla" bad_bot
+SetEnvIfNoCase User-Agent "Go-Ahead-Got-It" bad_bot
+SetEnvIfNoCase User-Agent "GOFORITBOT" bad_bot
+SetEnvIfNoCase User-Agent "heritrix" bad_bot
+SetEnvIfNoCase User-Agent "HLoader" bad_bot
+SetEnvIfNoCase User-Agent "HooWWWer" bad_bot
+SetEnvIfNoCase User-Agent "HTTrack" bad_bot
+SetEnvIfNoCase User-Agent "iCCrawler" bad_bot
+SetEnvIfNoCase User-Agent "ichiro" bad_bot
+SetEnvIfNoCase User-Agent "iGetter" bad_bot
+SetEnvIfNoCase User-Agent "imds_monitor" bad_bot
+SetEnvIfNoCase User-Agent "Industry\ Program" bad_bot
+SetEnvIfNoCase User-Agent "Indy\ Library" bad_bot
+SetEnvIfNoCase User-Agent "InetURL" bad_bot
+SetEnvIfNoCase User-Agent "InstallShield\ DigitalWizard" bad_bot
+SetEnvIfNoCase User-Agent "IRLbot" bad_bot
+SetEnvIfNoCase User-Agent "IUPUI\ Research\ Bot" bad_bot
+SetEnvIfNoCase User-Agent "Java" bad_bot
+SetEnvIfNoCase User-Agent "jeteye" bad_bot
+SetEnvIfNoCase User-Agent "jeteyebot" bad_bot
+SetEnvIfNoCase User-Agent "JoBo" bad_bot
+SetEnvIfNoCase User-Agent "JOC\ Web\ Spider" bad_bot
+SetEnvIfNoCase User-Agent "Kapere" bad_bot
+SetEnvIfNoCase User-Agent "Larbin" bad_bot
+SetEnvIfNoCase User-Agent "LeechGet" bad_bot
+SetEnvIfNoCase User-Agent "LightningDownload" bad_bot
+SetEnvIfNoCase User-Agent "Linkie" bad_bot
+SetEnvIfNoCase User-Agent "Mac\ Finder" bad_bot
+SetEnvIfNoCase User-Agent "Mail\ Sweeper" bad_bot
+SetEnvIfNoCase User-Agent "Mass\ Downloader" bad_bot
+SetEnvIfNoCase User-Agent "MetaProducts\ Download\ Express" bad_bot
+SetEnvIfNoCase User-Agent "Microsoft\ Data\ Access" bad_bot
+SetEnvIfNoCase User-Agent "Microsoft\ URL\ Control" bad_bot
+SetEnvIfNoCase User-Agent "Missauga\ Locate" bad_bot
+SetEnvIfNoCase User-Agent "Missauga\ Locator" bad_bot
+SetEnvIfNoCase User-Agent "Missigua Locator" bad_bot
+SetEnvIfNoCase User-Agent "Missouri\ College\ Browse" bad_bot
+SetEnvIfNoCase User-Agent "Mister\ PiX" bad_bot
+SetEnvIfNoCase User-Agent "MovableType" bad_bot
+SetEnvIfNoCase User-Agent "Mozi!" bad_bot
+SetEnvIfNoCase User-Agent "Mozilla/3.0 (compatible)" bad_bot
+SetEnvIfNoCase User-Agent "Mozilla/5.0 (compatible; MSIE 5.0)" bad_bot
+SetEnvIfNoCase User-Agent "MSIE_6.0" bad_bot
+SetEnvIfNoCase User-Agent "MSIECrawler" badbot
+SetEnvIfNoCase User-Agent "MVAClient" bad_bot
+SetEnvIfNoCase User-Agent "MyFamilyBot" bad_bot
+SetEnvIfNoCase User-Agent "MyGetRight" bad_bot
+SetEnvIfNoCase User-Agent "NASA\ Search" bad_bot
+SetEnvIfNoCase User-Agent "Naver" bad_bot
+SetEnvIfNoCase User-Agent "NaverBot" bad_bot
+SetEnvIfNoCase User-Agent "NetAnts" bad_bot
+SetEnvIfNoCase User-Agent "NetResearchServer" bad_bot
+SetEnvIfNoCase User-Agent "NEWT\ ActiveX" bad_bot
+SetEnvIfNoCase User-Agent "Nextopia" bad_bot
+SetEnvIfNoCase User-Agent "NICErsPRO" bad_bot
+SetEnvIfNoCase User-Agent "NimbleCrawler" bad_bot
+SetEnvIfNoCase User-Agent "Nitro\ Downloader" bad_bot
+SetEnvIfNoCase User-Agent "Nutch" bad_bot
+SetEnvIfNoCase User-Agent "Offline\ Explorer" bad_bot
+SetEnvIfNoCase User-Agent "OmniExplorer" bad_bot
+SetEnvIfNoCase User-Agent "OutfoxBot" bad_bot
+SetEnvIfNoCase User-Agent "P3P" bad_bot
+SetEnvIfNoCase User-Agent "PagmIEDownload" bad_bot
+SetEnvIfNoCase User-Agent "pavuk" bad_bot
+SetEnvIfNoCase User-Agent "PHP\ version" bad_bot
+SetEnvIfNoCase User-Agent "playstarmusic" bad_bot
+SetEnvIfNoCase User-Agent "Program\ Shareware" bad_bot
+SetEnvIfNoCase User-Agent "Progressive Download" bad_bot
+SetEnvIfNoCase User-Agent "psycheclone" bad_bot
+SetEnvIfNoCase User-Agent "puf" bad_bot
+SetEnvIfNoCase User-Agent "PussyCat" bad_bot
+SetEnvIfNoCase User-Agent "PuxaRapido" bad_bot
+SetEnvIfNoCase User-Agent "Python-urllib" bad_bot
+SetEnvIfNoCase User-Agent "RealDownload" bad_bot
+SetEnvIfNoCase User-Agent "RedKernel" bad_bot
+SetEnvIfNoCase User-Agent "relevantnoise" bad_bot
+SetEnvIfNoCase User-Agent "RepoMonkey\ Bait\ &\ Tackle" bad_bot
+SetEnvIfNoCase User-Agent "RTG30" bad_bot
+SetEnvIfNoCase User-Agent "SBIder" bad_bot
+SetEnvIfNoCase User-Agent "script" bad_bot
+SetEnvIfNoCase User-Agent "Seekbot" bad_bot
+SetEnvIfNoCase User-Agent "SiteSnagger" bad_bot
+SetEnvIfNoCase User-Agent "SmartDownload" bad_bot
+SetEnvIfNoCase User-Agent "sna-" bad_bot
+SetEnvIfNoCase User-Agent "Snap\ bot" bad_bot
+SetEnvIfNoCase User-Agent "SpeedDownload" bad_bot
+SetEnvIfNoCase User-Agent "Sphere" bad_bot
+SetEnvIfNoCase User-Agent "sproose" bad_bot
+SetEnvIfNoCase User-Agent "SQ\ Webscanner" bad_bot
+SetEnvIfNoCase User-Agent "Stamina" bad_bot
+SetEnvIfNoCase User-Agent "Star\ Downloader" bad_bot
+SetEnvIfNoCase User-Agent "Teleport" bad_bot
+SetEnvIfNoCase User-Agent "TurnitinBot" bad_bot
+SetEnvIfNoCase User-Agent "UdmSearch" bad_bot
+SetEnvIfNoCase User-Agent "URLGetFile" bad_bot
+SetEnvIfNoCase User-Agent "User-Agent" bad_bot
+SetEnvIfNoCase User-Agent "UtilMind\ HTTPGet" bad_bot
+SetEnvIfNoCase User-Agent "WebAuto" bad_bot
+SetEnvIfNoCase User-Agent "WebCapture" bad_bot
+SetEnvIfNoCase User-Agent "webcollage" bad_bot
+SetEnvIfNoCase User-Agent "WebCopier" bad_bot
+SetEnvIfNoCase User-Agent "WebFilter" bad_bot
+SetEnvIfNoCase User-Agent "WebReaper" bad_bot
+SetEnvIfNoCase User-Agent "Website\ eXtractor" bad_bot
+SetEnvIfNoCase User-Agent "WebStripper" bad_bot
+SetEnvIfNoCase User-Agent "WebZIP" bad_bot
+SetEnvIfNoCase User-Agent "Wells\ Search" bad_bot
+SetEnvIfNoCase User-Agent "WEP\ Search\ 00" bad_bot
+SetEnvIfNoCase User-Agent "Wget" bad_bot
+SetEnvIfNoCase User-Agent "Wildsoft\ Surfer" bad_bot
+SetEnvIfNoCase User-Agent "WinHttpRequest" bad_bot
+SetEnvIfNoCase User-Agent "WWWOFFLE" bad_bot
+SetEnvIfNoCase User-Agent "Xaldon\ WebSpider" bad_bot
+SetEnvIfNoCase User-Agent "Y!TunnelPro" bad_bot
+SetEnvIfNoCase User-Agent "YahooYSMcm" bad_bot
+SetEnvIfNoCase User-Agent "Zade" bad_bot
+SetEnvIfNoCase User-Agent "ZBot" bad_bot
+SetEnvIfNoCase User-Agent "zerxbot" bad_bot
+
+# Apache < 2.4
+<IfModule !mod_authz_core.c>
+ <Limit GET POST>
+  Order allow,deny
+  Allow from all
+  Deny from env=bad_bot
+ </Limit>
+</IfModule>
+# Apache >= 2.4
+<IfModule mod_authz_core.c>
+ <Limit GET POST>
+  <RequireAll>
+   Require all granted
+   Require not env bad_bot
+  </RequireAll>
+ </Limit>
+</IfModule> 
+
+# Disable the server signature 
+ServerSignature Off
+
+# Disable unauthorized directory browsing 
+Options All -Indexes
+
+# Block access to multiple file types
+# Apache < 2.4
+<IfModule !mod_authz_core.c>
+ <FilesMatch "\.(htaccess|htpasswd|ini|log|sh)$">
+  Order deny,allow
+  Deny from all
+ </FilesMatch>
+</IfModule>
+# Apache >= 2.4
+<IfModule mod_authz_core.c>
+ <FilesMatch "\.(htaccess|htpasswd|ini|log|sh)$">
+  <RequireAll>
+   Require all denied
+  </RequireAll>
+ </FilesMatch>
+</IfModule>
+
+# Protect your wp-config.php file
+# Apache < 2.4
+<IfModule !mod_authz_core.c>
+ <Files wp-config.php>
+  Order deny,allow
+  Deny from all
+ </Files>
+</IfModule>
+# Apache >= 2.4
+<IfModule mod_authz_core.c>
+ <Files wp-config.php>
+  <RequireAll>
+   Require all denied
+  </RequireAll>
+ </Files>
+</IfModule>
+
+
+
+# filter for most common exploits  
+RewriteCond %{HTTP_USER_AGENT} libwww-perl [OR]  
+RewriteCond %{QUERY_STRING} tool25 [OR]  
+RewriteCond %{QUERY_STRING} cmd.txt [OR] 
+RewriteCond %{QUERY_STRING} cmd.gif [OR]  
+ 
+RewriteCond %{QUERY_STRING} c99 [OR]  
+
+# ban spam bots  
+RewriteCond %{HTTP_USER_AGENT} almaden [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^Anarchie [OR]  
+RewriteCond %{HTTP_USER_AGENT} ^ASPSeek [OR]  
+RewriteCond %{HTTP_USER_AGENT} ^attach [OR]  
+RewriteCond %{HTTP_USER_AGENT} ^autoemailspider [OR] 
+RewriteCond %{HTTP_USER_AGENT} ^BackWeb [OR]  
+RewriteCond %{HTTP_USER_AGENT} ^Bandit [OR]  
+RewriteCond %{HTTP_USER_AGENT} ^BatchFTP [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Buddy [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^bumblebee [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^CherryPicker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^CICC [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Collector [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Copier [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Crescent [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Custo [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^DA [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^DIIbot [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^DISCo [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^DISCo\ Pump [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Demon [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Wonder [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Downloader [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Drip [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^DSurf15a [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^eCatch [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^EasyDL/2.99 [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [OR]	 
+RewriteCond %{HTTP_USER_AGENT} email [NC,OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^EmailCollector [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Express\ WebPictures [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^FileHound [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^FlashGet [OR]	 
+RewriteCond %{HTTP_USER_AGENT} FrontPage [NC,OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^GetRight [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^GetSmart [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^GetWeb! [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^gigabaz [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Go\!Zilla [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^gotit [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Grabber [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^GrabNet [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Grafula [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^grub-client [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^HMView [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^HTTrack [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^httpdown [OR]	 
+RewriteCond %{HTTP_USER_AGENT} .*httrack.* [NC,OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^ia_archiver [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Stripper [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Sucker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Indy*Library [OR]	 
+RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^InterGET [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^InternetLinkagent [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Internet\ Ninja [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^InternetSeer.com [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Iria [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^JBH*agent [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^JetCar [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^JOC\ Web\ Spider [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^JustView [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^larbin [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^LexiBot [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^lftp [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Link*Sleuth [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^likse [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Link [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^LinkWalker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mag-Net [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Magnet [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mass\ Downloader [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Memo [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Microsoft.URL [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^MIDown\ tool [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mirror [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mister\ PiX [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla.*Indy [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla.*NEWT [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla*MSIECrawler [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^MS\ FrontPage* [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^MSFrontPage [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^MSIECrawler [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^MSProxy [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Navroad [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^NearSite [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^NetAnts [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^NetMechanic [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^NetSpider [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Net\ Vampire [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^NetZIP [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^NICErsPRO [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Ninja [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Octopus [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Explorer [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Navigator [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Openfind [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Papa\ Foto [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^pavuk [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Ping [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^PingALink [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Pockey [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^psbot [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Pump [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^QRVA [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^RealDownload [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Reaper [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Recorder [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^ReGet [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Scooter [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Seeker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Siphon [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^sitecheck.internetseer.com [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^SlySearch [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Snake [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^SpaceBison [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^sproose [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Stripper [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Sucker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^SuperBot [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Surfbot [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Szukacz [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Teleport\ Pro [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^URLSpiderPro [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Vacuum [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Image\ Collector [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Sucker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebAuto [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^[Ww]eb[Bb]andit [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^webcollage [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebCopier [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Downloader [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebEMailExtrac.* [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebFetch [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebGo\ IS [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebHook [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebLeacher [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebMiner [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebMirror [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebReaper [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebSauger [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Website [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Website\ eXtractor [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Website\ Quester [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Webster [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebStripper [OR]	 
+RewriteCond %{HTTP_USER_AGENT} WebWhacker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Whacker [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Widow [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^x-Tractor [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Xenu [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Zeus.*Webster [OR]	 
+RewriteCond %{HTTP_USER_AGENT} ^Zeus	 
+RewriteRule ^.* - [F,L]	 
+RewriteCond %{HTTP_REFERER} ^http://localhost$
+RewriteRule !^http://[^/.]\./store/.* - [F,L]
+
+# Disable .htaccess viewing from browser  
+<Files ~ "^\.ht">  
+Order allow,deny  
+Deny from all  
+Satisfy All  
+</Files>  
+
+# # Disable access to config.php   
+<Files ~ "includes\configure.php$"> 
+deny from all  
+</Files>  
+
+# # Disable access to admin config.php   
+<Files ~ "admin\includes\configure.php$"> 
+deny from all  
+</Files>  
+
+# # Disable access to admin sitemonitor_log.txt   
+<Files ~ "admin\includes\sitemonitor_log.txt$"> 
+deny from all  
+</Files>  
+
+# Disable  botfile.txt viewing from browser 
+<Files ~ "botfile.txt$">  
+deny from all  
+Satisfy All  
+</Files>  
+
+
+# Disable sitemonitor_configure.php viewing from browser 
+<Files ~ "admin\sitemonitor_configure.php$"> 
+deny from all  
+Satisfy All  
+</Files>  
+
+# Disable iplog.txt viewing from browser 
+<Files ~ "iplog.txt$"> 
+deny from all  
+Satisfy All  
+</Files>  
+
+# deny most common except .php
+<FilesMatch "\.(inc|tpl|h|ihtml|sql|ini|conf|class|bin|spd|theme|module|exe)$"> 
+deny from all  
+</FilesMatch>  
+
+#
+#Bad Robot Blocker 1.0.1
+#List of banned IP addresses
+#
+deny from 204.238.82.32
+deny from 63.235.131.247
+
+########## BAD BEHAVIOR BLOCK rules to ban exploits
+
+RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
+
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+
+RewriteCond %{QUERY_STRING} (\<|%3C).*iframe.*(\>|%3E) [NC,OR]
+
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+
+RewriteCond %{QUERY_STRING} ^(.*)cPath=http://(.*)$ [NC,OR] 
+
+RewriteCond %{QUERY_STRING} ^(.*)/self/(.*)$ [NC,OR]
+
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+
+RewriteRule ^(.*)$ bad_conduct/ban.php [L]
+
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
+
+RewriteRule .* - [F]
+
+
+
+RewriteRule setup\.php$ bad_conduct/ban.php [NC,L]
+
+RewriteRule file_manager\.php$ bad_conduct/ban.php [NC,L]
+
+
+
+########### BAD BEHAVIOR BLOCK rules to ban exploits
+
+########### IMPORTANT!
+
+########### Add one blank line at the very end of the .htaccess file
+
+<Files 403.shtml>
+
+order allow,deny
+
+allow from all
+
+</Files>
+
+
+
+deny from 67.19.142.226
+
+
+<IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>
+
+# BEGIN Expire headers
+ExpiresActive On
+ExpiresDefault "access plus 1 seconds"
+ExpiresByType image/jpeg "access plus 2592000 seconds"
+ExpiresByType image/png "access plus 2592000 seconds"
+ExpiresByType image/gif "access plus 2592000 seconds"
+#ExpiresByType text/css "access plus 604800 seconds"
+ExpiresByType text/javascript "access plus 604800 seconds"
+ExpiresByType application/javascript "access plus 604800 seconds"
+ExpiresByType text/html "access plus 2592000 seconds"
+# END Expire headers
